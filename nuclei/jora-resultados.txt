@@ -1,0 +1,747 @@
+[dns-waf-detect:cloudflare] [dns] [info] jora.com
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/jora.com/v2.0/.well-known/openid-configuration ["62140e26-37b7-42d2-8dfb-a4d7cf1bc427"]
+[cookies-without-secure] [javascript] [info] authentication-api.employer.jora.com:8080 ["__cf_bm","_cfuvid"]
+[cookies-without-secure] [javascript] [info] apps-assets.jora.com:8080 ["_cfuvid","__cf_bm"]
+[cookies-without-secure] [javascript] [info] api.employer.jora.com:8080 ["__cf_bm","_cfuvid"]
+[cookies-without-secure] [javascript] [info] api.employer.jora.com ["_cfuvid"]
+[cookies-without-secure] [javascript] [info] cdn.jora.com:8080 ["__cf_bm","_cfuvid"]
+[cookies-without-secure] [javascript] [info] employer-assets-dev.jora.com:8080 ["__cf_bm","_cfuvid"]
+[cookies-without-secure] [javascript] [info] employer-assets.jora.com:8080 ["__cf_bm","_cfuvid"]
+[cookies-without-secure] [javascript] [info] nz.jora.com ["_cfuvid"]
+[cookies-without-secure] [javascript] [info] th.jora.com:8080 ["__cf_bm","_cfuvid"]
+[cookies-without-secure] [javascript] [info] usw1.jora.com:8080 ["__cf_bm","_cfuvid"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://th.jora.com/ ["https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js","https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[missing-sri] [http] [info] https://www.jora.com/ ["https://www.googletagmanager.com/gtag/js?id=G-WVKCLLK2L1"]
+[waf-detect:cloudflare] [http] [info] http://authentication-api.employer.jora.com:8080
+[waf-detect:aspgeneric] [http] [info] http://autodiscover.jora.com
+[waf-detect:cloudflare] [http] [info] http://api.employer.jora.com:8080
+[waf-detect:cloudflare] [http] [info] http://cdn.jora.com:8080
+[waf-detect:cloudflare] [http] [info] https://ae.jora.com:8443
+[waf-detect:cloudflare] [http] [info] https://ar.jora.com
+[waf-detect:cloudflare] [http] [info] https://ca.jora.com
+[waf-detect:cloudflare] [http] [info] https://br.jora.com
+[waf-detect:cloudflare] [http] [info] https://ae.jora.com
+[waf-detect:cloudflare] [http] [info] https://cl.jora.com
+[waf-detect:cloudflare] [http] [info] http://apps-assets.jora.com:8080
+[waf-detect:cloudflare] [http] [info] https://ca.jora.com:8443
+[waf-detect:cloudflare] [http] [info] https://assets-dev.jora.com
+[waf-detect:cloudflare] [http] [info] https://bd.jora.com
+[waf-detect:cloudflare] [http] [info] https://api-dev.employer.jora.com
+[waf-detect:cloudflare] [http] [info] https://assets.jora.com
+[waf-detect:cloudflare] [http] [info] https://au.jora.com
+[waf-detect:cloudflare] [http] [info] https://api.employer.jora.com
+[waf-detect:cloudflare] [http] [info] https://cdn1.jora.com
+[waf-detect:cloudflare] [http] [info] https://cdn.jora.com
+[waf-detect:cloudflare] [http] [info] https://apps.jora.com
+[waf-detect:cloudflare] [http] [info] https://api.jora.com
+[waf-detect:cloudflare] [http] [info] https://apps-assets.jora.com
+[waf-detect:cloudflare] [http] [info] https://authentication-api.employer.jora.com
+[waf-detect:cloudflare] [http] [info] https://beta-firefly.jora.com
+[waf-detect:cloudflare] [http] [info] http://employer-assets-dev.jora.com:8080
+[waf-detect:cloudflare] [http] [info] https://ec.jora.com
+[waf-detect:cloudflare] [http] [info] https://co.jora.com
+[waf-detect:cloudflare] [http] [info] https://deploy.jora.xyz:8443
+[waf-detect:cloudflare] [http] [info] https://deploy.jora.xyz
+[waf-detect:cloudflare] [http] [info] https://dz.jora.com
+[waf-detect:cloudflare] [http] [info] https://dev-employer-legacy.jora.com
+[waf-detect:cloudflare] [http] [info] https://emp-next.jora.com
+[waf-detect:cloudflare] [http] [info] https://dev-employer.jora.com
+[waf-detect:cloudflare] [http] [info] https://employer-assets-dev.jora.com
+[waf-detect:cloudflare] [http] [info] https://dev-emp-next.jora.com
+[waf-detect:cloudflare] [http] [info] http://employer-assets.jora.com:8080
+[waf-detect:cloudflare] [http] [info] https://fr.jora.com
+[waf-detect:cloudflare] [http] [info] https://ie.jora.com
+[waf-detect:cloudflare] [http] [info] https://es.jora.com
+[waf-detect:cloudflare] [http] [info] https://id.jora.com
+[waf-detect:cloudflare] [http] [info] https://employer-assets.jora.com
+[waf-detect:cloudflare] [http] [info] https://employer.jora.com
+[waf-detect:cloudflare] [http] [info] https://hk.jora.com
+[waf-detect:cloudflare] [http] [info] https://firefly.jora.com
+[waf-detect:cloudflare] [http] [info] https://jora.com
+[waf-detect:cloudflare] [http] [info] https://jora-assets.jora.com
+[waf-detect:cloudflare] [http] [info] https://global-lb.jora.com
+[waf-detect:cloudflare] [http] [info] https://jse-id.jora.com
+[waf-detect:cloudflare] [http] [info] https://in.jora.com
+[waf-detect:cloudflare] [http] [info] https://jse-my.jora.com
+[waf-detect:modsecurity] [http] [info] https://jse-my.jora.com
+[waf-detect:cloudflare] [http] [info] https://jse-ph.jora.com
+[waf-detect:cloudflare] [http] [info] http://local.jora.com
+[waf-detect:cloudflare] [http] [info] https://la.jora.com
+[waf-detect:cloudflare] [http] [info] https://kh.jora.com
+[waf-detect:cloudflare] [http] [info] https://mx.jora.com
+[waf-detect:cloudflare] [http] [info] https://ma.jora.com
+[waf-detect:cloudflare] [http] [info] https://pe.jora.com
+[waf-detect:cloudflare] [http] [info] https://jse-sg.jora.com
+[waf-detect:cloudflare] [http] [info] https://nz.jora.com
+[waf-detect:cloudflare] [http] [info] https://partner-feeds.jora.com
+[waf-detect:cloudflare] [http] [info] https://my.jora.com
+[waf-detect:cloudflare] [http] [info] https://kibana.jora.com
+[waf-detect:cloudflare] [http] [info] https://mm.jora.com
+[waf-detect:cloudflare] [http] [info] https://pt.jora.com
+[waf-detect:cloudflare] [http] [info] https://pk.jora.com
+[waf-detect:cloudflare] [http] [info] https://qa.jora.com
+[waf-detect:cloudflare] [http] [info] https://ph.jora.com
+[waf-detect:cloudflare] [http] [info] https://production-logs.jora.com
+[waf-detect:cloudflare] [http] [info] https://production-firefly.jora.com
+[waf-detect:cloudflare] [http] [info] https://prism.jora.com
+[waf-detect:cloudflare] [http] [info] https://th.jora.com
+[waf-detect:cloudflare] [http] [info] https://staging-cdn.jora.com
+[waf-detect:cloudflare] [http] [info] https://sg.jora.com
+[waf-detect:cloudflare] [http] [info] https://supra-private.jora.com
+[waf-detect:cloudflare] [http] [info] http://th.jora.com:8080
+[waf-detect:cloudflare] [http] [info] https://tn.jora.com
+[waf-detect:cloudflare] [http] [info] https://uk.jora.com
+[waf-detect:cloudflare] [http] [info] https://us.jora.com
+[waf-detect:cloudflare] [http] [info] http://usw1.jora.com:8080
+[waf-detect:cloudflare] [http] [info] https://ve.jora.com
+[waf-detect:cloudflare] [http] [info] https://za.jora.com:8443
+[waf-detect:cloudflare] [http] [info] https://za.jora.com
+[waf-detect:cloudflare] [http] [info] https://ve.jora.com:8443
+[waf-detect:cloudflare] [http] [info] https://usw1.jora.com
+[waf-detect:cloudflare] [http] [info] https://vn.jora.com
+[deprecated-tls:tls_1.1] [ssl] [info] deploy.jora.xyz:8443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] deploy.jora.xyz:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] deploy.jora.xyz:8443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] deploy.jora.xyz:443 ["tls10"]
+[tls-version] [ssl] [info] api-dev.employer.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] bd.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ar.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] authentication-api.employer.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] apps.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] api.employer.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ca.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] api-dev.employer.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] authentication-api.employer.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] beta-firefly.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] api.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ae.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] cdn.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] api.employer.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] br.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ae.jora.com:8443 ["tls12"]
+[tls-version] [ssl] [info] assets-dev.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] cdn1.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] assets.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] bd.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] apps-assets.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ar.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] au.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] apps.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ca.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] beta-firefly.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] deploy.jora.xyz:443 ["tls10"]
+[tls-version] [ssl] [info] cl.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] cdn.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] api.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] deploy.jora.xyz:8443 ["tls10"]
+[tls-version] [ssl] [info] ae.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] co.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] br.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ae.jora.com:8443 ["tls13"]
+[tls-version] [ssl] [info] cdn1.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ca.jora.com:8443 ["tls12"]
+[tls-version] [ssl] [info] assets-dev.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] assets.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] apps-assets.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] au.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] cl.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] deploy.jora.xyz:443 ["tls11"]
+[tls-version] [ssl] [info] co.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] deploy.jora.xyz:8443 ["tls11"]
+[tls-version] [ssl] [info] ca.jora.com:8443 ["tls13"]
+[tls-version] [ssl] [info] deploy.jora.xyz:443 ["tls12"]
+[tls-version] [ssl] [info] deploy.jora.xyz:8443 ["tls12"]
+[tls-version] [ssl] [info] dev-employer.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] emp-next.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] employer-assets.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] deploy.jora.xyz:443 ["tls13"]
+[tls-version] [ssl] [info] employer-assets-dev.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] dev-emp-next.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] deploy.jora.xyz:8443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] deploy.jora.xyz:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] employer.jora.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] deploy.jora.xyz:8443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] firefly.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ec.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] dz.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] jora-assets.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] es.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] id.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ie.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] emp-next.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] in.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] employer-assets-dev.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] employer-assets.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] dev-emp-next.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] jse-my.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] employer.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ec.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] global-lb.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] jora-assets.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] fr.jora.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] deploy.jora.xyz:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] dz.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] firefly.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] dev-employer.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] es.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ie.jora.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] deploy.jora.xyz:8443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] in.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jse-id.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] hk.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] jse-my.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] fr.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] dev-employer-legacy.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] global-lb.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] id.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jse-ph.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] hk.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jse-id.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] kh.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] kibana.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] dev-employer-legacy.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jse-ph.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] la.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] local.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] mm.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ma.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] jse-sg.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] mx.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] pk.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] my.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] pe.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] nz.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] partner-feeds.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] la.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] production-logs.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] prism.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] production-firefly.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ph.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] local.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] mm.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ma.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] kh.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] jse-sg.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] kibana.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] mx.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] qa.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] sg.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] pk.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] my.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] staging-cdn.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] partner-feeds.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] production-logs.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] nz.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] prism.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] production-firefly.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] th.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] ph.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] supra-private.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] pt.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] pe.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] qa.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] sg.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] staging-cdn.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] th.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] pt.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] supra-private.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] tn.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] uk.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] usw1.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] us.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] za.jora.com:8443 ["tls12"]
+[tls-version] [ssl] [info] vn.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] tn.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] uk.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ve.jora.com:8443 ["tls12"]
+[tls-version] [ssl] [info] usw1.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] us.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] za.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] za.jora.com:8443 ["tls13"]
+[tls-version] [ssl] [info] ve.jora.com:443 ["tls12"]
+[tls-version] [ssl] [info] za.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] vn.jora.com:443 ["tls13"]
+[tls-version] [ssl] [info] ve.jora.com:8443 ["tls13"]
+[tls-version] [ssl] [info] ve.jora.com:443 ["tls13"]
+[microsoft-iis-version] [http] [info] http://autodiscover.jora.com ["Microsoft-IIS/10.0"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/jora.com ["2026-03-03T13:57:28Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/jora.com ["BARBARA.NS.CLOUDFLARE.COM","ERNEST.NS.CLOUDFLARE.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/jora.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/jora.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/jora.com ["2000-03-03T13:57:28Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/jora.com ["2025-02-06T04:18:38Z"]
+[tech-detect:ms-iis] [http] [info] http://autodiscover.jora.com
+[tech-detect:cloudflare] [http] [info] http://cdn.jora.com:8080
+[tech-detect:cloudflare] [http] [info] http://api.employer.jora.com:8080
+[tech-detect:cloudflare] [http] [info] http://apps-assets.jora.com:8080
+[tech-detect:cloudflare] [http] [info] http://authentication-api.employer.jora.com:8080
+[tech-detect:cloudflare] [http] [info] https://cl.jora.com
+[tech-detect:cloudflare] [http] [info] https://ae.jora.com:8443
+[tech-detect:cloudflare] [http] [info] https://br.jora.com
+[tech-detect:cloudflare] [http] [info] https://ae.jora.com
+[tech-detect:cloudflare] [http] [info] https://ca.jora.com:8443
+[tech-detect:cloudflare] [http] [info] https://ar.jora.com
+[tech-detect:cloudflare] [http] [info] https://ca.jora.com
+[tech-detect:cloudflare] [http] [info] https://apps-assets.jora.com
+[tech-detect:cloudflare] [http] [info] https://api.employer.jora.com
+[tech-detect:cloudflare] [http] [info] https://beta-firefly.jora.com
+[tech-detect:cloudflare] [http] [info] https://authentication-api.employer.jora.com
+[tech-detect:cloudflare] [http] [info] https://assets-dev.jora.com
+[tech-detect:cloudflare] [http] [info] https://api.jora.com
+[tech-detect:cloudflare] [http] [info] https://bd.jora.com
+[tech-detect:cloudflare] [http] [info] https://apps.jora.com
+[tech-detect:cloudflare] [http] [info] https://api-dev.employer.jora.com
+[tech-detect:cloudflare] [http] [info] https://au.jora.com
+[tech-detect:cloudflare] [http] [info] https://cdn1.jora.com
+[tech-detect:cloudflare] [http] [info] https://cdn.jora.com
+[tech-detect:cloudflare] [http] [info] https://assets.jora.com
+[form-detection] [http] [info] https://th.jora.com/
+[tech-detect:cloudflare] [http] [info] https://co.jora.com
+[tech-detect:cloudflare] [http] [info] https://deploy.jora.xyz:8443
+[tech-detect:cloudflare] [http] [info] https://deploy.jora.xyz
+[tech-detect:cloudflare] [http] [info] https://dev-emp-next.jora.com
+[tech-detect:cloudflare] [http] [info] https://dev-employer-legacy.jora.com
+[tech-detect:cloudflare] [http] [info] https://dz.jora.com
+[tech-detect:cloudflare] [http] [info] https://ec.jora.com
+[tech-detect:cloudflare] [http] [info] https://dev-employer.jora.com
+[tech-detect:cloudflare] [http] [info] https://emp-next.jora.com
+[tech-detect:cloudflare] [http] [info] http://employer-assets-dev.jora.com:8080
+[tech-detect:cloudflare] [http] [info] https://employer-assets-dev.jora.com
+[tech-detect:cloudflare] [http] [info] https://employer-assets.jora.com
+[tech-detect:cloudflare] [http] [info] https://fr.jora.com
+[tech-detect:cloudflare] [http] [info] http://employer-assets.jora.com:8080
+[tech-detect:cloudflare] [http] [info] https://es.jora.com
+[tech-detect:cloudflare] [http] [info] https://ie.jora.com
+[tech-detect:cloudflare] [http] [info] https://jse-id.jora.com
+[tech-detect:cloudflare] [http] [info] https://hk.jora.com
+[tech-detect:cloudflare] [http] [info] https://jora-assets.jora.com
+[tech-detect:cloudflare] [http] [info] https://jora.com
+[tech-detect:cloudflare] [http] [info] https://firefly.jora.com
+[tech-detect:cloudflare] [http] [info] https://in.jora.com
+[tech-detect:cloudflare] [http] [info] https://id.jora.com
+[tech-detect:cloudflare] [http] [info] https://employer.jora.com
+[tech-detect:cloudflare] [http] [info] https://global-lb.jora.com
+[tech-detect:cloudflare] [http] [info] https://kh.jora.com
+[tech-detect:cloudflare] [http] [info] https://jse-sg.jora.com
+[tech-detect:cloudflare] [http] [info] https://jse-ph.jora.com
+[tech-detect:cloudflare] [http] [info] https://jse-my.jora.com
+[tech-detect:cloudflare] [http] [info] https://kibana.jora.com
+[tech-detect:cloudflare] [http] [info] https://la.jora.com
+[tech-detect:cloudflare] [http] [info] https://mm.jora.com
+[tech-detect:cloudflare] [http] [info] https://ma.jora.com
+[tech-detect:cloudflare] [http] [info] https://mx.jora.com
+[tech-detect:cloudflare] [http] [info] https://my.jora.com
+[tech-detect:cloudflare] [http] [info] https://pe.jora.com
+[tech-detect:cloudflare] [http] [info] https://nz.jora.com
+[tech-detect:cloudflare] [http] [info] https://ph.jora.com
+[tech-detect:cloudflare] [http] [info] https://partner-feeds.jora.com
+[tech-detect:cloudflare] [http] [info] https://pk.jora.com
+[tech-detect:cloudflare] [http] [info] https://prism.jora.com
+[tech-detect:cloudflare] [http] [info] https://pt.jora.com
+[tech-detect:cloudflare] [http] [info] https://production-logs.jora.com
+[tech-detect:cloudflare] [http] [info] https://qa.jora.com
+[tech-detect:cloudflare] [http] [info] https://production-firefly.jora.com
+[tech-detect:cloudflare] [http] [info] https://th.jora.com
+[tech-detect:cloudflare] [http] [info] https://supra-private.jora.com
+[tech-detect:cloudflare] [http] [info] https://staging-cdn.jora.com
+[tech-detect:cloudflare] [http] [info] https://sg.jora.com
+[tech-detect:cloudflare] [http] [info] http://th.jora.com:8080
+[tech-detect:cloudflare] [http] [info] https://tn.jora.com
+[tech-detect:cloudflare] [http] [info] https://us.jora.com
+[tech-detect:cloudflare] [http] [info] https://uk.jora.com
+[tech-detect:cloudflare] [http] [info] http://usw1.jora.com:8080
+[tech-detect:cloudflare] [http] [info] https://ve.jora.com
+[tech-detect:cloudflare] [http] [info] https://usw1.jora.com
+[tech-detect:cloudflare] [http] [info] https://ve.jora.com:8443
+[tech-detect:cloudflare] [http] [info] https://vn.jora.com
+[tech-detect:cloudflare] [http] [info] https://za.jora.com
+[tech-detect:cloudflare] [http] [info] https://za.jora.com:8443
+[aspnet-version-detect] [http] [info] http://autodiscover.jora.com/%3f ["4.0.30319"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://cdn.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cdn.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://cdn.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://cdn.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://authentication-api.employer.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://authentication-api.employer.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://authentication-api.employer.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://authentication-api.employer.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://bd.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://bd.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://bd.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://bd.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://apps-assets.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://apps-assets.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://apps-assets.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://apps-assets.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://au.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://au.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://au.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://au.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://apps.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://apps.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://apps.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://apps.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://cdn1.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://cdn1.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cdn1.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://cdn1.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://api.employer.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://api.employer.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api.employer.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://api.employer.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://api.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://api.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://api.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://beta-firefly.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://beta-firefly.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://beta-firefly.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://beta-firefly.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://assets.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://assets.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://assets.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://assets.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://api-dev.employer.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://api-dev.employer.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api-dev.employer.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://api-dev.employer.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://assets-dev.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://assets-dev.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://assets-dev.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://assets-dev.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev-employer.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev-employer.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://dev-employer-legacy.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev-employer-legacy.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev-employer-legacy.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://dev-employer-legacy.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://dev-employer.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://dev-employer.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://employer-assets.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://employer-assets.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://employer-assets.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://employer-assets.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://employer.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://employer.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://employer.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://employer.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://dev-emp-next.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://dev-emp-next.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev-emp-next.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev-emp-next.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://global-lb.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://global-lb.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://global-lb.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://global-lb.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://employer-assets-dev.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://employer-assets-dev.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://employer-assets-dev.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://employer-assets-dev.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://emp-next.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://emp-next.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://emp-next.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://emp-next.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://firefly.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://firefly.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://firefly.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://firefly.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://hk.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://hk.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://hk.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://hk.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jse-id.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jse-id.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jse-id.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jse-id.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://in.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://in.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://in.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://in.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://id.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://id.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://id.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://id.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jora-assets.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jora-assets.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jora-assets.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jora-assets.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://kibana.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://kibana.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://kibana.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://kibana.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://my.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://my.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://my.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://my.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jse-ph.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jse-ph.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jse-ph.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jse-ph.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jse-sg.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jse-sg.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jse-sg.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jse-sg.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jse-my.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://jse-my.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jse-my.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://jse-my.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://ph.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://ph.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ph.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://ph.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://prism.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://prism.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://prism.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://prism.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sg.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://sg.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sg.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sg.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://production-logs.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://production-logs.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://production-logs.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://production-logs.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://production-firefly.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://production-firefly.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://production-firefly.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://production-firefly.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://partner-feeds.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://partner-feeds.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://partner-feeds.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://partner-feeds.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://nz.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://nz.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://nz.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://nz.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://th.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://th.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://th.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://th.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://supra-private.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://supra-private.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://supra-private.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://supra-private.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://staging-cdn.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://staging-cdn.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://staging-cdn.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://staging-cdn.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://us.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://us.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://us.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://us.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://usw1.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://usw1.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://usw1.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://usw1.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://uk.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://uk.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://uk.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://uk.jora.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://vn.jora.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://vn.jora.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://vn.jora.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://vn.jora.com
+[wildcard-tls] [ssl] [info] api.employer.jora.com:443 ["CN: jora.com","SAN: [*.employer.jora.com jora.com]"]
+[wildcard-tls] [ssl] [info] api-dev.employer.jora.com:443 ["SAN: [*.employer.jora.com jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] authentication-api.employer.jora.com:443 ["CN: jora.com","SAN: [*.employer.jora.com jora.com]"]
+[wildcard-tls] [ssl] [info] api.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] apps-assets.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] beta-firefly.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] cdn.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ar.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] cl.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] co.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] bd.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ae.jora.com:8443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] dev-emp-next.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ca.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] ae.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] cdn1.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] br.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] au.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] assets-dev.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] deploy.jora.xyz:8443 ["CN: jora.xyz","SAN: [jora.xyz *.jora.xyz]"]
+[wildcard-tls] [ssl] [info] assets.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] apps.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] jora.com:443 ["CN: jora.com","SAN: [*.ops.jora.com jora.com]"]
+[wildcard-tls] [ssl] [info] ca.jora.com:8443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] dev-employer-legacy.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] dev-employer.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ec.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] emp-next.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] dz.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] in.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] es.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ie.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] employer-assets-dev.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] global-lb.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] firefly.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] employer-assets.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] hk.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] id.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] employer.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] jora-assets.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] fr.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] jse-id.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] jse-my.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] jse-ph.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] deploy.jora.xyz:443 ["SAN: [jora.xyz *.jora.xyz]","CN: jora.xyz"]
+[wildcard-tls] [ssl] [info] jse-sg.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] kh.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] la.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] mm.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] kibana.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] local.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] partner-feeds.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] production-logs.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ph.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] pe.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] my.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] nz.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] sg.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] qa.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] production-firefly.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] pk.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] prism.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] pt.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] staging-cdn.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] supra-private.jora.com:443 ["SAN: [jora.com *.jora.com]","CN: jora.com"]
+[wildcard-tls] [ssl] [info] th.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] mx.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] tn.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] us.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] uk.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ve.jora.com:8443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] usw1.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] za.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] za.jora.com:8443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ma.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] vn.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[wildcard-tls] [ssl] [info] ve.jora.com:443 ["CN: jora.com","SAN: [jora.com *.jora.com]"]
+[caa-fingerprint] [dns] [info] api-dev.employer.jora.com
+[caa-fingerprint] [dns] [info] api.employer.jora.com
+[caa-fingerprint] [dns] [info] apps.jora.com
+[txt-fingerprint] [dns] [info] au.jora.com [""google-site-verification=XFboNdPh1kGKHFfoKmQ37kuo8XvSdUMI0j4-VYBoqj0"",""facebook-domain-verification=8bncd0hu0kkjl29hpilmsxr330i7fg""]
+[caa-fingerprint] [dns] [info] assets-dev.jora.com
+[caa-fingerprint] [dns] [info] apps-assets.jora.com
+[caa-fingerprint] [dns] [info] ae.jora.com
+[caa-fingerprint] [dns] [info] au.jora.com
+[caa-fingerprint] [dns] [info] ae.jora.com
+[caa-fingerprint] [dns] [info] api.jora.com
+[caa-fingerprint] [dns] [info] cl.jora.com
+[caa-fingerprint] [dns] [info] cdn.jora.com
+[caa-fingerprint] [dns] [info] authentication-api.employer.jora.com
+[caa-fingerprint] [dns] [info] apps-assets.jora.com
+[caa-fingerprint] [dns] [info] br.jora.com
+[caa-fingerprint] [dns] [info] beta-firefly.jora.com
+[caa-fingerprint] [dns] [info] authentication-api.employer.jora.com
+[caa-fingerprint] [dns] [info] bd.jora.com
+[caa-fingerprint] [dns] [info] ar.jora.com
+[caa-fingerprint] [dns] [info] autodiscover.jora.com
+[caa-fingerprint] [dns] [info] cdn.jora.com
+[caa-fingerprint] [dns] [info] ca.jora.com
+[caa-fingerprint] [dns] [info] cdn1.jora.com
+[caa-fingerprint] [dns] [info] api.employer.jora.com
+[caa-fingerprint] [dns] [info] assets.jora.com
+[caa-fingerprint] [dns] [info] ca.jora.com
+[mx-fingerprint] [dns] [info] jora.com ["0 mxa-002a9501.gslb.pphosted.com.","0 mxb-002a9501.gslb.pphosted.com."]
+[nameserver-fingerprint] [dns] [info] jora.com ["barbara.ns.cloudflare.com.","ernest.ns.cloudflare.com."]
+[caa-fingerprint] [dns] [info] employer.jora.com
+[caa-fingerprint] [dns] [info] fr.jora.com
+[caa-fingerprint] [dns] [info] jora-assets.jora.com
+[caa-fingerprint] [dns] [info] jora.com
+[caa-fingerprint] [dns] [info] dev-emp-next.jora.com
+[caa-fingerprint] [dns] [info] employer-assets.jora.com
+[caa-fingerprint] [dns] [info] global-lb.jora.com
+[caa-fingerprint] [dns] [info] employer-assets.jora.com
+[caa-fingerprint] [dns] [info] deploy.jora.xyz
+[txt-fingerprint] [dns] [info] employer.jora.com [""google-site-verification=nHZLNx_E9LpR-wy2gR-lkSgFHjTPBUEXABuz0h17dk8""]
+[caa-fingerprint] [dns] [info] in.jora.com
+[caa-fingerprint] [dns] [info] firefly.jora.com
+[caa-fingerprint] [dns] [info] co.jora.com
+[caa-fingerprint] [dns] [info] dz.jora.com
+[caa-fingerprint] [dns] [info] es.jora.com
+[caa-fingerprint] [dns] [info] dev-employer.jora.com
+[caa-fingerprint] [dns] [info] ie.jora.com
+[caa-fingerprint] [dns] [info] employer-assets-dev.jora.com
+[caa-fingerprint] [dns] [info] id.jora.com
+[caa-fingerprint] [dns] [info] deploy.jora.xyz
+[caa-fingerprint] [dns] [info] dev-employer-legacy.jora.com
+[caa-fingerprint] [dns] [info] hk.jora.com
+[caa-fingerprint] [dns] [info] ec.jora.com
+[caa-fingerprint] [dns] [info] emp-next.jora.com
+[dns-saas-service-detection:ms-office] [dns] [info] autodiscover.jora.com ["autodiscover.outlook.com"]
+[caa-fingerprint] [dns] [info] employer-assets-dev.jora.com
+[caa-fingerprint] [dns] [info] jse-id.jora.com
+[dmarc-detect] [dns] [info] _dmarc.jora.com [""v=DMARC1; p=none; pct=100; adkim=r; aspf=r; rua=mailto:24058e301fcf4d18a55be9f8d5afc0b7@dmarc-reports.cloudflare.net;""]
+[txt-fingerprint] [dns] [info] ph.jora.com [""google-site-verification=Zi1GM7-NPzjyJMicHGQ_jusK18omB-9iP6MIdBjB9as""]
+[caa-fingerprint] [dns] [info] mm.jora.com
+[caa-fingerprint] [dns] [info] prism.jora.com
+[txt-fingerprint] [dns] [info] sg.jora.com [""google-site-verification=g9b4POjduni-TJoGYYI62I4RdgTY7Qw-Cg1T0eACqDU""]
+[caa-fingerprint] [dns] [info] my.jora.com
+[caa-fingerprint] [dns] [info] supra-private.jora.com
+[caa-fingerprint] [dns] [info] la.jora.com
+[caa-fingerprint] [dns] [info] pk.jora.com
+[caa-fingerprint] [dns] [info] sg.jora.com
+[caa-fingerprint] [dns] [info] jse-sg.jora.com
+[caa-fingerprint] [dns] [info] pe.jora.com
+[caa-fingerprint] [dns] [info] staging-cdn.jora.com
+[caa-fingerprint] [dns] [info] kibana.jora.com
+[caa-fingerprint] [dns] [info] ma.jora.com
+[caa-fingerprint] [dns] [info] partner-feeds.jora.com
+[caa-fingerprint] [dns] [info] mx.jora.com
+[caa-fingerprint] [dns] [info] production-logs.jora.com
+[caa-fingerprint] [dns] [info] jse-my.jora.com
+[caa-fingerprint] [dns] [info] production-firefly.jora.com
+[caa-fingerprint] [dns] [info] jse-ph.jora.com
+[caa-fingerprint] [dns] [info] kh.jora.com
+[caa-fingerprint] [dns] [info] ph.jora.com
+[caa-fingerprint] [dns] [info] qa.jora.com
+[caa-fingerprint] [dns] [info] nz.jora.com
+[caa-fingerprint] [dns] [info] pt.jora.com
+[caa-fingerprint] [dns] [info] local.jora.com
+[caa-fingerprint] [dns] [info] ve.jora.com
+[caa-fingerprint] [dns] [info] th.jora.com
+[caa-fingerprint] [dns] [info] usw1.jora.com
+[caa-fingerprint] [dns] [info] us.jora.com
+[caa-fingerprint] [dns] [info] th.jora.com
+[txt-fingerprint] [dns] [info] vn.jora.com [""google-site-verification=EMFENcFN1rUybYBW5gGW3yFqFBMcgLIZAHX3mr43A6o""]
+[caa-fingerprint] [dns] [info] za.jora.com
+[caa-fingerprint] [dns] [info] uk.jora.com
+[caa-fingerprint] [dns] [info] tn.jora.com
+[caa-fingerprint] [dns] [info] za.jora.com
+[caa-fingerprint] [dns] [info] ve.jora.com
+[caa-fingerprint] [dns] [info] usw1.jora.com
+[caa-fingerprint] [dns] [info] vn.jora.com

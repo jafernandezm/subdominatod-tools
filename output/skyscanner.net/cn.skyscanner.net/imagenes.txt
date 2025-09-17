@@ -1,0 +1,7 @@
+http://cn.skyscanner.net/image/inv.gif
+http://cn.skyscanner.net/images/country/flag/small/US.gif
+http://cn.skyscanner.net/images/homepage/widgets.png
+http://cn.skyscanner.net/wide/images/site/explore_map.jpg
+http://cn.skyscanner.net/wide/images/site/explore_wholemonth.jpg
+http://cn.skyscanner.net/wide/images/site/loading_anim2.gif
+http://cn.skyscanner.net/wide/images/site/skyscanner_logo_plain.gif

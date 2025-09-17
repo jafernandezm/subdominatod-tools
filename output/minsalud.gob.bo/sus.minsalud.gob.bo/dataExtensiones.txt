@@ -1,0 +1,2 @@
+https://sus.minsalud.gob.bo/robots.txt
+https://sus.minsalud.gob.bo/sitemap.xml

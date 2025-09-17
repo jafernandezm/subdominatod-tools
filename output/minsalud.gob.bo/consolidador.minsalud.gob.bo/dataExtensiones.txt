@@ -1,0 +1,14 @@
+http://consolidador.minsalud.gob.bo/robots.txt
+https://consolidador.minsalud.gob.bo/.well-known/ai-plugin.json
+https://consolidador.minsalud.gob.bo/.well-known/assetlinks.json
+https://consolidador.minsalud.gob.bo/.well-known/dnt-policy.txt
+https://consolidador.minsalud.gob.bo/.well-known/gpc.json
+https://consolidador.minsalud.gob.bo/.well-known/security.txt
+https://consolidador.minsalud.gob.bo/.well-known/trust.txt
+https://consolidador.minsalud.gob.bo/ads.txt
+https://consolidador.minsalud.gob.bo/app-ads.txt
+https://consolidador.minsalud.gob.bo/atom.xml
+https://consolidador.minsalud.gob.bo/feed.xml
+https://consolidador.minsalud.gob.bo/feeds/all.atom.xml
+https://consolidador.minsalud.gob.bo/index.xml
+https://consolidador.minsalud.gob.bo/sitemap.xml

@@ -1,0 +1,11 @@
+http://siccaf.minsalud.gob.bo/imagenes/Fondo02.gif
+http://siccaf.minsalud.gob.bo/imagenes/Fondoficha.gif
+http://siccaf.minsalud.gob.bo/imagenes/Ministerio%20de%20Salud%20y%20Deportes.gif
+http://siccaf.minsalud.gob.bo/imagenes/Ok.gif
+http://siccaf.minsalud.gob.bo/imagenes/Ypage.jpeg
+http://siccaf.minsalud.gob.bo/imagenes/bg_cuadro.gif
+http://siccaf.minsalud.gob.bo/imagenes/fondoGV.jpg
+http://siccaf.minsalud.gob.bo/imagenes/fondoinra.jpg
+http://siccaf.minsalud.gob.bo/imagenes/fondotitulo.JPG
+http://siccaf.minsalud.gob.bo/imagenes/titulo/FondoGrueso.gif
+https://siccaf.minsalud.gob.bo/imagenes/baner.png

@@ -1,0 +1,10 @@
+https://simone10.minsalud.gob.bo/.well-known/ai-plugin.json
+https://simone10.minsalud.gob.bo/.well-known/assetlinks.json
+https://simone10.minsalud.gob.bo/.well-known/dnt-policy.txt
+https://simone10.minsalud.gob.bo/.well-known/gpc.json
+https://simone10.minsalud.gob.bo/.well-known/security.txt
+https://simone10.minsalud.gob.bo/.well-known/trust.txt
+https://simone10.minsalud.gob.bo/ads.txt
+https://simone10.minsalud.gob.bo/app-ads.txt
+https://simone10.minsalud.gob.bo/robots.txt
+https://simone10.minsalud.gob.bo/sitemap.xml

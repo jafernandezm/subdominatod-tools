@@ -1,0 +1,6 @@
+http://suis.minsalud.gob.bo/assets/fonts/font-awesome/fontawesome-webfont.eot?v=4.1.0
+http://suis.minsalud.gob.bo/assets/fonts/font-awesome/fontawesome-webfont.ttf?v=4.1.0
+http://suis.minsalud.gob.bo/assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0
+http://suis.minsalud.gob.bo/plugins/fonts/ionicons.eot?v=2.0.1
+http://suis.minsalud.gob.bo/plugins/fonts/ionicons.ttf?v=2.0.1
+http://suis.minsalud.gob.bo/plugins/fonts/ionicons.woff?v=2.0.1

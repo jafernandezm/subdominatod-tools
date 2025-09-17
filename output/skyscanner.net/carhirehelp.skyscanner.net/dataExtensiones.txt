@@ -1,0 +1,5 @@
+https://carhirehelp.skyscanner.net/articles.json
+https://carhirehelp.skyscanner.net/articles/201192942.json
+https://carhirehelp.skyscanner.net/categories.json
+https://carhirehelp.skyscanner.net/robots.txt
+https://www.skyscanner.net/sttc/px/captcha-v2/manifest.json

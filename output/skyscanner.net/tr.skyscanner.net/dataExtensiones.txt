@@ -1,0 +1,2 @@
+http://tr.skyscanner.net/robots.txt
+http://tr.skyscanner.net:80/varis-yeri/bxb/android-chrome-manifest.json

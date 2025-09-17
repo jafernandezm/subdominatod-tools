@@ -1,0 +1,4 @@
+https://tconsult.minsalud.gob.bo/BrowserCompatibilityCheck.aspx?ReturnUrl=%2f
+https://tconsult.minsalud.gob.bo/BrowserCompatibilityCheck.aspx?ReturnUrl=%2fa
+https://tconsult.minsalud.gob.bo/login.aspx?ReturnUrl=%2f
+https://tconsult.minsalud.gob.bo/login.aspx?ReturnUrl=%2fa

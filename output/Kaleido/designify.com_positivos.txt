@@ -1,0 +1,4 @@
+api.designify.com
+designify.com
+l.news.designify.com
+l.news.designify.com:8080

@@ -1,0 +1,6 @@
+https://siredi.minsalud.gob.bo/js/Chart.min.js
+https://siredi.minsalud.gob.bo/js/bootstrap.min.js
+https://siredi.minsalud.gob.bo/js/jquery.min.js
+https://siredi.minsalud.gob.bo/js/pace.min.js
+https://siredi.minsalud.gob.bo/js/popper.min.js
+https://siredi.minsalud.gob.bo/js/template.js

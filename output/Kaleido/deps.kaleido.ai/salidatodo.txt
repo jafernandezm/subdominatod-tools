@@ -1,0 +1,6 @@
+http://127.0.0.1:8080
+http://example.com/
+https://deps.kaleido.ai
+https://deps.kaleido.ai/
+https://deps.kaleido.ai/login
+https://deps.kaleido.ai/login/signup

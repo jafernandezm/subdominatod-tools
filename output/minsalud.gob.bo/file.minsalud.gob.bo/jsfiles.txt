@@ -1,0 +1,15 @@
+https://file.minsalud.gob.bo/share/noauth/messages_961d9dfc7693747aab62d2d84160de5a.js?locale=en_US
+https://file.minsalud.gob.bo/share/res/components/guest/login_dde90881f4a028d9f92152945314420c.js
+https://file.minsalud.gob.bo/share/res/js/alfresco_16d6ab19ef893ce787dba847b324f713.js
+https://file.minsalud.gob.bo/share/res/js/bubbling.v2.1_5a671b93e806ea64b41f915cf6147232.js
+https://file.minsalud.gob.bo/share/res/js/flash/AC_OETags_23681d043aef7e80993a9f9354d71741.js
+https://file.minsalud.gob.bo/share/res/js/forms-runtime_e249b4f9b1efd764036d2d7a0b430943.js
+https://file.minsalud.gob.bo/share/res/js/lib/dojo-1.10.4/dojo/dojo.js
+https://file.minsalud.gob.bo/share/res/js/lightbox_bc0f7ca3f123011aa02ad82dace7cae3.js
+https://file.minsalud.gob.bo/share/res/js/share_c5904b7093618304a3f28053799379a7.js
+https://file.minsalud.gob.bo/share/res/js/yui-common_85fe398e5deaf2958d87495ebd1e083d.js
+https://file.minsalud.gob.bo/share/res/modules/create-site_60c9a76848df17fa1f408ecfa0fba17f.js
+https://file.minsalud.gob.bo/share/res/modules/editors/tiny_mce_947dfc74b7dbff0f5062c429a469db58.js
+https://file.minsalud.gob.bo/share/res/modules/editors/tinymce/tinymce.min.js?checksum=f34ea2e33cbdf16fb05ecb3e9a6f6562
+https://file.minsalud.gob.bo/share/res/modules/editors/yui_editor_0a0da13c6dc370802cb4c2dc6ef1f559.js
+https://file.minsalud.gob.bo/share/res/yui/history/history_543b42a00a378f4d4b6e70c81d915b0a.js

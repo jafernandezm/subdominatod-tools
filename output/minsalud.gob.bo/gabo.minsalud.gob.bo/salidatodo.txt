@@ -1,0 +1,5 @@
+http://127.0.0.1:8080
+http://example.com/
+https://gabo.minsalud.gob.bo
+https://gabo.minsalud.gob.bo/assets/index-420b0422.js
+https://gabo.minsalud.gob.bo/assets/index-6e984bb8.css

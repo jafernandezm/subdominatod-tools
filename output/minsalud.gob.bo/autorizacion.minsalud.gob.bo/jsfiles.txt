@@ -1,0 +1,3 @@
+https://autorizacion.minsalud.gob.bo/main.2319a00d575598408ba0.js
+https://autorizacion.minsalud.gob.bo/polyfills.159e331a6674f18bda35.js
+https://autorizacion.minsalud.gob.bo/runtime.a66f828dca56eeb90e02.js

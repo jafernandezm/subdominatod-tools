@@ -1,0 +1,8 @@
+http://127.0.0.1:8080
+http://example.com/
+http://rues3.minsalud.gob.bo/
+http://rues3.minsalud.gob.bo/static/css/main.12c36a73.css
+http://rues3.minsalud.gob.bo/static/js/main.2b25a2bc.js
+https://rues3.minsalud.gob.bo
+https://rues3.minsalud.gob.bo/static/css/main.12c36a73.css
+https://rues3.minsalud.gob.bo/static/js/main.7e2892b8.js

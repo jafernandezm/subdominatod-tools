@@ -1,0 +1,10 @@
+http://widgets.skyscanner.net/robots.txt
+https://widgets.skyscanner.net/.well-known/ai-plugin.json
+https://widgets.skyscanner.net/.well-known/assetlinks.json
+https://widgets.skyscanner.net/.well-known/dnt-policy.txt
+https://widgets.skyscanner.net/.well-known/gpc.json
+https://widgets.skyscanner.net/.well-known/security.txt
+https://widgets.skyscanner.net/.well-known/trust.txt
+https://widgets.skyscanner.net/ads.txt
+https://widgets.skyscanner.net/app-ads.txt
+https://widgets.skyscanner.net/sitemap.xml

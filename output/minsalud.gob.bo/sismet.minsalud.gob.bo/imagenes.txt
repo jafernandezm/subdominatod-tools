@@ -1,0 +1,4 @@
+https://sismet.minsalud.gob.bo/adminlte/bootstrap/font-awesome-4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+https://sismet.minsalud.gob.bo/adminlte/bootstrap/fonts/glyphicons-halflings-regular.svg
+https://sismet.minsalud.gob.bo/adminlte/img/boxed-bg.jpg
+https://sismet.minsalud.gob.bo/img/fondo.jpg

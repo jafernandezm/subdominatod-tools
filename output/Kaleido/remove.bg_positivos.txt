@@ -1,0 +1,17 @@
+api-beta.remove.bg
+api.remove.bg
+beta.remove.bg
+beta.remove.bg:8080
+help.remove.bg
+l.hello.remove.bg
+l.hello.remove.bg:8080
+migration.remove.bg
+o.remove.bg
+o.remove.bg:8080
+r.remove.bg
+rd.remove.bg
+rd.remove.bg:8080
+remove.bg
+signatures.remove.bg
+staging.api.remove.bg
+static.remove.bg

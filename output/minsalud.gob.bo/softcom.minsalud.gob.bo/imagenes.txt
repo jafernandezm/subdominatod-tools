@@ -1,0 +1,4 @@
+https://softcom.minsalud.gob.bo/fonts/fontawesome-webfont.svg?v=4.7.0
+https://softcom.minsalud.gob.bo/images/fondo_ms10.jpg
+https://softcom.minsalud.gob.bo/images/login-box-backg.png
+https://softcom.minsalud.gob.bo/img/portada.jpg

@@ -1,0 +1,2 @@
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/js/bootstrap.min.js
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/js/jquery.min.js

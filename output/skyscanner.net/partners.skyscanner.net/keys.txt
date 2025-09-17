@@ -1,0 +1,1 @@
+https://partnerportal.skyscanner.net/authenticate/login?iss=https%3A%2F%2Fskyscanner-partner.eu.auth0.com%2F

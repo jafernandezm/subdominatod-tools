@@ -1,0 +1,9 @@
+http://127.0.0.1:8080
+http://example.com/
+https://sirec.minsalud.gob.bo
+https://sirec.minsalud.gob.bo/login?next=/
+https://sirec.minsalud.gob.bo/reset
+https://sirec.minsalud.gob.bo/reset/
+https://sirec.minsalud.gob.bo/static/assets/css/bulma.min.css
+https://sirec.minsalud.gob.bo/static/assets/css/dark.min.css
+https://sirec.minsalud.gob.bo/static/assets/css/main.min.css

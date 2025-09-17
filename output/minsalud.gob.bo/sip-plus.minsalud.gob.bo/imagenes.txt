@@ -1,0 +1,10 @@
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/MuseoSans_500-webfont.svg
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/fontawesome-webfont.svg?v=4.7.0
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/glyphicons-halflings-regular.svg
+http://sip-plus.minsalud.gob.bo/assets/app/img/gradient-light.png
+http://sip-plus.minsalud.gob.bo/assets/app/img/icon-med.png
+http://sip-plus.minsalud.gob.bo/assets/app/img/leftgreensmall.png
+http://sip-plus.minsalud.gob.bo/assets/app/img/minusorangesmall.png
+http://sip-plus.minsalud.gob.bo/assets/app/img/plusorangesmall.png
+http://sip-plus.minsalud.gob.bo/assets/app/img/rightgreensmall.png
+http://sip-plus.minsalud.gob.bo/assets/app/img/transparent.png

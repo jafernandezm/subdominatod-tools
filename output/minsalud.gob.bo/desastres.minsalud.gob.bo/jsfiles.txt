@@ -1,0 +1,3 @@
+https://desastres.minsalud.gob.bo/js/element-internals-polyfill.min.js?v=19.13.27
+https://desastres.minsalud.gob.bo/js/ewcore.min.js?v=19.13.27
+https://desastres.minsalud.gob.bo/js/pace.js?v=19.13.27

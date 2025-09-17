@@ -1,0 +1,3 @@
+http://aigi.minsalud.gob.bo/aigi/fonts/fontawesome-webfont.svg?v=4.3.0
+http://aigi.minsalud.gob.bo/aigi/fonts/glyphicons-halflings-regular.svg
+http://aigi.minsalud.gob.bo/aigi/img/logo.png

@@ -1,0 +1,2 @@
+https://oretekove.minsalud.gob.bo/scripts/app-d4a9726edf.js
+https://oretekove.minsalud.gob.bo/scripts/vendor-b99ed0b05a.js

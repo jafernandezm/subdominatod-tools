@@ -1,0 +1,2 @@
+http://siccaf.minsalud.gob.bo/robots.txt
+https://siccaf.minsalud.gob.bo/sitemap.xml

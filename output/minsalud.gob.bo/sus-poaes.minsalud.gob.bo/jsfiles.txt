@@ -1,0 +1,5 @@
+https://sus-poaes.minsalud.gob.bo/vendor/adminlte/dist/js/adminlte.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/bootstrap/js/bootstrap.bundle.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/inputmask/jquery.inputmask.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/jquery/jquery.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js

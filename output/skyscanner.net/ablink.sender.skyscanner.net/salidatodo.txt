@@ -1,0 +1,7 @@
+http://ablink.sender.skyscanner.net/
+https://ablink.sender.skyscanner.net
+https://www.skyscanner.net/mobile
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21vYmlsZT8=&uuid=2df81d07-933a-11f0-ac44-2d61d397f0ee&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21vYmlsZT8=&uuid=2e05cc6b-933a-11f0-b3ec-21cb24134f6c&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/static/css/main.01e9b7c6.css
+https://www.skyscanner.net/sttc/px/captcha-v2/static/js/main.034aca06.js

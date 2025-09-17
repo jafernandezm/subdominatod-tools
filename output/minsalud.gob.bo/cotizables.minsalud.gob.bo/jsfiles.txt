@@ -1,0 +1,2 @@
+https://cotizables.minsalud.gob.bo/sis/views/assets/js/bootstrap.min.js
+https://cotizables.minsalud.gob.bo/sis/views/assets/js/jquery.min.js

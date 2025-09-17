@@ -1,0 +1,10 @@
+https://ultimatetravelhacker.skyscanner.net/.well-known/ai-plugin.json
+https://ultimatetravelhacker.skyscanner.net/.well-known/assetlinks.json
+https://ultimatetravelhacker.skyscanner.net/.well-known/dnt-policy.txt
+https://ultimatetravelhacker.skyscanner.net/.well-known/gpc.json
+https://ultimatetravelhacker.skyscanner.net/.well-known/security.txt
+https://ultimatetravelhacker.skyscanner.net/.well-known/trust.txt
+https://ultimatetravelhacker.skyscanner.net/ads.txt
+https://ultimatetravelhacker.skyscanner.net/app-ads.txt
+https://ultimatetravelhacker.skyscanner.net/robots.txt
+https://ultimatetravelhacker.skyscanner.net/sitemap.xml

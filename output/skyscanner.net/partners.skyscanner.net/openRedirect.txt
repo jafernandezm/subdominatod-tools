@@ -1,0 +1,4 @@
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/home/
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21lZGlhL21vZGVybi1zbGF2ZXJ5Pw==&uuid=821c26af-933a-11f0-9ca9-8fd67eed4914&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21lZGlhL2Nvb2tpZS1wb2xpY3k/&uuid=81f2d3c6-933a-11f0-aa52-93b5908d4d66&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21lZGlhL3Rlcm1zLW9mLXNlcnZpY2U/&uuid=82205e05-933a-11f0-8676-e00f77ce8133&vid=

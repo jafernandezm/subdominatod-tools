@@ -1,0 +1,5 @@
+http://aigem.minsalud.gob.bo/aigem/fonts/fontawesome-webfont.svg?v=4.5.0
+http://aigem.minsalud.gob.bo/aigem/fonts/glyphicons-halflings-regular.svg
+http://aigem.minsalud.gob.bo/aigem/img/background.jpg
+http://aigem.minsalud.gob.bo/aigem/img/boxed-bg.jpg
+http://aigem.minsalud.gob.bo/aigem/img/icono.png

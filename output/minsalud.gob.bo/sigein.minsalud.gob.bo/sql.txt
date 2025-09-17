@@ -1,0 +1,3 @@
+http://sigein.minsalud.gob.bo/assets/fonts/font-awesome/fontawesome-webfont.eot?v=4.1.0
+http://sigein.minsalud.gob.bo/assets/fonts/font-awesome/fontawesome-webfont.ttf?v=4.1.0
+http://sigein.minsalud.gob.bo/assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.1.0

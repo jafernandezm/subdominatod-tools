@@ -1,0 +1,6 @@
+https://it.skyscanner.net
+https://www.skyscanner.net/
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=654b8e28-933a-11f0-b4aa-301e8fee05b4&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=6589d924-933a-11f0-aa91-2d61d397f0ee&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/static/css/main.01e9b7c6.css
+https://www.skyscanner.net/sttc/px/captcha-v2/static/js/main.034aca06.js

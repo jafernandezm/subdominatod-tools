@@ -1,0 +1,6 @@
+https://vdit.minsalud.gob.bo/assets/js/bootstrap.bundle.min.js
+https://vdit.minsalud.gob.bo/assets/js/quill.min.js
+https://vdit.minsalud.gob.bo/main.f8f50798e7459a42.js
+https://vdit.minsalud.gob.bo/polyfills.55286d4659c98437.js
+https://vdit.minsalud.gob.bo/runtime.27f463d4a2f8b515.js
+https://vdit.minsalud.gob.bo/scripts.4db32aa6a441c69c.js

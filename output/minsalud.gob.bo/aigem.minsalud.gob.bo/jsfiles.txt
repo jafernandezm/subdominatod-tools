@@ -1,0 +1,7 @@
+http://aigem.minsalud.gob.bo/aigem/Popover%20requires%20tooltip.js
+http://aigem.minsalud.gob.bo/aigem/js/angular-resource.min.js
+http://aigem.minsalud.gob.bo/aigem/js/angular.min.js
+http://aigem.minsalud.gob.bo/aigem/js/bootstrap.min.js
+http://aigem.minsalud.gob.bo/aigem/js/jquery.min.js
+http://aigem.minsalud.gob.bo/aigem/js/toastr.min.js
+http://aigem.minsalud.gob.bo/aigem/js/ui-bootstrap-tpls-0.14.3.min.js

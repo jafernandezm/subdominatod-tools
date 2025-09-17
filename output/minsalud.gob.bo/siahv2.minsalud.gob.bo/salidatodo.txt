@@ -1,0 +1,13 @@
+http://127.0.0.1:8080
+http://example.com/
+https://siahv2.minsalud.gob.bo
+https://siahv2.minsalud.gob.bo/
+https://siahv2.minsalud.gob.bo/assets/layout/css/layout-green.css
+https://siahv2.minsalud.gob.bo/assets/theme/theme-green.css
+https://siahv2.minsalud.gob.bo/main-es2015.38e790cf5f8d923a7fa1.js
+https://siahv2.minsalud.gob.bo/main-es5.38e790cf5f8d923a7fa1.js
+https://siahv2.minsalud.gob.bo/polyfills-es2015.51d4531f4a82b3141da6.js
+https://siahv2.minsalud.gob.bo/polyfills-es5.ef2740ad6023156075c5.js
+https://siahv2.minsalud.gob.bo/runtime-es2015.84e78e983a29a384dce0.js
+https://siahv2.minsalud.gob.bo/runtime-es5.84e78e983a29a384dce0.js
+https://siahv2.minsalud.gob.bo/styles.da721356dad842f29931.css

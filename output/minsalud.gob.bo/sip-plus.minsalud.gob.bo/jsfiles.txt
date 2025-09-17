@@ -1,0 +1,9 @@
+http://sip-plus.minsalud.gob.bo/assets/app/app-jsdeps.js
+http://sip-plus.minsalud.gob.bo/assets/app/app-opt.js
+http://sip-plus.minsalud.gob.bo/assets/app/cordova.js
+http://sip-plus.minsalud.gob.bo/assets/app/js/crypto.js
+http://sip-plus.minsalud.gob.bo/assets/app/js/db-functions.js
+http://sip-plus.minsalud.gob.bo/assets/app/js/definitions.js
+http://sip-plus.minsalud.gob.bo/assets/app/js/dictionary.js
+http://sip-plus.minsalud.gob.bo/assets/app/js/pace.min.js
+http://sip-plus.minsalud.gob.bo/assets/app/js/views.js

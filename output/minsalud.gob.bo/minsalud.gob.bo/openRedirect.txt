@@ -1,0 +1,7 @@
+https://aula.minsalud.gob.bo/aula/?redirect=0
+https://rnve.minsalud.gob.bo/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-pai.7ad27191.png&w=32&q=75
+https://rnve.minsalud.gob.bo/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-pai.7ad27191.png&w=64&q=75
+https://rnve.minsalud.gob.bo/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frnve-horizontal.0f7082ae.png&w=128&q=75
+https://rnve.minsalud.gob.bo/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frnve-horizontal.0f7082ae.png&w=256&q=75
+https://rnve.minsalud.gob.bo/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frnve.db9885e9.png&w=128&q=75
+https://rnve.minsalud.gob.bo/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frnve.db9885e9.png&w=64&q=75

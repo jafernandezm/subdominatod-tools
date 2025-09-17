@@ -1,0 +1,2989 @@
+[
+  {
+    "url": "https://9735476.sender.skyscanner.net:443",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "",
+    "tech": [
+      "HSTS, Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 33,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://9735476.test.skyscanner.net:443",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "",
+    "tech": [
+      "HSTS, Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 27,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://ablink.sender.skyscanner.net:443",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "",
+    "tech": [
+      "HSTS, Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 33,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://9735476.sender.skyscanner.net:80",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 166,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://9735476.test.skyscanner.net:80",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 166,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://ablink.test.skyscanner.net:443",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "",
+    "tech": [
+      "HSTS, Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 27,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://ablink.sender.skyscanner.net:80",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 166,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://ablink.test.skyscanner.net:80",
+    "host": "52.11.118.109",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx, OpenResty, openresty"
+    ],
+    "content_type": "text/html",
+    "response_size": 166,
+    "tls_cn": "",
+    "cname": [
+      "thirdparty.bnc.lt"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://analytics.skyscanner.net:443",
+    "host": "3.162.221.50",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HTTP/3, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 10,
+    "tls_cn": "",
+    "cname": [
+      "analytics.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://analytics.skyscanner.net:80",
+    "host": "3.162.221.65",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "analytics.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://api.skyscanner.net:80",
+    "host": "18.164.13.105",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "partners.api.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://at.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://at.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://au.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://autodiscover.skyscanner.net:80",
+    "host": "52.97.23.232",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "IIS:10.0, Microsoft ASP.NET, Microsoft-IIS/10.0, Windows Server"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "autodiscover.outlook.com",
+      "atod-g2.tm-4.office.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://au.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://br.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://business.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 244,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ca.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://carhirehelp.skyscanner.net:443",
+    "host": "216.198.54.6",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, Envoy, HSTS, Zendesk, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "skyscannercarhire.ssl.zendesk.com",
+      "skyscannercarhire.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://br.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://business.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 240,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://carhirehelp.skyscanner.net:8080",
+    "host": "216.198.54.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscannercarhire.ssl.zendesk.com",
+      "skyscannercarhire.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://carhirehelp.skyscanner.net:80",
+    "host": "216.198.54.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscannercarhire.ssl.zendesk.com",
+      "skyscannercarhire.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://ca.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ch.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://cn.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ch.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://cn.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://cz.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://creative-storytelling.skyscanner.net:443",
+    "host": "54.194.41.141",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Skyscanner Brand Marketing - Creative Storytelling for Ambitious Brands",
+    "tech": [
+      "Caddy nginx, HSTS, HTTP/3, Nginx, Readymag, YouTube"
+    ],
+    "content_type": "text/html",
+    "response_size": 187188,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://creative-storytelling.skyscanner.net:80",
+    "host": "54.194.41.141",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Caddy"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://cz.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://de.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://developers.skyscanner.net:443",
+    "host": "18.164.32.122",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "API Developer Documentation",
+    "tech": [
+      "Amazon CloudFront, Amazon S3, Amazon Web Services, AmazonS3, Docusaurus:3.8.1, HTTP/3, React, Webpack"
+    ],
+    "content_type": "text/html",
+    "response_size": 11839,
+    "tls_cn": "",
+    "cname": [
+      "developers.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://dk.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://de.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://developers.skyscanner.net:80",
+    "host": "18.164.32.32",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "developers.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://e.skyscanner.net:443",
+    "host": "35.157.205.87",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "HSTS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://dk.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://e.skyscanner.net:80",
+    "host": "35.157.205.87",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "HSTS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 162,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://es.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://es.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://facescanner.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://fi.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://facescanner.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 243,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://forum.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://fi.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://forum.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 237,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://fr.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ftp.b2b.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://fr.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ftp.b2b.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://gr.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://gr.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://help.skyscanner.net:8080",
+    "host": "216.198.54.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscanner.ssl.zendesk.com",
+      "skyscanner.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://help.skyscanner.net:443",
+    "host": "216.198.53.6",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, Envoy, HSTS, Zendesk, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "skyscanner.ssl.zendesk.com",
+      "skyscanner.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://help.skyscanner.net:80",
+    "host": "216.198.54.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscanner.ssl.zendesk.com",
+      "skyscanner.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://holidays.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://hotels.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://horizons.skyscanner.net:443",
+    "host": "3.162.232.47",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon S3, Amazon Web Services, AmazonS3, Google Analytics, Readymag"
+    ],
+    "content_type": "text/html",
+    "response_size": 1014885,
+    "tls_cn": "",
+    "cname": [
+      "horizons.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://holidays.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 240,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://horizons.skyscanner.net:80",
+    "host": "3.162.232.71",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "horizons.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://hotels.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://hotelshelp.skyscanner.net:8080",
+    "host": "216.198.53.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscannerhotels.ssl.zendesk.com",
+      "skyscannerhotels.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://hotelshelp.skyscanner.net:443",
+    "host": "216.198.54.6",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, Envoy, HSTS, Zendesk, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "skyscannerhotels.ssl.zendesk.com",
+      "skyscannerhotels.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://hotelshelp.skyscanner.net:80",
+    "host": "216.198.53.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscannerhotels.ssl.zendesk.com",
+      "skyscannerhotels.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://hu.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ie.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://in.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://hu.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ie.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://it.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://in.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://it.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://kr.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 237,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://kr.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://m.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://maint.skyscanner.net:443",
+    "host": "3.162.199.63",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HSTS, HTTP/3"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "maint.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://maint2.skyscanner.net:443",
+    "host": "3.162.199.65",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HSTS, HTTP/3"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "maint2.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://m.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 233,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://maint.skyscanner.net:80",
+    "host": "3.162.199.65",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "maint.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://maint3.skyscanner.net:443",
+    "host": "3.162.199.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HSTS, HTTP/3"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "maint3.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://maint2.skyscanner.net:80",
+    "host": "3.162.199.65",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "maint2.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://maint3.skyscanner.net:80",
+    "host": "3.162.199.63",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "maint3.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://mobile.ds.skyscanner.net:443",
+    "host": "3.162.199.118",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HSTS, HTTP/3, PerimeterX, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 216,
+    "tls_cn": "",
+    "cname": [
+      "mobile.ds.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://mini.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://mobile.ds.skyscanner.net:80",
+    "host": "3.162.199.118",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "mobile.ds.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://mobile.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://mini.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 236,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://news.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 240,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://mobile.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 238,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://news.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 236,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://nl.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://no.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://nl.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://no.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://partnerportal.skyscanner.net:443",
+    "host": "18.164.13.62",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HTTP/3, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 89,
+    "tls_cn": "",
+    "cname": [
+      "partnerportal.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://partnerportal.skyscanner.net:80",
+    "host": "18.164.13.39",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "partnerportal.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://partners.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 244,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://partners.api.skyscanner.net:80",
+    "host": "3.162.221.33",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "partners.api.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://partners.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 240,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://pgg13t.partners.skyscanner.net:80",
+    "host": "54.174.52.87",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 307,
+    "title": "",
+    "tech": [],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://pl.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://preferences.skyscanner.net:443",
+    "host": "54.240.184.5",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Privacy Request Center | Datagrail",
+    "tech": [
+      "Amazon CloudFront, Amazon S3, Amazon Web Services, HSTS, Nginx, Ruby, Ruby on Rails, hCaptcha, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 941,
+    "tls_cn": "",
+    "cname": [
+      "skyscanner.datagrail.io"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://pl.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://pt.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://preferences.skyscanner.net:80",
+    "host": "54.240.184.45",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscanner.datagrail.io"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://pt.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://redirect.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://redirect2.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://redirect.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://reports.skyscanner.net:443",
+    "host": "108.158.104.61",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "reports.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://reports.skyscanner.net:80",
+    "host": "108.158.104.25",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "reports.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://ro.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://redirect2.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 241,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ru.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ro.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ru.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://se.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://secure.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://se.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://secure.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 238,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://slipstream-metrics.skyscanner.net:443",
+    "host": "18.164.32.19",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HSTS, HTTP/3, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 26,
+    "tls_cn": "",
+    "cname": [
+      "slipstream.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://slipstream-metrics.skyscanner.net:80",
+    "host": "18.164.32.5",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HTTP/3, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 26,
+    "tls_cn": "",
+    "cname": [
+      "slipstream.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://slipstream.skyscanner.net:443",
+    "host": "18.164.13.51",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HSTS, HTTP/3, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 26,
+    "tls_cn": "",
+    "cname": [
+      "slipstream.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 231,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://slipstream.skyscanner.net:80",
+    "host": "18.164.13.123",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HTTP/3, istio-envoy"
+    ],
+    "content_type": "text/plain",
+    "response_size": 26,
+    "tls_cn": "",
+    "cname": [
+      "slipstream.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://support.business.skyscanner.net:443",
+    "host": "216.198.53.6",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, Envoy, HSTS, Zendesk, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "skyscannerbusinesssupport.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://talent.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 252,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://support.business.skyscanner.net:8080",
+    "host": "216.198.53.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscannerbusinesssupport.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://support.business.skyscanner.net:80",
+    "host": "216.198.53.6",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "skyscannerbusinesssupport.zendesk.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://tr.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 238,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://translate.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://talent.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 238,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://tr.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://translate.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 241,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://travelpro.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 245,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://traveltrends.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 248,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://travelpro.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 241,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://traveltrends.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 244,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://tw.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://tw.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ultimatetravelhacker.skyscanner.net:443",
+    "host": "108.158.104.4",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon S3, Amazon Web Services, AmazonS3, CookieHub, Google Tag Manager, Readymag"
+    ],
+    "content_type": "text/html",
+    "response_size": 306265,
+    "tls_cn": "",
+    "cname": [
+      "ultimatetravelhacker.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://us.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ultimatetravelhacker.skyscanner.net:80",
+    "host": "108.158.104.46",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "ultimatetravelhacker.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://us.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://w.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://w.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://ww.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://widgets.skyscanner.net:80",
+    "host": "3.162.199.117",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "widgets.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://ww.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://www.business.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 244,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://www.forum.skyscanner.net:443",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://www.business.skyscanner.net:80",
+    "host": "13.248.155.102",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 244,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://www.forum.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 241,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://www.partners.skyscanner.net:443",
+    "host": "199.60.103.2",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Skyscanner Partners | Take your business further",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, FitVids.JS, Google Analytics, HSTS, HTTP/3, HubSpot, HubSpot CMS Hub, Slick:1.8.1, Unpkg, cdnjs, cloudflare, jQuery CDN, jQuery Modal:0.9.2, jQuery:1.11.2"
+    ],
+    "content_type": "text/html",
+    "response_size": 350501,
+    "tls_cn": "",
+    "cname": [
+      "3051472.group22.sites.hubspot.net",
+      "group22.sites.hscoscdn20.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://www.partners.skyscanner.net:80",
+    "host": "199.60.103.254",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Cloudflare, Cloudflare Bot Management, HTTP/3, cloudflare"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "3051472.group22.sites.hubspot.net",
+      "group22.sites.hscoscdn20.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://www.skyscanner.net:443",
+    "host": "108.158.104.51",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "307 Temporary Redirect",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Envoy, HSTS, HTTP/3, PerimeterX, istio-envoy"
+    ],
+    "content_type": "text/html",
+    "response_size": 168,
+    "tls_cn": "",
+    "cname": [
+      "www.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://www.skyscanner.net:80",
+    "host": "108.158.104.129",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "www.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://yj.partners.api.skyscanner.net:443",
+    "host": "3.162.199.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HSTS, HTTP/3"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": [
+      "yj.partners.api.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://wwww.skyscanner.net:443",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, HSTS, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://yj.partners.api.skyscanner.net:80",
+    "host": "3.162.199.107",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront, HTTP/3"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "yj.partners.api.skyscanner.net.cdn.skyscannerplatform.net"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://wwww.skyscanner.net:80",
+    "host": "76.223.21.241",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.64, Apache/2.4.64 () OpenSSL/1.0.2k-fips, OpenSSL:1.0.2k"
+    ],
+    "content_type": "text/html",
+    "response_size": 234,
+    "tls_cn": "",
+    "cname": [
+      "redirect.skyscanner.net"
+    ],
+    "cdn": false
+  }
+]

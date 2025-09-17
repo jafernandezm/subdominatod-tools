@@ -1,0 +1,4 @@
+https://especialidades-ts.minsalud.gob.bo/build/assets/app-DZkx3lsi.js
+https://especialidades-ts.minsalud.gob.bo/build/assets/auth-Chr-cg2U.js
+https://especialidades-ts.minsalud.gob.bo/theme/assets/js/scripts.bundle.js
+https://especialidades-ts.minsalud.gob.bo/theme/assets/plugins/global/plugins.bundle.js

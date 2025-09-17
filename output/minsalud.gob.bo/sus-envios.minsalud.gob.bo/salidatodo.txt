@@ -1,0 +1,17 @@
+http://127.0.0.1:8080
+http://example.com/
+https://sus-envios.minsalud.gob.bo
+https://sus-envios.minsalud.gob.bo/
+https://sus-envios.minsalud.gob.bo/a
+https://sus-envios.minsalud.gob.bo/css/bootstrap.min.css
+https://sus-envios.minsalud.gob.bo/css/font-awesome.min.css
+https://sus-envios.minsalud.gob.bo/css/form-elements.css
+https://sus-envios.minsalud.gob.bo/css/style.css
+https://sus-envios.minsalud.gob.bo/frmSolicitudCodigo.php
+https://sus-envios.minsalud.gob.bo/index.php
+https://sus-envios.minsalud.gob.bo/js/bootstrap.min.js
+https://sus-envios.minsalud.gob.bo/js/jquery-1.11.1.min.js
+https://sus-envios.minsalud.gob.bo/js/jquery.backstretch.min.js
+https://sus-envios.minsalud.gob.bo/js/jquery.min.js
+https://sus-envios.minsalud.gob.bo/js/modal.js
+https://sus-envios.minsalud.gob.bo/js/scripts.js

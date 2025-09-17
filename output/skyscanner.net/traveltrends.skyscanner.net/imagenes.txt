@@ -1,0 +1,12 @@
+https://traveltrends.skyscanner.net/2/dist/img/favicons/apple-touch-icon-114x114-precomposed.png
+https://traveltrends.skyscanner.net/2/dist/img/favicons/apple-touch-icon-144x144-precomposed.png
+https://traveltrends.skyscanner.net/2/dist/img/favicons/apple-touch-icon-72x72-precomposed.png
+https://traveltrends.skyscanner.net/2/dist/img/favicons/apple-touch-icon-precomposed.png
+https://traveltrends.skyscanner.net/3/dist/img/favicons/apple-touch-icon-114x114-precomposed.png
+https://traveltrends.skyscanner.net/3/dist/img/favicons/apple-touch-icon-144x144-precomposed.png
+https://traveltrends.skyscanner.net/3/dist/img/favicons/apple-touch-icon-72x72-precomposed.png
+https://traveltrends.skyscanner.net/3/dist/img/favicons/apple-touch-icon-precomposed.png
+https://traveltrends.skyscanner.net/dist/img/favicons/apple-touch-icon-114x114-precomposed.png
+https://traveltrends.skyscanner.net/dist/img/favicons/apple-touch-icon-144x144-precomposed.png
+https://traveltrends.skyscanner.net/dist/img/favicons/apple-touch-icon-72x72-precomposed.png
+https://traveltrends.skyscanner.net/dist/img/favicons/apple-touch-icon-precomposed.png

@@ -1,0 +1,2 @@
+https://qmara.minsalud.gob.bo/scripts/app-9d91a92bb3.js
+https://qmara.minsalud.gob.bo/scripts/vendor-d696883ad2.js

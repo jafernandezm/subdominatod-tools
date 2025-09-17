@@ -1,0 +1,3 @@
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/robots.txt
+https://partnerportal.skyscanner.net/login?returnUrl=/robots.txt
+https://partnerportal.skyscanner.net/robots.txt

@@ -1,0 +1,6 @@
+https://sus-envios.minsalud.gob.bo/js/bootstrap.min.js
+https://sus-envios.minsalud.gob.bo/js/jquery-1.11.1.min.js
+https://sus-envios.minsalud.gob.bo/js/jquery.backstretch.min.js
+https://sus-envios.minsalud.gob.bo/js/jquery.min.js
+https://sus-envios.minsalud.gob.bo/js/modal.js
+https://sus-envios.minsalud.gob.bo/js/scripts.js

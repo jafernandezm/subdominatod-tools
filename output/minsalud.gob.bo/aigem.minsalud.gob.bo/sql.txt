@@ -1,0 +1,4 @@
+http://aigem.minsalud.gob.bo/aigem/fonts/fontawesome-webfont.eot?v=4.5.0
+http://aigem.minsalud.gob.bo/aigem/fonts/fontawesome-webfont.ttf?v=4.5.0
+http://aigem.minsalud.gob.bo/aigem/fonts/fontawesome-webfont.woff2?v=4.5.0
+http://aigem.minsalud.gob.bo/aigem/fonts/fontawesome-webfont.woff?v=4.5.0

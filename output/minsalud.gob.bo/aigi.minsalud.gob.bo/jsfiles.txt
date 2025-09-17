@@ -1,0 +1,11 @@
+http://aigi.minsalud.gob.bo/aigi/Popover%20requires%20tooltip.js
+http://aigi.minsalud.gob.bo/aigi/js/aigi.js
+http://aigi.minsalud.gob.bo/aigi/js/angular-resource.min.js
+http://aigi.minsalud.gob.bo/aigi/js/angular.min.js
+http://aigi.minsalud.gob.bo/aigi/js/bootstrap.min.js
+http://aigi.minsalud.gob.bo/aigi/js/exporting.js
+http://aigi.minsalud.gob.bo/aigi/js/highcharts.js
+http://aigi.minsalud.gob.bo/aigi/js/jquery.min.js
+http://aigi.minsalud.gob.bo/aigi/js/jquery.validationEngine-es.js
+http://aigi.minsalud.gob.bo/aigi/js/jquery.validationEngine.js
+http://aigi.minsalud.gob.bo/aigi/js/toastr.min.js

@@ -1,0 +1,3 @@
+http://email.travelpro.skyscanner.net/robots.txt
+http://travelpro.skyscanner.net/robots.txt
+https://www.skyscanner.net/sttc/px/captcha-v2/manifest.json

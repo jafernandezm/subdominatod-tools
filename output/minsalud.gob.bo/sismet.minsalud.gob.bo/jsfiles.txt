@@ -1,0 +1,8 @@
+https://sismet.minsalud.gob.bo/Popover%20requires%20tooltip.js
+https://sismet.minsalud.gob.bo/adminlte/bootstrap/js/bootstrap.min.js
+https://sismet.minsalud.gob.bo/main.js
+https://sismet.minsalud.gob.bo/plugins/bootstrap/js/bootstrap.bundle.min.js
+https://sismet.minsalud.gob.bo/plugins/jQuery/jquery-2.2.3.min.js
+https://sismet.minsalud.gob.bo/plugins/jquery-ui/jquery-ui.min.js
+https://sismet.minsalud.gob.bo/plugins/jquery/jquery.min.js
+https://sismet.minsalud.gob.bo/vendors/ckeditor/ckeditor.js

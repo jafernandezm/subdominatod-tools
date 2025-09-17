@@ -1,0 +1,7 @@
+https://encuesta.minsalud.gob.bo/sis/views/assets/fonts/fontawesome-webfont.eot?v=4.2.0
+https://encuesta.minsalud.gob.bo/sis/views/assets/fonts/fontawesome-webfont.ttf?v=4.2.0
+https://encuesta.minsalud.gob.bo/sis/views/assets/fonts/fontawesome-webfont.woff?v=4.2.0
+https://file.minsalud.gob.bo/share/noauth/messages_7c637430a67a928edd1e2a446870a292.js?locale=es_BO
+https://file.minsalud.gob.bo/share/noauth/messages_961d9dfc7693747aab62d2d84160de5a.js?locale=en_US
+https://file.minsalud.gob.bo/share/page?pt=login&alfRedirectUrl=/share/s/mWKlWlNLRQ6UCtHAp9Sb8Q
+https://file.minsalud.gob.bo/share/res/modules/editors/tinymce/tinymce.min.js?checksum=f34ea2e33cbdf16fb05ecb3e9a6f6562

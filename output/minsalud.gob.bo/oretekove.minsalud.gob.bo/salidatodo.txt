@@ -1,0 +1,12 @@
+http://127.0.0.1:8080
+http://example.com/
+https://oretekove.minsalud.gob.bo
+https://oretekove.minsalud.gob.bo/scripts/%7B%7Bdata%7D%7D
+https://oretekove.minsalud.gob.bo/scripts/%7B%7Bdata.fileDocumento%7D%7D
+https://oretekove.minsalud.gob.bo/scripts/%7B%7BformatearUrl%28data%29%7D%7D
+https://oretekove.minsalud.gob.bo/scripts/%7B%7BformatearUrlPdf%28data%29%7D%7D
+https://oretekove.minsalud.gob.bo/scripts/%7B%7BformatearUrlPdf%28data.documento%29%7D%7D
+https://oretekove.minsalud.gob.bo/scripts/app-d4a9726edf.js
+https://oretekove.minsalud.gob.bo/scripts/vendor-b99ed0b05a.js
+https://oretekove.minsalud.gob.bo/styles/app-ef45aef2bd.css
+https://oretekove.minsalud.gob.bo/styles/vendor-d844d9d3fb.css

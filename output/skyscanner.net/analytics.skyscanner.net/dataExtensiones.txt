@@ -1,0 +1,11 @@
+https://analytics.skyscanner.net/.well-known/ai-plugin.json
+https://analytics.skyscanner.net/.well-known/assetlinks.json
+https://analytics.skyscanner.net/.well-known/dnt-policy.txt
+https://analytics.skyscanner.net/.well-known/gpc.json
+https://analytics.skyscanner.net/.well-known/security.txt
+https://analytics.skyscanner.net/.well-known/trust.txt
+https://analytics.skyscanner.net/ads.txt
+https://analytics.skyscanner.net/app-ads.txt
+https://analytics.skyscanner.net/robots.txt
+https://analytics.skyscanner.net/sitemap.xml
+https://www.skyscanner.net/sttc/px/captcha-v2/manifest.json

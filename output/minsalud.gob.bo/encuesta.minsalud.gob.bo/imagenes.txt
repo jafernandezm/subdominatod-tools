@@ -1,0 +1,4 @@
+https://encuesta.minsalud.gob.bo/sis/views/assets/fonts/fontawesome-webfont.svg?v=4.2.0
+https://encuesta.minsalud.gob.bo/sis/views/assets/fonts/glyphicons-halflings-regular.svg
+https://encuesta.minsalud.gob.bo/sis/views/assets/img/banner.gif
+https://encuesta.minsalud.gob.bo/sis/views/assets/img/logo.png

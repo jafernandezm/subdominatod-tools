@@ -1,0 +1,5 @@
+https://educasalud.minsalud.gob.bo/lib/javascript.php/1724873485/lib/javascript-static.js
+https://educasalud.minsalud.gob.bo/lib/javascript.php/1724873485/lib/polyfills/polyfill.js
+https://educasalud.minsalud.gob.bo/lib/javascript.php/1724873485/lib/requirejs/require.min.js
+https://educasalud.minsalud.gob.bo/theme/jquery.php/core/jquery-3.7.1.min.js
+https://educasalud.minsalud.gob.bo/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js

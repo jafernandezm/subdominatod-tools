@@ -1,0 +1,9 @@
+http://127.0.0.1:8080
+http://example.com/
+https://capacitacion-futbol.minsalud.gob.bo
+https://capacitacion-futbol.minsalud.gob.bo/a
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/css/bootstrap.min.css
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/css/font-awesome.min.css
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/css/style.css
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/js/bootstrap.min.js
+https://capacitacion-futbol.minsalud.gob.bo/sis/views/assets/js/jquery.min.js

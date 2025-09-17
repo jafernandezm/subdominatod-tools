@@ -1,0 +1,15 @@
+http://aigem.minsalud.gob.bo:80/aigem/cnv/c_basica.pdf
+http://aigem.minsalud.gob.bo:80/aigem/cnv/c_escalafon.pdf
+http://aigem.minsalud.gob.bo:80/aigem/cnv/c_profesional.pdf
+http://aigem.minsalud.gob.bo:80/aigem/cnv/instructivo23102018.pdf
+http://aigem.minsalud.gob.bo:80/aigem/cnv/m_basica.pdf
+http://aigem.minsalud.gob.bo:80/aigem/cnv/m_escalafon.pdf
+http://aigem.minsalud.gob.bo:80/aigem/cnv/m_profesional.pdf
+http://aigem.minsalud.gob.bo:80/aigem/docs/1631.pdf
+http://aigem.minsalud.gob.bo:80/capacitacion/cnv/c_basica.pdf
+http://aigem.minsalud.gob.bo:80/capacitacion/cnv/c_escalafon.pdf
+http://aigem.minsalud.gob.bo:80/capacitacion/cnv/c_profesional.pdf
+http://aigem.minsalud.gob.bo:80/capacitacion/cnv/m_basica.pdf
+http://aigem.minsalud.gob.bo:80/capacitacion/cnv/m_escalafon.pdf
+http://aigem.minsalud.gob.bo:80/capacitacion/cnv/m_profesional.pdf
+http://aigem.minsalud.gob.bo:80/robots.txt

@@ -1,0 +1,9 @@
+http://127.0.0.1:8080
+http://example.com/
+https://autorizaciontest.minsalud.gob.bo
+https://autorizaciontest.minsalud.gob.bo/
+https://autorizaciontest.minsalud.gob.bo/main.2ef6b6db60f590dedf15.js
+https://autorizaciontest.minsalud.gob.bo/polyfills.159e331a6674f18bda35.js
+https://autorizaciontest.minsalud.gob.bo/runtime.a66f828dca56eeb90e02.js
+https://autorizaciontest.minsalud.gob.bo/styles.cdd86280b5955d7c4758.css
+https://autorizaciontest.minsalud.gob.bo/x

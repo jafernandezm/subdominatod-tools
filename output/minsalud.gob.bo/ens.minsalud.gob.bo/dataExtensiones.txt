@@ -1,0 +1,12 @@
+https://ens.minsalud.gob.bo/.well-known/ai-plugin.json
+https://ens.minsalud.gob.bo/.well-known/assetlinks.json
+https://ens.minsalud.gob.bo/.well-known/dnt-policy.txt
+https://ens.minsalud.gob.bo/.well-known/gpc.json
+https://ens.minsalud.gob.bo/.well-known/security.txt
+https://ens.minsalud.gob.bo/.well-known/trust.txt
+https://ens.minsalud.gob.bo/ads.txt
+https://ens.minsalud.gob.bo/app-ads.txt
+https://ens.minsalud.gob.bo/images/comunicados/Comunicado_oct_23.pdf
+https://ens.minsalud.gob.bo/images/web/Arancel_2023.pdf
+https://ens.minsalud.gob.bo/robots.txt
+https://ens.minsalud.gob.bo/sitemap.xml

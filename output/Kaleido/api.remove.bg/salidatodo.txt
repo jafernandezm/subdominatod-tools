@@ -1,0 +1,9 @@
+http://127.0.0.1:8080
+http://api.remove.bg:80/v1.0/removebg
+http://example.com/
+https://api.remove.bg
+https://api.remove.bg/
+https://api.remove.bg/favicon.ico
+https://api.remove.bg/v1.0
+https://api.remove.bg/v1.0/removebg
+https://staging.api.remove.bg/

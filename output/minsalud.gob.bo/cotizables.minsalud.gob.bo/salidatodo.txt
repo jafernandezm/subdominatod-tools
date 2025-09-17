@@ -1,0 +1,11 @@
+http://127.0.0.1:8080
+http://example.com/
+https://cotizables.minsalud.gob.bo
+https://cotizables.minsalud.gob.bo/
+https://cotizables.minsalud.gob.bo/a
+https://cotizables.minsalud.gob.bo/favicon.ico
+https://cotizables.minsalud.gob.bo/sis/views/assets/css/bootstrap.min.css
+https://cotizables.minsalud.gob.bo/sis/views/assets/css/font-awesome.min.css
+https://cotizables.minsalud.gob.bo/sis/views/assets/css/style.css
+https://cotizables.minsalud.gob.bo/sis/views/assets/js/bootstrap.min.js
+https://cotizables.minsalud.gob.bo/sis/views/assets/js/jquery.min.js

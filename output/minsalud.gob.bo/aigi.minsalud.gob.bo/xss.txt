@@ -1,0 +1,8 @@
+http://aigi.minsalud.gob.bo/aigi/fonts/fontawesome-webfont.eot?v=4.3.0
+http://aigi.minsalud.gob.bo/aigi/fonts/fontawesome-webfont.ttf?v=4.3.0
+http://aigi.minsalud.gob.bo/aigi/fonts/fontawesome-webfont.woff2?v=4.3.0
+http://aigi.minsalud.gob.bo/aigi/fonts/fontawesome-webfont.woff?v=4.3.0
+http://aigi.minsalud.gob.bo:80/aigi/?mensaje=EL+REGISTRO+FUE+GUARDADO,+SI+USTED+A+CUMPLIDO+TODOS+LOS+CASOS+CORRECTAMENTE+PROSEDA+A+LA+IMPRESION
+http://aigi.minsalud.gob.bo:80/aigi/postulantes/pm?mensaje=ES+NECESARIO+CARGAR+SU+FOTOGRAFIA+4x4+FONDO+ROJO+Y+TRAJE+FORMAL+PARA+CONTINUAR.
+http://aigi.minsalud.gob.bo:80/aigi/seguridad?login_error=1
+http://aigi.minsalud.gob.bo:80/aigi/seguridad?mensaje=El+registro+fue+guardado+correctamente.+Su+Usuario+del+sistema+es+su+correo+electrico+y+la+Clave+del+sistema+es+el+numero+su+carnet+de+Identidad

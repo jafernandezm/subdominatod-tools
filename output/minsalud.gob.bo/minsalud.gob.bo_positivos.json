@@ -1,0 +1,2597 @@
+[
+  {
+    "url": "https://ts.minsalud.gob.bo:443",
+    "host": "186.121.241.86",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Inicio",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap:5, Joomla, PHP, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 76678,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://aigem.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ts.minsalud.gob.bo:80",
+    "host": "186.121.241.86",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo:443",
+    "host": "186.121.241.89",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://aulapai.minsalud.gob.bo:443",
+    "host": "190.129.72.90",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Autoformaci\u00f3n Virtual P.A.I.",
+    "tech": [
+      "Apache, Apache HTTP Server, Moodle, PHP, RequireJS, jQuery:3.5.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 35763,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://aigi.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://aulapai.minsalud.gob.bo:80",
+    "host": "190.129.72.90",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "",
+    "tech": [],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://autorizacion.minsalud.gob.bo:443",
+    "host": "200.87.134.46",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Gesti\u00f3n de Autorizaci\u00f3n",
+    "tech": [
+      "Bootstrap:4.0.0, BootstrapCDN:4.0.0, Cloudflare, MDBootstrap:4.5.7, Nginx, Popper:1.12.9, cdnjs, jQuery CDN, jQuery:3.3.1, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 2126,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://aula.minsalud.gob.bo:80",
+    "host": "186.121.241.89",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://autorizaciontest.minsalud.gob.bo:443",
+    "host": "186.121.204.59",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Gesti\u00f3n de Autorizaci\u00f3n",
+    "tech": [
+      "Bootstrap:4.0.0, BootstrapCDN:4.0.0, Cloudflare, MDBootstrap:4.5.7, Nginx, Popper:1.12.9, cdnjs, jQuery CDN, jQuery:3.3.1, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 2126,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://autorizacion.minsalud.gob.bo:80",
+    "host": "200.87.134.46",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Gesti\u00f3n de Autorizaci\u00f3n",
+    "tech": [
+      "Bootstrap:4.0.0, BootstrapCDN:4.0.0, Cloudflare, MDBootstrap:4.5.7, Nginx, Popper:1.12.9, cdnjs, jQuery CDN, jQuery:3.3.1, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 2126,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://autorizaciontest.minsalud.gob.bo:80",
+    "host": "186.121.204.59",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Gesti\u00f3n de Autorizaci\u00f3n",
+    "tech": [
+      "Bootstrap:4.0.0, BootstrapCDN:4.0.0, Cloudflare, MDBootstrap:4.5.7, Nginx, Popper:1.12.9, cdnjs, jQuery CDN, jQuery:3.3.1, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 2126,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://calificacionpcd.minsalud.gob.bo:80",
+    "host": "172.30.0.12",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "AGETIC - Digitalizando Bolivia",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 3615,
+    "tls_cn": "",
+    "cname": [
+      "calificacionpcd.agetic.gob.bo",
+      "ipi12.agetic.gob.bo",
+      "ipi1.agetic.gob.bo"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://calificacionpcd.minsalud.gob.bo:443",
+    "host": "172.30.0.12",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "AGETIC - Digitalizando Bolivia",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 3615,
+    "tls_cn": "",
+    "cname": [
+      "calificacionpcd.agetic.gob.bo",
+      "ipi12.agetic.gob.bo",
+      "ipi1.agetic.gob.bo"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://capacitacion-futbol.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "AICC",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 4685,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://capacitacion-futbol.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://certificacionvacunas.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://cmsguest01.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://conflictos.minsalud.gob.bo:443",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Siredi 1.0",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Bootstrap, Chart.js, Debian, Laravel, PHP, Popper, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 2991,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://conflictos.minsalud.gob.bo:80",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 335,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://conflictos.minsalud.gob.bo:8081",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "http",
+    "port": "8081",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo:443",
+    "host": "186.121.204.94",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Sistema de Consolidacion del SNIS-VE",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 41272,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://cotizables.minsalud.gob.bo:443",
+    "host": "190.129.72.90",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "REMSCA",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 3376,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://cotizables.minsalud.gob.bo:80",
+    "host": "190.129.72.90",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 243,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ctconan.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Java, Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://desastres.minsalud.gob.bo:443",
+    "host": "190.181.13.158",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Apache HTTP Server:2.4.59, Apache/2.4.59 (Debian), Debian, HSTS, PHP"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ddjjrrhh.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://educasalud.minsalud.gob.bo:443",
+    "host": "186.121.204.52",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "P\u00e1gina Principal | EducaSalud",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian, MathJax:2.7.9, Moodle, PHP, RequireJS, jQuery:3.7.1, jsDelivr"
+    ],
+    "content_type": "text/html",
+    "response_size": 82974,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://desastres.minsalud.gob.bo:80",
+    "host": "190.181.13.158",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.59, Apache/2.4.59 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 333,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://educasalud.minsalud.gob.bo:80",
+    "host": "186.121.204.52",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 335,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://encuesta.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "AEMS",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 3662,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo:443",
+    "host": "186.121.243.187",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://encuesta.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://enlace-pandora.minsalud.gob.bo:443",
+    "host": "186.121.241.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 63,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ens.minsalud.gob.bo:80",
+    "host": "186.121.243.187",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://enlace-pandora.minsalud.gob.bo:80",
+    "host": "186.121.241.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 63,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://especialidades-ts.minsalud.gob.bo:443",
+    "host": "186.121.241.88",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "Redirecting to https://especialidades-ts.minsalud.gob.bo/auth-user/login",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 474,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://especialidades-ts.minsalud.gob.bo:80",
+    "host": "186.121.241.88",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "Redirecting to http://especialidades-ts.minsalud.gob.bo/auth-user/login",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 470,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://estadisticahechosvitales.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://estadisticas.minsalud.gob.bo:443",
+    "host": "186.121.204.54",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Reportes Din\u00e1micos",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 10090,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://estadisticas.minsalud.gob.bo:80",
+    "host": "186.121.204.54",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "IIS Windows Server",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://file.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://file.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://fortimail.minsalud.gob.bo:443",
+    "host": "200.87.134.37",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Zimbra Web Client Sign In",
+    "tech": [
+      "Java, Nginx, Zimbra, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 23216,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://formularios.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo:443",
+    "host": "186.121.204.50",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "GABO",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 447,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://gabo.minsalud.gob.bo:80",
+    "host": "186.121.204.50",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "GABO",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 447,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://geoserver.minsalud.gob.bo:443",
+    "host": "200.105.173.28",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "snis.minsalud.gob.bo - Inicio",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap, Joomla, MooTools, PHP, jQuery, jQuery Migrate"
+    ],
+    "content_type": "text/html",
+    "response_size": 30847,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://geoserver.minsalud.gob.bo:80",
+    "host": "200.105.173.28",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 237,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://gitlab.minsalud.gob.bo:80",
+    "host": "186.121.204.56",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 162,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://gitlab.minsalud.gob.bo:443",
+    "host": "186.121.204.56",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "HSTS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 110,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://informaciondesastres.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo:443",
+    "host": "200.87.134.37",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Zimbra Web Client Sign In",
+    "tech": [
+      "Java, Nginx, Zimbra, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 23216,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://mail.soporte.minsalud.gob.bo:80",
+    "host": "200.87.134.44",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "302 Found",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 138,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://mail.soporte.minsalud.gob.bo:443",
+    "host": "200.87.134.44",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "307 Temporary Redirect",
+    "tech": [
+      "HSTS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://mailpro.minsalud.gob.bo:443",
+    "host": "190.129.72.93",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Zimbra Web Client Sign In",
+    "tech": [
+      "Java, Zimbra"
+    ],
+    "content_type": "text/html",
+    "response_size": 12090,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://minsalud.gob.bo:443",
+    "host": "186.121.204.92",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Ministerio de Salud y Deportes de Bolivia - Institucional",
+    "tech": [
+      "Bootstrap, Joomla, Nginx, PHP, jQuery, metisMenu:1.4.0, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 68990,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://minsalud.gob.bo:80",
+    "host": "186.121.204.92",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://movil.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://nastelesalud.minsalud.gob.bo:443",
+    "host": "186.121.241.92",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 494,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://nastelesalud.minsalud.gob.bo:80",
+    "host": "186.121.241.92",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 494,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ns2.minsalud.gob.bo:443",
+    "host": "190.129.72.93",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Zimbra Web Client Sign In",
+    "tech": [
+      "Java, Zimbra"
+    ],
+    "content_type": "text/html",
+    "response_size": 12090,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://oretekove.minsalud.gob.bo:443",
+    "host": "181.188.148.19",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Servicio Social de Salud Rural Obligatorio",
+    "tech": [
+      "AngularJS, Nginx:1.10.3, nginx/1.10.3"
+    ],
+    "content_type": "text/html",
+    "response_size": 1488,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://pagosens.minsalud.gob.bo:80",
+    "host": "186.121.243.188",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Welcome to nginx!",
+    "tech": [
+      "Nginx:1.18.0, nginx/1.18.0"
+    ],
+    "content_type": "text/html",
+    "response_size": 612,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://pai.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 237,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://pai.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://pai2.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "Redirecting to https://pai2.minsalud.gob.bo/ver_inicio",
+    "tech": [
+      "Laravel, Nginx:1.22.1, PHP, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 402,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://pai2.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://profesionalesensalud.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "RPS",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 2406,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://profesionalesensalud.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://programasafci.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://qmara.minsalud.gob.bo:443",
+    "host": "190.14.106.4",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Servicio Social de Salud Rural Obligatorio",
+    "tech": [
+      "AngularJS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 1488,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://qmara.minsalud.gob.bo:80",
+    "host": "190.14.106.4",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 178,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://registro-donante.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Donantes Voluntarios",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, OWL Carousel, WOW, YouTube, jQuery, jQuery Migrate, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 54301,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://registro-donante.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://registro-renal.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 246,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://registrobecas.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "RBF",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 3684,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://registrobecas.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://reporte-sus.minsalud.gob.bo:80",
+    "host": "190.129.72.90",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "P\u00e1gina sin t\u00edtulo",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 77178,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://reportes-rnve.minsalud.gob.bo:80",
+    "host": "190.129.72.90",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "",
+    "tech": [],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://reportes-rues.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 28285,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo:443",
+    "host": "186.121.204.93",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "",
+    "response_size": 6,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://rnve.minsalud.gob.bo:80",
+    "host": "186.121.204.93",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://rnve22.minsalud.gob.bo:3000",
+    "host": "186.121.204.58",
+    "ip": "",
+    "scheme": "http",
+    "port": "3000",
+    "status_code": 307,
+    "title": "",
+    "tech": [],
+    "content_type": "",
+    "response_size": 6,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://rnvecapacitacion.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Registro Nominal de Vacunaciones Electronico",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap, Laravel, PHP, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 4819,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://rrhhplanilla.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, PHP, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://rrhhplanilla.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "RUES 2.0",
+    "tech": [
+      "Bootstrap, Chart.js, Laravel, Nginx:1.22.1, PHP, Popper, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 3427,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://rues.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://rues3.minsalud.gob.bo:80",
+    "host": "186.121.204.50",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "RUES - Ministerio de Salud y Deportes",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 2350,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo:443",
+    "host": "186.121.204.50",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "RUES - Ministerio de Salud y Deportes",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 2350,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo:443",
+    "host": "190.129.72.92",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "MSD - Unidad de Seguros Publicos de Salud",
+    "tech": [
+      "IIS:7.5, Microsoft ASP.NET, Microsoft-IIS/7.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 9036,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://seguros.minsalud.gob.bo:80",
+    "host": "190.129.72.92",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "Documento movido",
+    "tech": [
+      "IIS:7.5, Microsoft ASP.NET, Microsoft-IIS/7.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 166,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo:443",
+    "host": "200.87.134.34",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 109,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo:443",
+    "host": "200.87.134.46",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "SIAHV",
+    "tech": [
+      "Bootstrap:4.0.0, Font Awesome, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 4127,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://siahv.minsalud.gob.bo:80",
+    "host": "200.87.134.34",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 109,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://siahv2.minsalud.gob.bo:80",
+    "host": "200.87.134.46",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "SIAHV",
+    "tech": [
+      "Bootstrap:4.0.0, Font Awesome, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 4127,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://siccaf.minsalud.gob.bo:443",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Sistema de Control de Calidad de Alimentos Fortificados",
+    "tech": [
+      "IIS:7.5, Microsoft ASP.NET:2.0.50727, Microsoft-IIS/7.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 9525,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://siccaf.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "",
+    "tech": [],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sicap.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sicovid.minsalud.gob.bo:443",
+    "host": "200.87.134.44",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "307 Temporary Redirect",
+    "tech": [
+      "HSTS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo:443",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Siredi 1.0",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Bootstrap, Chart.js, Debian, Laravel, PHP, Popper, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 2943,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sicovid.minsalud.gob.bo:80",
+    "host": "200.87.134.44",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "302 Found",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 138,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sigein.minsalud.gob.bo:8081",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "http",
+    "port": "8081",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sigein.minsalud.gob.bo:80",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://simone.minsalud.gob.bo:443",
+    "host": "186.121.247.58",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Simone",
+    "tech": [
+      "IIS:10.0, Microsoft ASP.NET, Microsoft-IIS/10.0, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 5231,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://simone.minsalud.gob.bo:80",
+    "host": "186.121.247.58",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Simone",
+    "tech": [
+      "IIS:10.0, Microsoft ASP.NET, Microsoft-IIS/10.0, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 5231,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://simone10.minsalud.gob.bo:443",
+    "host": "186.121.247.59",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 42775,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://simone10.minsalud.gob.bo:80",
+    "host": "186.121.247.59",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "IIS:8.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/8.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 42574,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo:80",
+    "host": "190.129.163.83",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 303,
+    "title": "",
+    "tech": [],
+    "content_type": "",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://siprunpcd.minsalud.gob.bo:443",
+    "host": "190.129.72.94",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "SIPRUNPCD",
+    "tech": [
+      "IIS:7.0, Microsoft ASP.NET:2.0.50727, Microsoft-IIS/7.0, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 8879,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://siprunpcd.minsalud.gob.bo:80",
+    "host": "190.129.72.94",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "SIPRUNPCD",
+    "tech": [
+      "IIS:7.0, Microsoft ASP.NET:2.0.50727, Microsoft-IIS/7.0, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 8879,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sirea.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "SiREA",
+    "tech": [
+      "Bootstrap, Font Awesome, Nginx:1.22.1, PHP, jQuery:3.1.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 2947,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sirea.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sirec.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://siredi.minsalud.gob.bo:443",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Siredi 1.0",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Bootstrap, Chart.js, Debian, Laravel, PHP, Popper, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 2943,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sirec.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://siredi.minsalud.gob.bo:80",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Siredi 1.0",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Bootstrap, Chart.js, Debian, Laravel, PHP, Popper, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 2931,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://siredi.minsalud.gob.bo:8081",
+    "host": "186.121.204.57",
+    "ip": "",
+    "scheme": "http",
+    "port": "8081",
+    "status_code": 200,
+    "title": "Apache2 Debian Default Page: It works",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 10701,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sirepro.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "SiREPRO",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, PHP, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 7195,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sismet.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "SISMET | MIN SALUD",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, jQuery, jQuery UI, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 11071,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sismet.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sispoa2.minsalud.gob.bo:443",
+    "host": "181.115.237.26",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "FileMaker Website",
+    "tech": [
+      "HSTS, IIS:10.0, Microsoft-IIS/10.0, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 660,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sispoa2.minsalud.gob.bo:80",
+    "host": "181.115.237.26",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "FileMaker Website",
+    "tech": [
+      "IIS:10.0, Microsoft-IIS/10.0, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 660,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://snis.minsalud.gob.bo:443",
+    "host": "200.105.173.28",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "snis.minsalud.gob.bo - Inicio",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap, Joomla, MooTools, PHP, jQuery, jQuery Migrate"
+    ],
+    "content_type": "text/html",
+    "response_size": 30742,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://snis.minsalud.gob.bo:80",
+    "host": "200.105.173.28",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 237,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Software de Correspondencia Ministerial",
+    "tech": [
+      "Bootstrap, Microsoft ASP.NET, Nginx:1.22.1, PHP, Popper, SweetAlert2, jQuery:3.3.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 7228,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://softcom.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://suis.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "SUS - Sistema \u00danico de Salud",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap, Laravel, Lightbox, Mixitup, OWL Carousel, PHP, SweetAlert2:8, WOW, jQuery, jsDelivr"
+    ],
+    "content_type": "text/html",
+    "response_size": 14035,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo:443",
+    "host": "200.105.173.27",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "MSyD / DGGNSUS",
+    "tech": [
+      "Apache, Apache HTTP Server, Backstretch, Bootstrap, PHP, jQuery:1.11.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 4613,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sus-envios.minsalud.gob.bo:80",
+    "host": "200.105.173.27",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 243,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sus-poaes.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sus-poaes.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "..::..SistemaPOA",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, jQuery, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 4019,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sus-test.minsalud.gob.bo:80",
+    "host": "200.105.138.98",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "SUS - Sistema \u00danico de Salud",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Bootstrap, Debian, Lightbox, Mixitup, OWL Carousel, SweetAlert2:11, WOW, jQuery, jsDelivr"
+    ],
+    "content_type": "text/html",
+    "response_size": 16660,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo:443",
+    "host": "190.181.13.154",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "SUS - Sistema \u00danico de Salud",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Bootstrap, Debian, Lightbox, Mixitup, OWL Carousel, SweetAlert2:11, WOW, jQuery, jsDelivr"
+    ],
+    "content_type": "text/html",
+    "response_size": 16642,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://sus.minsalud.gob.bo:80",
+    "host": "200.105.173.29",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache HTTP Server:2.4.62, Apache/2.4.62 (Debian), Debian"
+    ],
+    "content_type": "text/html",
+    "response_size": 321,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://svr-mail.minsalud.gob.bo:443",
+    "host": "200.87.134.37",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Zimbra Web Client Sign In",
+    "tech": [
+      "Java, Nginx, Zimbra, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 23216,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://svr-mail.soporte.minsalud.gob.bo:80",
+    "host": "200.87.134.44",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "302 Found",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 138,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://svr-mail.soporte.minsalud.gob.bo:443",
+    "host": "200.87.134.44",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 307,
+    "title": "307 Temporary Redirect",
+    "tech": [
+      "HSTS, Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo:443",
+    "host": "186.121.241.84",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "Object moved",
+    "tech": [
+      "IIS:7.5, Microsoft ASP.NET:4.0.30319, Microsoft-IIS/7.5, Windows Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 142,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://telesalud.minsalud.gob.bo:443",
+    "host": "186.121.241.88",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "Redirecting to https://telesalud.minsalud.gob.bo/auth-user/login",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 442,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://ts.minsalud.gob.bo:443",
+    "host": "186.121.241.86",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Inicio",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap:5, Joomla, PHP, jQuery"
+    ],
+    "content_type": "text/html",
+    "response_size": 76678,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://trobot.minsalud.gob.bo:443",
+    "host": "186.121.241.90",
+    "ip": "",
+    "scheme": "http",
+    "port": "443",
+    "status_code": 200,
+    "title": "Apache2 Ubuntu Default Page: It works",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 10671,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://ts.minsalud.gob.bo:80",
+    "host": "186.121.241.86",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 235,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://telesalud.minsalud.gob.bo:80",
+    "host": "186.121.241.88",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "Redirecting to http://telesalud.minsalud.gob.bo/auth-user/login",
+    "tech": [
+      "Apache HTTP Server:2.4.52, Apache/2.4.52 (Ubuntu), Ubuntu"
+    ],
+    "content_type": "text/html",
+    "response_size": 438,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://vdit.minsalud.gob.bo:80",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 169,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://vdit.minsalud.gob.bo:443",
+    "host": "186.121.204.91",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "VDIT",
+    "tech": [
+      "Bootstrap, Nginx:1.22.1, nginx/1.22.1"
+    ],
+    "content_type": "text/html",
+    "response_size": 79450,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo:443",
+    "host": "190.129.72.83",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "MINISTERIO DE SALUD Y DEPORTES",
+    "tech": [
+      "Apache, Apache HTTP Server, Bootstrap:3, FancyBox, FlexSlider, Magnific Popup, Modernizr, jQuery:1.10.2"
+    ],
+    "content_type": "text/html",
+    "response_size": 7506,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://virtual-safci.minsalud.gob.bo:80",
+    "host": "190.129.72.83",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Apache, Apache HTTP Server"
+    ],
+    "content_type": "text/html",
+    "response_size": 246,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "https://www.minsalud.gob.bo:443",
+    "host": "186.121.204.92",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Ministerio de Salud y Deportes de Bolivia - Institucional",
+    "tech": [
+      "Awesomplete, Bootstrap, Highlight.js, Joomla, Nginx, PHP, jQuery, metisMenu:1.4.0, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 70056,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  },
+  {
+    "url": "http://www.minsalud.gob.bo:80",
+    "host": "186.121.204.92",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Nginx, nginx"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": false
+  }
+]

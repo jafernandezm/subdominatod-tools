@@ -1,0 +1,1 @@
+https://siccaf.minsalud.gob.bo/scripts/valida.js

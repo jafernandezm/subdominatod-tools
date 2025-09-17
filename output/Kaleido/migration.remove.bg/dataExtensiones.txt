@@ -1,0 +1,3 @@
+https://migration.remove.bg/g/fix-pixelation%3F.pdf
+https://static.remove.bg/remove-bg-web/be0d3645db521d7c343c8408215346cf91fadc65/assets/locales/editor/en-f29dc47524d20754ea4cf201282a87467f8709ad0c288292814c1744f6b0c16c.json
+https://static.remove.bg/remove-bg-web/be0d3645db521d7c343c8408215346cf91fadc65/assets/locales/en-9fc239720f7fc3409498353890cdf98a69d817285f50d08b09d2fc68a91cad81.json

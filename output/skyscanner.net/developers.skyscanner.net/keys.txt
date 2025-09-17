@@ -1,0 +1,3 @@
+https://developers.skyscanner.net/docs/flights-live-prices/overview?&associateID=SEM_GGF_19370_00030
+https://partnerportal.skyscanner.net/authenticate/login?iss=https%3A%2F%2Fskyscanner-partner.eu.auth0.com%2F
+https://www.skyscanner.net/transport/flights/uk/fr/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&is_banana_refferal=true&outboundaltsenabled=false&oym=2411&preferdirects=false&ref=home&rtn=0

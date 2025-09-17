@@ -1,0 +1,15 @@
+http://teledu.ts.minsalud.gob.bo:80/robots.txt
+https://ts.minsalud.gob.bo/.well-known/ai-plugin.json
+https://ts.minsalud.gob.bo/.well-known/assetlinks.json
+https://ts.minsalud.gob.bo/.well-known/dnt-policy.txt
+https://ts.minsalud.gob.bo/.well-known/gpc.json
+https://ts.minsalud.gob.bo/.well-known/security.txt
+https://ts.minsalud.gob.bo/.well-known/trust.txt
+https://ts.minsalud.gob.bo/ads.txt
+https://ts.minsalud.gob.bo/app-ads.txt
+https://ts.minsalud.gob.bo/atom.xml
+https://ts.minsalud.gob.bo/feed.xml
+https://ts.minsalud.gob.bo/feeds/all.atom.xml
+https://ts.minsalud.gob.bo/index.xml
+https://ts.minsalud.gob.bo/robots.txt
+https://ts.minsalud.gob.bo/sitemap.xml

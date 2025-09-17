@@ -1,0 +1,3 @@
+http://tr.skyscanner.net:80/?langid=tr&ccy=try&market=TR&locale=tr-TR&version=1.0.5603.20627&utm_medium=social&utm_campaign=addthis&utm_source=facebook_tr
+http://tr.skyscanner.net:80/tasima/ucak-bileti/tr/bxb/en_ucuz_ucuslar-kalkis-turkiye-varis-babo.html?rtn=1
+http://tr.skyscanner.net:80/vluchten/ams/nyca/april-2010/april-2010/goedkoopste-vluchten-per-dag-naar-new-york-van-amsterdam-in-april-2010.html?charttype=1

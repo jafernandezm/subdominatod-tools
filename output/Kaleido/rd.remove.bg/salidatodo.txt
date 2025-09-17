@@ -1,0 +1,4 @@
+http://127.0.0.1:8080
+http://example.com/
+https://rd.remove.bg
+https://rd.remove.bg/CI0/0107017854cb0a44-e8e0acc2-dc78-4711-91d3-ebd99bf8a5f6-000000/iIzIkJB67r03Kvloc2B2yA1DWnPbedJHnaxqL72gijg=1

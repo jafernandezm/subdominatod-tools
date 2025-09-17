@@ -1,0 +1,6 @@
+http://seguros.minsalud.gob.bo:80/Pages/Carmelo/Documentos/?C=D;O=A
+http://seguros.minsalud.gob.bo:80/Pages/Carmelo/Documentos/?C=M;O=A
+http://seguros.minsalud.gob.bo:80/Pages/Carmelo/Documentos/?C=N;O=D
+http://seguros.minsalud.gob.bo:80/Pages/Carmelo/Documentos/?C=S;O=A
+https://seguros.minsalud.gob.bo/Pages/Sistema_Consultas/RepProductosExcel.php?vCod=0
+https://seguros.minsalud.gob.bo/Pages/showNews.do?newsId=961

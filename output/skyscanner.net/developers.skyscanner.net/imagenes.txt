@@ -1,0 +1,9 @@
+https://developers.skyscanner.net/assets/images/SkyscannerFlightsLivePriceExample-3021744f78f814bd6ced7ee8fb090c96.png
+https://developers.skyscanner.net/assets/images/color-search-e533a2a75a6ef698e3f376ce4a178a74.webp
+https://developers.skyscanner.net/assets/images/duration-flight-search-18ac3ff6bac39baf9d1b701c195dbb4f.png
+https://developers.skyscanner.net/assets/images/multiCitySearch-9c3475cfb7b1aa1df5959a07f7c6f874.png
+https://developers.skyscanner.net/assets/images/sample-request-0567789036458537f9be562820fa2dc7.webp
+https://developers.skyscanner.net/assets/images/sample-request-indactive-ed0870231be6194f29c51ee81ad42949.webp
+https://developers.skyscanner.net/assets/images/skyscannerFlightsLiveLoadingIndicator-b839ba55e6c1058649d6abab1063532c.png
+https://developers.skyscanner.net/assets/js/img/symbol-logo.svg
+https://developers.skyscanner.net/img/symbol-logo.svg

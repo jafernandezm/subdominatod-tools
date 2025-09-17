@@ -1,0 +1,7 @@
+http://ablink.test.skyscanner.net/
+https://ablink.test.skyscanner.net
+https://www.skyscanner.net/
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=2ef3a9fb-933a-11f0-aa99-ad9e8c30bfbd&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=2f4042af-933a-11f0-8da6-93b5908d4d66&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/static/css/main.01e9b7c6.css
+https://www.skyscanner.net/sttc/px/captcha-v2/static/js/main.034aca06.js

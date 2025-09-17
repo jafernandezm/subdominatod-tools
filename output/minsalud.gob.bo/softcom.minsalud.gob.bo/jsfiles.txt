@@ -1,0 +1,7 @@
+https://softcom.minsalud.gob.bo/js/bootstrap.min.js
+https://softcom.minsalud.gob.bo/js/codigo.js
+https://softcom.minsalud.gob.bo/js/jquery-3.3.1.min.js
+https://softcom.minsalud.gob.bo/js/jquery.js
+https://softcom.minsalud.gob.bo/js/menu.js
+https://softcom.minsalud.gob.bo/js/popper.min.js
+https://softcom.minsalud.gob.bo/js/sweetalert2.all.min.js

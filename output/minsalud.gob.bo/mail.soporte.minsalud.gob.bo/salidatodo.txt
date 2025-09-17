@@ -1,0 +1,5 @@
+http://127.0.0.1:8080
+http://example.com/
+https://mail.soporte.minsalud.gob.bo
+https://mail.soporte.minsalud.gob.bo/static/login/
+https://mail.soporte.minsalud.gob.bo/static/login/index.js

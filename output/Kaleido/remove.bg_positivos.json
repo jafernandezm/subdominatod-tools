@@ -1,0 +1,510 @@
+[
+  {
+    "url": "https://api-beta.remove.bg:443",
+    "host": "34.120.141.125",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Google Cloud, Google Cloud CDN, HTTP/3"
+    ],
+    "content_type": "text/plain",
+    "response_size": 61,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://api.remove.bg:443",
+    "host": "35.244.153.121",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Google Cloud, Google Cloud CDN, HTTP/3"
+    ],
+    "content_type": "text/plain",
+    "response_size": 61,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://api-beta.remove.bg:80",
+    "host": "34.120.141.125",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 308,
+    "title": "",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://beta.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://beta.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://help.remove.bg:443",
+    "host": "172.64.153.100",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [
+      "Cloudflare, Google Cloud, Google Cloud CDN, HSTS, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 171,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://help.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://help.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://l.hello.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://migration.remove.bg:443",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Remove Background from Image for Free \u2013 remove.bg",
+    "tech": [
+      "Cloudflare, Google Analytics, Google Cloud, Google Cloud CDN, HSTS, Linkedin Ads, Ruby, Ruby on Rails, Stimulus, Vue.js, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 60351,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://l.hello.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://migration.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://migration.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://o.remove.bg:8080",
+    "host": "172.64.153.100",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://o.remove.bg:80",
+    "host": "172.64.153.100",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://r.remove.bg:443",
+    "host": "35.241.186.140",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Technical subdomain",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 2527,
+    "tls_cn": "",
+    "cname": [
+      "r.mailjet.com"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://r.remove.bg:80",
+    "host": "35.241.186.140",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 200,
+    "title": "Technical subdomain",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 2527,
+    "tls_cn": "",
+    "cname": [
+      "r.mailjet.com"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://rd.remove.bg:8080",
+    "host": "172.64.153.100",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://rd.remove.bg:80",
+    "host": "172.64.153.100",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://remove.bg:443",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [
+      "Cloudflare, Google Cloud, Google Cloud CDN, HSTS, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 171,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://signatures.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://staging.api.remove.bg:443",
+    "host": "34.102.199.80",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "",
+    "tech": [
+      "Google Cloud, Google Cloud CDN, HTTP/3"
+    ],
+    "content_type": "text/plain",
+    "response_size": 61,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://signatures.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://static.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://static.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://www.remove.bg:8080",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://www.remove.bg:443",
+    "host": "172.64.153.100",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Remove Background from Image for Free \u2013 remove.bg",
+    "tech": [
+      "Cloudflare, Google Analytics, Google Cloud, Google Cloud CDN, HSTS, Linkedin Ads, Ruby, Ruby on Rails, Stimulus, Vue.js, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 60349,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://www.remove.bg:80",
+    "host": "104.18.34.156",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  }
+]

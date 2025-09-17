@@ -1,0 +1,7 @@
+https://support.business.skyscanner.net/hc/en-us/articles/115005566469-Where-can-I-find-a-list-of-IATA-codes-for-all-of-the-available-airlines-
+https://support.business.skyscanner.net/hc/en-us/articles/115005566689-How-does-the-market-selection-work-
+https://support.business.skyscanner.net/hc/en-us/articles/115005567069-How-often-are-the-browse-cache-prices-updated-
+https://support.business.skyscanner.net/hc/en-us/articles/115005567149-Why-don-t-I-see-prices-updated-in-real-time-after-I-make-a-search-
+https://support.business.skyscanner.net/hc/en-us/articles/115005567289-When-the-widget-is-placed-on-a-page-that-renders-in-quirks-mode-the-following-CSS-should-be-added-somewhere-in-your-stylesheets-
+https://support.business.skyscanner.net/hc/en-us/articles/115005573225-Can-I-insert-the-White-Label-in-an-iFrame-
+https://support.business.skyscanner.net/hc/en-us/articles/115005573945-Can-I-prefill-car-hire-pick-up-and-drop-off-locations-

@@ -1,0 +1,9 @@
+https://desastres.minsalud.gob.bo/adminlte3/css/adminlte.min.css?v=19.13.27
+https://desastres.minsalud.gob.bo/css/select2-bootstrap5.min.css?v=19.13.27
+https://desastres.minsalud.gob.bo/css/select2.min.css?v=19.13.27
+https://desastres.minsalud.gob.bo/css/sweetalert2.min.css?v=19.13.27
+https://desastres.minsalud.gob.bo/css/ugrev33.min.css?v=19.13.27
+https://desastres.minsalud.gob.bo/js/element-internals-polyfill.min.js?v=19.13.27
+https://desastres.minsalud.gob.bo/js/ewcore.min.js?v=19.13.27
+https://desastres.minsalud.gob.bo/js/pace.js?v=19.13.27
+https://desastres.minsalud.gob.bo/plugins/fontawesome-free/css/all.min.css?v=19.13.27

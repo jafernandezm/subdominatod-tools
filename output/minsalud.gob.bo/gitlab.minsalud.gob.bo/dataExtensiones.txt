@@ -1,0 +1,2 @@
+https://gitlab.minsalud.gob.bo/-/manifest.json
+https://gitlab.minsalud.gob.bo/search/opensearch.xml

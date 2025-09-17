@@ -1,0 +1,12 @@
+http://127.0.0.1:8080
+http://example.com/
+https://tconsult.minsalud.gob.bo
+https://tconsult.minsalud.gob.bo/
+https://tconsult.minsalud.gob.bo/BrowserCompatibilityCheck.aspx
+https://tconsult.minsalud.gob.bo/BrowserCompatibilityCheck.aspx?ReturnUrl=%2f
+https://tconsult.minsalud.gob.bo/BrowserCompatibilityCheck.aspx?ReturnUrl=%2fa
+https://tconsult.minsalud.gob.bo/RequestReduceContent/3db4b678f2bbc1bf29d7354cb24179d3-692890190d1578fe12f4299656fbc074-RequestReducedScript.js
+https://tconsult.minsalud.gob.bo/RequestReduceContent/d5275484e74db7e756f98992e4247e01-ef8adeda620fe4eb9804f2de9ed10d85-RequestReducedStyle.css
+https://tconsult.minsalud.gob.bo/a
+https://tconsult.minsalud.gob.bo/login.aspx?ReturnUrl=%2f
+https://tconsult.minsalud.gob.bo/login.aspx?ReturnUrl=%2fa

@@ -1,0 +1,7 @@
+http://simone10.minsalud.gob.bo/IMAGES/acercade.png
+http://simone10.minsalud.gob.bo/IMAGES/cabecera.png
+http://simone10.minsalud.gob.bo/IMAGES/cdvir.png
+http://simone10.minsalud.gob.bo/IMAGES/minsalud.jpg
+http://simone10.minsalud.gob.bo/IMAGES/nuevohome.png
+http://simone10.minsalud.gob.bo/IMAGES/nuevointernet.png
+http://simone10.minsalud.gob.bo/IMAGES/nuevousuarios.png

@@ -1,0 +1,1 @@
+https://svr-mail.soporte.minsalud.gob.bo/static/login/index.js

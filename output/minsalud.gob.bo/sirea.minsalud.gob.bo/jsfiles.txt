@@ -1,0 +1,2 @@
+https://sirea.minsalud.gob.bo/js/bootstrap.min.js
+https://sirea.minsalud.gob.bo/js/jquery-3.1.1.min.js

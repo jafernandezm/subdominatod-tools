@@ -1,0 +1,12 @@
+http://127.0.0.1:8080
+http://example.com/
+https://qmara.minsalud.gob.bo
+https://qmara.minsalud.gob.bo/scripts/%7B%7Bdata%7D%7D
+https://qmara.minsalud.gob.bo/scripts/%7B%7Bdata.fileDocumento%7D%7D
+https://qmara.minsalud.gob.bo/scripts/%7B%7BformatearUrl%28data%29%7D%7D
+https://qmara.minsalud.gob.bo/scripts/%7B%7BformatearUrlPdf%28data%29%7D%7D
+https://qmara.minsalud.gob.bo/scripts/%7B%7BformatearUrlPdf%28data.documento%29%7D%7D
+https://qmara.minsalud.gob.bo/scripts/app-9d91a92bb3.js
+https://qmara.minsalud.gob.bo/scripts/vendor-d696883ad2.js
+https://qmara.minsalud.gob.bo/styles/app-882a367df0.css
+https://qmara.minsalud.gob.bo/styles/vendor-03eb20796a.css

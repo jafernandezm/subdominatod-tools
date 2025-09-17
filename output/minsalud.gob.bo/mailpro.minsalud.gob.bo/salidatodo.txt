@@ -1,0 +1,4 @@
+http://127.0.0.1:8080
+http://example.com/
+https://mailpro.minsalud.gob.bo
+https://mailpro.minsalud.gob.bo/css/common,login,zhtml,skin.css?skin=harmony&v=141215153641

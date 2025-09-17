@@ -1,0 +1,14 @@
+http://127.0.0.1:8080
+http://example.com/
+https://especialidades-ts.minsalud.gob.bo
+https://especialidades-ts.minsalud.gob.bo/
+https://especialidades-ts.minsalud.gob.bo/auth-user/login
+https://especialidades-ts.minsalud.gob.bo/auth-user/password/reset
+https://especialidades-ts.minsalud.gob.bo/build/assets/app-DZkx3lsi.js
+https://especialidades-ts.minsalud.gob.bo/build/assets/app-YN8M1kpy.css
+https://especialidades-ts.minsalud.gob.bo/build/assets/auth-Chr-cg2U.js
+https://especialidades-ts.minsalud.gob.bo/demo1/dist/index.html
+https://especialidades-ts.minsalud.gob.bo/theme/assets/css/style.bundle.css
+https://especialidades-ts.minsalud.gob.bo/theme/assets/js/scripts.bundle.js
+https://especialidades-ts.minsalud.gob.bo/theme/assets/plugins/global/plugins.bundle.css
+https://especialidades-ts.minsalud.gob.bo/theme/assets/plugins/global/plugins.bundle.js

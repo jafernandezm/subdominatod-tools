@@ -1,0 +1,8 @@
+https://9735476.test.skyscanner.net
+https://9735476.test.skyscanner.net/
+https://9735476.test.skyscanner.net/favicon.ico
+https://www.skyscanner.net/
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=2dae71f8-933a-11f0-a7f9-e00f77ce8133&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=2dfb2ebf-933a-11f0-b694-301e8fee05b4&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/static/css/main.01e9b7c6.css
+https://www.skyscanner.net/sttc/px/captcha-v2/static/js/main.034aca06.js

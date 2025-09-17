@@ -1,0 +1,9 @@
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/?_ga=1.92668633.598870925.1482315878
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/customer_feedback/
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/home
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/home/
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/sat/documentation
+https://partnerportal.skyscanner.net/authenticate/login?returnUrl=/ti-reports-manager/
+https://partnerportal.skyscanner.net/login?returnUrl=/
+https://partnerportal.skyscanner.net/login?returnUrl=/?_ga=1.92668633.598870925.1482315878

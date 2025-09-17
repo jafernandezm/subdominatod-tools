@@ -1,0 +1,14 @@
+http://www.ctconan.minsalud.gob.bo/robots.txt
+https://ctconan.minsalud.gob.bo/wp-content/plugins/memphis-documents-library/readme.txt
+https://ctconan.minsalud.gob.bo/wp-includes/ID3/license.commercial.txt
+https://ctconan.minsalud.gob.bo/wp-includes/ID3/license.txt
+https://ctconan.minsalud.gob.bo/wp-includes/ID3/readme.txt
+https://ctconan.minsalud.gob.bo/wp-includes/block-i18n.json
+https://ctconan.minsalud.gob.bo/wp-includes/images/crystal/license.txt
+https://ctconan.minsalud.gob.bo/wp-includes/js/plupload/license.txt
+https://ctconan.minsalud.gob.bo/wp-includes/js/swfupload/license.txt
+https://ctconan.minsalud.gob.bo/wp-includes/js/tinymce/license.txt
+https://ctconan.minsalud.gob.bo/wp-includes/sodium_compat/composer.json
+https://ctconan.minsalud.gob.bo/wp-includes/theme-i18n.json
+https://ctconan.minsalud.gob.bo/wp-includes/theme.json
+https://ctconan.minsalud.gob.bo/wp-includes/wlwmanifest.xml

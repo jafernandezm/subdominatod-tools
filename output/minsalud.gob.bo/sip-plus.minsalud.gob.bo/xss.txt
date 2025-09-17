@@ -1,0 +1,5 @@
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/fontawesome-webfont.eot?v=4.7.0
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/fontawesome-webfont.ttf?v=4.7.0
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/fontawesome-webfont.woff2?v=4.7.0
+http://sip-plus.minsalud.gob.bo/assets/app/fonts/fontawesome-webfont.woff?v=4.7.0
+http://sip-plus.minsalud.gob.bo/assets/app/start.html?customization=BO

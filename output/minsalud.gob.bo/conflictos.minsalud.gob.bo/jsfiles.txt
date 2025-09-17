@@ -1,0 +1,6 @@
+https://conflictos.minsalud.gob.bo/js/Chart.min.js
+https://conflictos.minsalud.gob.bo/js/bootstrap.min.js
+https://conflictos.minsalud.gob.bo/js/jquery.min.js
+https://conflictos.minsalud.gob.bo/js/pace.min.js
+https://conflictos.minsalud.gob.bo/js/popper.min.js
+https://conflictos.minsalud.gob.bo/js/template.js

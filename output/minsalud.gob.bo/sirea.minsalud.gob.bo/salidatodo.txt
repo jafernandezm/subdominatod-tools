@@ -1,0 +1,7 @@
+http://127.0.0.1:8080
+http://example.com/
+https://sirea.minsalud.gob.bo
+https://sirea.minsalud.gob.bo/css/bootstrap.min.css
+https://sirea.minsalud.gob.bo/css/index.css
+https://sirea.minsalud.gob.bo/js/bootstrap.min.js
+https://sirea.minsalud.gob.bo/js/jquery-3.1.1.min.js

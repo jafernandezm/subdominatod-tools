@@ -1,0 +1,15 @@
+http://127.0.0.1:8080
+http://calificacionpcd.minsalud.gob.bo/favicon.ico
+http://example.com/
+https://calificacionpcd.minsalud.gob.bo
+https://calificacionpcd.minsalud.gob.bo/
+https://calificacionpcd.minsalud.gob.bo/?_escaped_fragment_=/inicio
+https://calificacionpcd.minsalud.gob.bo/app.366108bfee28ff5bae93.css
+https://calificacionpcd.minsalud.gob.bo/app.366108bfee28ff5bae93.js
+https://calificacionpcd.minsalud.gob.bo/fonts/Montserrat-Bold.ttf
+https://calificacionpcd.minsalud.gob.bo/fonts/Montserrat-Light.ttf
+https://calificacionpcd.minsalud.gob.bo/fonts/Montserrat-Regular.ttf
+https://calificacionpcd.minsalud.gob.bo/fonts/fontawesome-webfont.eot
+https://calificacionpcd.minsalud.gob.bo/fonts/fontawesome-webfont.ttf
+https://calificacionpcd.minsalud.gob.bo/fonts/fontawesome-webfont.woff
+https://calificacionpcd.minsalud.gob.bo/fonts/fontawesome-webfont.woff2

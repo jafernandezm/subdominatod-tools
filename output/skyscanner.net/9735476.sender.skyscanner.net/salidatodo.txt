@@ -1,0 +1,7 @@
+http://9735476.sender.skyscanner.net/
+https://9735476.sender.skyscanner.net
+https://www.skyscanner.net/mobile
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21vYmlsZT8=&uuid=2e386b95-933a-11f0-b423-21cb24134f6c&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L21vYmlsZT8=&uuid=2e8514c0-933a-11f0-b475-21cb24134f6c&vid=
+https://www.skyscanner.net/sttc/px/captcha-v2/static/css/main.01e9b7c6.css
+https://www.skyscanner.net/sttc/px/captcha-v2/static/js/main.034aca06.js

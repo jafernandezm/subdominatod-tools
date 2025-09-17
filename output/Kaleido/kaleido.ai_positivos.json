@@ -1,0 +1,437 @@
+[
+  {
+    "url": "https://accounts.kaleido.ai:443",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Cloudflare, HSTS, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://account.kaleido.ai:443",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [
+      "Cloudflare, HSTS, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://accounts.kaleido.ai:80",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/2, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://account.kaleido.ai:80",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/2, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://account.kaleido.ai:8080",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://accounts.kaleido.ai:8080",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://danni.kaleido.ai:443",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 301,
+    "title": "",
+    "tech": [
+      "Cloudflare, HSTS, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 0,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://deps.kaleido.ai:443",
+    "host": "3.226.43.197",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "kaleido - Package Repository | Gemfury",
+    "tech": [
+      "Express, Gravatar, Heroku, Node.js"
+    ],
+    "content_type": "text/html",
+    "response_size": 29308,
+    "tls_cn": "",
+    "cname": [
+      "deps.kaleido.ai.furyns.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://api.kaleido.ai:80",
+    "host": "34.90.25.172",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://danni.kaleido.ai:8080",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://danni.kaleido.ai:80",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://deps.kaleido.ai:80",
+    "host": "3.226.43.197",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 59,
+    "tls_cn": "",
+    "cname": [
+      "deps.kaleido.ai.furyns.com"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://kaleido-core-lib.docs.kaleido.ai:443",
+    "host": "185.199.110.153",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "302 Found",
+    "tech": [
+      "Fastly, GitHub Pages, GitHub.com, Varnish"
+    ],
+    "content_type": "text/html",
+    "response_size": 138,
+    "tls_cn": "",
+    "cname": [
+      "remove-bg.github.io"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "http://kaleido-core-lib.docs.kaleido.ai:80",
+    "host": "185.199.108.153",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 302,
+    "title": "302 Found",
+    "tech": [
+      "Fastly, GitHub Pages, GitHub.com, Varnish"
+    ],
+    "content_type": "text/html",
+    "response_size": 138,
+    "tls_cn": "",
+    "cname": [
+      "remove-bg.github.io"
+    ],
+    "cdn": false
+  },
+  {
+    "url": "https://kaleido.ai:443",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [
+      "Cloudflare, HSTS, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://kaleido.ai:8080",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://kaleido.ai:80",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://labs.kaleido.ai:443",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 302,
+    "title": "",
+    "tech": [
+      "Cloudflare, HSTS, cloudflare"
+    ],
+    "content_type": "text/plain",
+    "response_size": 38,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://labs.kaleido.ai:80",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://labs.kaleido.ai:8080",
+    "host": "172.64.144.31",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://status.kaleido.ai:443",
+    "host": "18.164.13.90",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Kaleido AI Platform Status",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, Atlassian Statuspage, AtlassianEdge, Cloudflare, Google Analytics, HSTS, bowser, cdnjs, jQuery:3.5.1, reCAPTCHA"
+    ],
+    "content_type": "text/html",
+    "response_size": 330722,
+    "tls_cn": "",
+    "cname": [
+      "ndf34zqgjflc.stspg-customer.com",
+      "status-kaleido-ai-30561ad9-2c8b-47fa-904f-8ca31ddc1baa.saas.atlassian.com"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "http://status.kaleido.ai:80",
+    "host": "18.164.13.123",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Amazon CloudFront, Amazon Web Services, CloudFront"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": [
+      "ndf34zqgjflc.stspg-customer.com",
+      "status-kaleido-ai-30561ad9-2c8b-47fa-904f-8ca31ddc1baa.saas.atlassian.com"
+    ],
+    "cdn": true
+  },
+  {
+    "url": "https://www.kaleido.ai:443",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Visual AI Made Simple & Accessible",
+    "tech": [
+      "Cloudflare, Google Analytics, HSTS, Ruby, Ruby on Rails, Storyblok, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 30387,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://www.kaleido.ai:80",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://www.kaleido.ai:8080",
+    "host": "104.18.43.225",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  }
+]

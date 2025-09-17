@@ -1,0 +1,15 @@
+http://ddjjrrhh.minsalud.gob.bo/assets/js/bootstrap.min.js
+http://ddjjrrhh.minsalud.gob.bo/assets/js/coreui.min.js
+http://ddjjrrhh.minsalud.gob.bo/assets/js/jquery.min.js
+http://ddjjrrhh.minsalud.gob.bo/assets/js/pace.min.js
+http://ddjjrrhh.minsalud.gob.bo/assets/js/perfect-scrollbar.min.js
+http://ddjjrrhh.minsalud.gob.bo/planillas/assets/js/bootstrap.min.js
+http://ddjjrrhh.minsalud.gob.bo/planillas/assets/js/coreui.min.js
+http://ddjjrrhh.minsalud.gob.bo/planillas/assets/js/jquery.min.js
+http://ddjjrrhh.minsalud.gob.bo/planillas/assets/js/pace.min.js
+http://ddjjrrhh.minsalud.gob.bo/planillas/assets/js/perfect-scrollbar.min.js
+https://ddjjrrhh.minsalud.gob.bo/assets/js/bootstrap.min.js
+https://ddjjrrhh.minsalud.gob.bo/assets/js/coreui.min.js
+https://ddjjrrhh.minsalud.gob.bo/assets/js/jquery.min.js
+https://ddjjrrhh.minsalud.gob.bo/assets/js/pace.min.js
+https://ddjjrrhh.minsalud.gob.bo/assets/js/perfect-scrollbar.min.js

@@ -1,0 +1,15 @@
+http://127.0.0.1:8080
+http://example.com/
+https://sus-poaes.minsalud.gob.bo
+https://sus-poaes.minsalud.gob.bo/css/stylelogin.css
+https://sus-poaes.minsalud.gob.bo/home
+https://sus-poaes.minsalud.gob.bo/password/reset
+https://sus-poaes.minsalud.gob.bo/vendor/adminlte/dist/css/adminlte.min.css
+https://sus-poaes.minsalud.gob.bo/vendor/adminlte/dist/js/
+https://sus-poaes.minsalud.gob.bo/vendor/adminlte/dist/js/adminlte.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/bootstrap/js/bootstrap.bundle.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/fontawesome-free/css/all.min.css
+https://sus-poaes.minsalud.gob.bo/vendor/inputmask/jquery.inputmask.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/jquery/jquery.min.js
+https://sus-poaes.minsalud.gob.bo/vendor/overlayScrollbars/css/OverlayScrollbars.min.css
+https://sus-poaes.minsalud.gob.bo/vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js

@@ -1,0 +1,5 @@
+https://developers.skyscanner.net/blog/atom.xml
+https://developers.skyscanner.net/blog/rss.xml
+https://developers.skyscanner.net/sitemap.xml
+https://www.partners.skyscanner.net/news-case-studies/rss.xml
+https://www.skyscanner.net/sttc/px/captcha-v2/manifest.json

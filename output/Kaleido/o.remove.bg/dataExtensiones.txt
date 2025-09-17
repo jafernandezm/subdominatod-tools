@@ -1,0 +1,3 @@
+http://o.remove.bg/robots.txt
+https://o.remove.bg/sitemap.xml
+https://o.remove.bg/sitemap_index.xml

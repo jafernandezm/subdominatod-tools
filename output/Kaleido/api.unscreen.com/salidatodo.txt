@@ -1,0 +1,9 @@
+http://127.0.0.1:8080
+http://example.com/
+https://api.unscreen.com
+https://api.unscreen.com/
+https://api.unscreen.com/gifs&quot;
+https://api.unscreen.com/gifs?context=foreground&q=
+https://api.unscreen.com/gifs?context=foreground&q=re
+https://api.unscreen.com/gifs?context=foreground&q=rewer
+https://staging.api.unscreen.com/

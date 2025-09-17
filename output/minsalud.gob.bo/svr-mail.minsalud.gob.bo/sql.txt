@@ -1,0 +1,3 @@
+https://svr-mail.minsalud.gob.bo/;jsessionid=node02ty1eds1fzlg17a3gfl9o0jj513417.node0?loginOp=relogin&client=socialfox&loginErrorCode=service.AUTH_REQUIRED
+https://svr-mail.minsalud.gob.bo/css/common,login,zhtml,skin.css?skin=harmony&v=220204082149
+https://svr-mail.minsalud.gob.bo/css/common,login,zhtml,skin.css?skin=harmony&v=241016121000

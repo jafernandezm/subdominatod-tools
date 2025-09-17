@@ -1,0 +1,13 @@
+*.designify.com
+*.e.news.designify.com
+*.news.designify.com
+api.beta.designify.com
+api.designify.com
+designify.com
+designify.com:8443
+e.news.designify.com
+l.news.designify.com
+news.designify.com
+staging.api.designify.com
+staging.designify.com
+test.designify.com

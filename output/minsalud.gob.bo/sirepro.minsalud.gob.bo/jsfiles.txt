@@ -1,0 +1,16 @@
+https://sirepro.minsalud.gob.bo/calendario/js/bootstrap-datetimepicker.es.js
+https://sirepro.minsalud.gob.bo/calendario/js/bootstrap-datetimepicker.js
+https://sirepro.minsalud.gob.bo/jquery.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-alert.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-button.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-carousel.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-collapse.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-dropdown.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-modal.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-popover.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-scrollspy.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-tab.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-tooltip.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-transition.js
+https://sirepro.minsalud.gob.bo/js/bootstrap-typeahead.js
+https://sirepro.minsalud.gob.bo/js/jquery.alerts.js

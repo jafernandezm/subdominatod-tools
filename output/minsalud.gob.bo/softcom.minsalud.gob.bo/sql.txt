@@ -1,0 +1,14 @@
+http://softcom.minsalud.gob.bo:80/index.php?errorusuario=2
+http://softcom.minsalud.gob.bo:80/salir.php?enviar=Cerrar+Sesion
+http://softcom.minsalud.gob.bo:80/sicor17/listado_de_mi2.php?pagina=2
+http://softcom.minsalud.gob.bo:80/sicor17/listado_de_mi2.php?pagina=3
+http://softcom.minsalud.gob.bo:80/sicor17/listado_de_mi2.php?pagina=4
+http://softcom.minsalud.gob.bo:80/sicor17/seguimiento_doc.php?hr1=Vm0wd2VFMUdiRmRYV0doVVltdHdVVlp0TVZOVk1XeHlWbTVrVm1KR2NIbFdWM1JMVlVaV1ZVMUVhejA9
+http://softcom.minsalud.gob.bo:80/sicor17/seguimiento_doc.php?hr1=Vm0wd2VFNUhSWGRPVldScFVtMW9WVll3Wkc5WFZteHlWMjVrYWsxV1dqQmFWV1JIVmpGS2MySkVUbGhoTWsweFZtMTRZV014WkhWaVJtaG9UVlpWZUZaclVrZFRNazE0VTI1R1ZXSkhVbFJaYkdSdlRXeGFjMWt6YUZSTlZXdzBWMnRvVjJGV1NuUlZiRkpWVmtWYVRGUnNXbUZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaREZDVWxCVU1EMD0=&ext=1
+https://softcom.minsalud.gob.bo/fonts/Material-Design-Iconic-Font.ttf?v=2.2.0
+https://softcom.minsalud.gob.bo/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0
+https://softcom.minsalud.gob.bo/fonts/Material-Design-Iconic-Font.woff?v=2.2.0
+https://softcom.minsalud.gob.bo/fonts/fontawesome-webfont.eot?v=4.7.0
+https://softcom.minsalud.gob.bo/fonts/fontawesome-webfont.ttf?v=4.7.0
+https://softcom.minsalud.gob.bo/fonts/fontawesome-webfont.woff2?v=4.7.0
+https://softcom.minsalud.gob.bo/fonts/fontawesome-webfont.woff?v=4.7.0

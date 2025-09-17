@@ -1,0 +1,3 @@
+https://gateway.skyscanner.net/android-chrome-manifest.json
+https://gateway.skyscanner.net/robots.txt
+https://gateway.skyscanner.net/sitemap.xml

@@ -1,0 +1,46 @@
+# Configuraciones globales
+THREADS=10
+TIMEOUT=10
+USER_AGENT="BugHunter/1.0"
+GOOGLE_API_KEY="xxxxx"
+PROXY=http://127.0.0.1:8080
+OUTPUT_FOLDER=output
+OPENREDIRECT_PAYLOADS=modules/dir/openredirec.txt
+OPENREDIRECT_INPUT=output/upwork/
+OPENREDIRECT_OUTPUT=resultadoOpen/RedireccionValidads.txt
+# Número máximo de peticiones concurrentes para Open Redirect
+PETICIONESOPEN=300
+
+# Timeout por cada request (en segundos)
+TIMEOUTOPEN=5
+
+
+
+PATH_DNSCAN=./dnscan/dnscan.py
+WORDLIST_PATH=/usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt
+VIRUSTOTAL_API_KEY=91de014f1fb78dd358e2bb23719f058d0cb06dbb434bf34c993962260c7bcca0
+SUBDOMINATOR_PATH=/home/usuario/Escritorio/herramientas/Subdominator
+DNSCAN_PATH=/home/warrior/Escritorio/web/sub-dominator-main/dnscan
+
+PATH_HTTPX=/home/warrior/go/bin/httpx
+
+  # o la ruta absoluta real
+DEFAULT_OUTPUT = "resultados"
+
+
+# .env - configuración por defecto para dirsearch
+DIRSEARCH_CMD=dirsearch                  # o ruta absoluta: python3 /opt/dirsearch/dirsearch.py
+DIRSEARCH_EXT=php,html,js,txt            # extensiones por defecto
+DIRSEARCH_CODES=200,301,302              # códigos HTTP a incluir
+DIRSEARCH_THREADS=150                     # hilos por defecto
+DIRSEARCH_DELAY=1                        # delay en segundos
+DIRSEARCH_RANDOM_AGENT=true              # true|false
+DIRSEARCH_OUTPUT_NAME=dirsearch.txt   # nombre de salida por defecto
+DIRSEARCH_TIMEOUT=3600                   # timeout en segundos (0 o vacío = sin timeout)
+
+
+## configuraciones para httpx
+HTTPX_THREADS=50
+HTTPX_RETRIES=2
+HTTPX_TIMEOUT=10
+HTTPX_STATUS_CODES=200,204,301,302,307,308,401,403,405,500

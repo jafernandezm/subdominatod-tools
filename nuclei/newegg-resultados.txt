@@ -1,0 +1,1174 @@
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/newegg.com/v2.0/.well-known/openid-configuration ["b373f4fd-145d-419e-84f3-94a708ca5b3e"]
+[external-service-interaction] [http] [info] https://m.newegg.com
+[external-service-interaction] [http] [info] http://media.newegg.com
+[external-service-interaction] [http] [info] http://ows1.newegg.com
+[cookies-without-httponly] [javascript] [info] apis.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] api.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] ec-apis.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] chat.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] e11sellerportaltest.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] as2.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] developer.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] mkplapp.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] pmtcards.newegg.com ["NVTC","NID"]
+[cookies-without-secure] [javascript] [info] sli.newegg.com ["_lc2_fpi"]
+[cookies-without-httponly] [javascript] [info] sli.newegg.com ["_lc2_fpi"]
+[cookies-without-httponly] [javascript] [info] secure.newegg.com ["NVTC","NID"]
+[cookies-without-httponly] [javascript] [info] vendorportal.newegg.com ["NVTC","NID"]
+[missing-sri] [http] [info] https://carriercentral.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://ih.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://help.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://images10.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://eniac.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://kb.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://investors.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://www.newegg.com/?utm_medium=DNS&utm_source=helptest.newegg.com&from=/ ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://developer.newegg.com ["//developer.newegg.com/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js","//developer.newegg.com/wp-includes/js/jquery/ui/effect-shake.min.js","//developer.newegg.com/wp-content/plugins/form-maker/js/scripts.min.js","//developer.newegg.com/wp-includes/js/dist/dom-ready.min.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/jquery.mousewheel.js","//developer.newegg.com/wp-content/themes/salient/js/priority.js","//developer.newegg.com/wp-content/uploads/pum/pum-site-scripts.js?defer&generated=1668576392","//developer.newegg.com/wp-content/plugins/popup-maker/assets/js/vendor/mobile-detect.min.js","//developer.newegg.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/waypoints.js","//developer.newegg.com/wp-content/themes/salient/js/init.js","//www.google.com/recaptcha/api.js?render=6Lf2hWgeAAAAAEYQKH7vaQfC-NZx79Gip0Jfqkp1","//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/js/front.js","//developer.newegg.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js","//developer.newegg.com/wp-includes/js/dist/i18n.min.js","//developer.newegg.com/wp-includes/js/jquery/ui/autocomplete.min.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/transit.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/hoverintent.js","//www.google.com/recaptcha/api.js?hl=en_US&onload=fmRecaptchaInit&render=explicit","//developer.newegg.com/wp-content/themes/salient-child/advanced_sidebar_menu.js","//developer.newegg.com/wp-includes/js/jquery/ui/core.min.js","//developer.newegg.com/wp-content/plugins/wpdevart-vertical-menu/includes/frontend/js/front_end.js","//developer.newegg.com/wp-content/plugins/advanced-iframe/js/ai.min.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/imagesLoaded.min.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/jquery.fancybox.min.js","//developer.newegg.com/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js","//developer.newegg.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js","//developer.newegg.com/wp-includes/js/jquery/jquery.min.js","//developer.newegg.com/wp-includes/js/jquery/ui/menu.min.js","//developer.newegg.com/wp-includes/js/dist/vendor/wp-polyfill.min.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/jquery.easing.js","//developer.newegg.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js","//developer.newegg.com/wp-content/uploads/form-maker-frontend/js/fm-script-25.js","//cmp.osano.com/AzydZ7TEEX0GW2hin/9f9f154f-e5d2-4860-8e05-02e23cafd4bf/osano.js","//developer.newegg.com/wp-includes/js/jquery/jquery-migrate.min.js","//developer.newegg.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js","//developer.newegg.com/wp-includes/js/dist/hooks.min.js","//developer.newegg.com/wp-content/plugins/contact-form-7/includes/js/index.js","//developer.newegg.com/wp-content/themes/salient/js/third-party/superfish.js","//developer.newegg.com/wp-includes/js/jquery/ui/effect.min.js","//developer.newegg.com/wp-includes/js/dist/a11y.min.js","//developer.newegg.com/wp-content/themes/salient/nectar/assets/functions/ajax-search/wpss-search-suggest.js","//developer.newegg.com/wp-content/plugins/bbp-style-pack/css/bspstyle.css","//developer.newegg.com/wp-content/themes/salient/css/third-party/bbpress.css","//developer.newegg.com/wp-content/uploads/salient/menu-dynamic.css","https://fonts.googleapis.com/css?family=Open+Sans%3A400","//developer.newegg.com/wp-content/themes/salient/css/plugins/jquery.fancybox.css","//developer.newegg.com/wp-content/plugins/bbpress-unread-posts/style.css","//developer.newegg.com/wp-content/plugins/wpdevart-vertical-menu/includes/frontend/css/front_end.css","//developer.newegg.com/wp-content/plugins/contact-form-7/includes/css/styles.css","//developer.newegg.com/wp-includes/css/dashicons.min.css","//developer.newegg.com/wp-includes/css/classic-themes.min.css","//developer.newegg.com/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css","//developer.newegg.com/wp-content/themes/salient/css/grid-system.css","//developer.newegg.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css","//developer.newegg.com/wp-content/uploads/form-maker-frontend/css/fm-style-4.css","//developer.newegg.com/wp-includes/css/dist/block-library/style.min.css","//developer.newegg.com/wp-content/themes/salient/css/ascend.css","//developer.newegg.com/wp-content/themes/salient/css/salient-dynamic-styles.css","//developer.newegg.com/wp-content/themes/salient/css/off-canvas/core.css","//developer.newegg.com/wp-content/themes/salient/css/style.css","//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/css/front.css","//developer.newegg.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css","//developer.newegg.com/wp-content/uploads/pum/pum-site-styles.css?generated=1668576392","//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/inc/assets/css/tw-bs4.css","https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic","//developer.newegg.com/wp-content/plugins/form-maker/css/styles.min.css","//developer.newegg.com/wp-content/plugins/subscriber/css/frontend_style.css","//developer.newegg.com/wp-content/themes/salient/css/font-awesome-legacy.min.css","//developer.newegg.com/wp-content/themes/salient/css/responsive.css","//developer.newegg.com/wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css","//developer.newegg.com/wp-content/themes/salient-child/style.css","//developer.newegg.com/wp-content/themes/salient/style.css","https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&subset=latin%2Clatin-ext","//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/inc/fa/css/font-awesome.min.css","//developer.newegg.com/wp-content/plugins/wpdevart-vertical-menu/includes/fonts/css/fontawesome-all.min.css"]
+[missing-sri] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F ["//c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic|Open+Sans+Condensed:300,300italic,700"]
+[missing-sri] [http] [info] https://www.newegg.com/corporate/ ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://www.gamecrate.com ["https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js","https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.f600e767.bundle.min.js","https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js","https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js","https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js","https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js","https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.e8600c82.bundle.min.js","https://static.parastorage.com/services/wix-thunderbolt/dist/main.6d00e8a0.bundle.min.js","https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js","https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js","https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js"]
+[missing-sri] [http] [info] https://logistics.newegg.com/intro/bridge/ ["https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://mkplapp.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://secure.m.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://logistics.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://partner.newegg.com ["https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://pf.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://nuget.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://secure.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://promotions.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://ows1.newegg.com/ ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://sellerportal.newegg.com ["https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://www.newegg.com/?utm_medium=DNS&utm_source=m.newegg.com&from=/ ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://www.neweggmedia.com/ ["https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/js/swiper-bundle.min.js","https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/js/liquid.browser.min.js","https://c1.neweggimages.com/WebResource/NWS/frontend/3/assets/js/theme-ad0ab77f.js","https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/js/jquery-3.6.0.min.js","https://imk.neweggimages.com/webresource/scripts/plugin/inhousebiztra.js","https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/js/catcherror.js","https://c1.neweggimages.com/webresource/Scripts/Others/nws/shortdrama.js","https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/js/core-js.polyfill.min.js","https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/js/intersection-observer.polyfill.min.js","https://c1.neweggimages.com/WebResource/NWS/frontend/3/assets/css/theme-2a232cee31.pc.css","https://c1.neweggimages.com/WebResource/NWS/frontend/3/assets/css/theme-c8c1c8e62e.m.css","https://c1.neweggimages.com/WebResource/NWS/frontend/public/assets/css/swiper-bundle.min.css","https://c1.neweggimages.com/WebResource/NWS/frontend/3/assets/css/theme-a615ec2570.css"]
+[missing-sri] [http] [info] https://www.sellingpilot.com/ ["https://c1.neweggimages.com/sellingpilot/main-site/cdn/us/0.10.6-af094029b34ef62d/assets/3efa5f69.js","https://c1.neweggimages.com/sellingpilot/main-site/cdn/us/0.10.6-af094029b34ef62d/assets/entry.d96b1d36.css","https://c1.neweggimages.com/sellingpilot/main-site/cdn/us/0.10.6-af094029b34ef62d/assets/sp-carousel.933a7bba.css","https://c1.neweggimages.com/sellingpilot/main-site/cdn/us/0.10.6-af094029b34ef62d/assets/sp-help-toolbar.193e156e.css"]
+[missing-sri] [http] [info] https://www.newegg.com/ ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://ssl-images.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://www2.newegg.com ["https://c1.neweggimages.com/webResource/Scripts/WWW/jquery-3.5.1.min.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.js","https://c1.neweggimages.com/WebResource/Themes/2005/Nest/error.css"]
+[missing-sri] [http] [info] https://vendorportal.newegg.com ["https://promotions.newegg.com/newegg/survey/newegg-feedback.min.js","//partner.newegg.com/resources/neplatform.js?appId=vendorportal&noTheme=true&hideHeader=true","https://www.googletagmanager.com/gtag/js?id=","//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap","//fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"]
+[waf-detect:aspgeneric] [http] [info] http://autodiscover.newegg.com
+[waf-detect:cloudfront] [http] [info] https://cloudfront.newegg.com
+[waf-detect:akamai] [http] [info] https://api.newegg.com
+[waf-detect:akamai] [http] [info] https://edi04.newegg.com
+[waf-detect:akamai] [http] [info] https://help.newegg.com
+[waf-detect:akamai] [http] [info] https://apis.newegg.com
+[waf-detect:akamai] [http] [info] https://carriercentral.newegg.com
+[waf-detect:akamai] [http] [info] https://eniac.newegg.com
+[waf-detect:akamai] [http] [info] https://images10.newegg.com
+[waf-detect:akamai] [http] [info] https://ih.newegg.com
+[waf-detect:akamai] [http] [info] https://helptest.newegg.com
+[waf-detect:akamai] [http] [info] https://investors.newegg.com
+[waf-detect:akamai] [http] [info] https://developer.newegg.com
+[waf-detect:akamai] [http] [info] https://as2.newegg.com
+[waf-detect:akamai] [http] [info] https://e11sellerportaltest.newegg.com
+[waf-detect:cloudflare] [http] [info] https://l.promo-flash.newegg.com
+[waf-detect:cloudflare] [http] [info] https://l.promo.global.newegg.com
+[waf-detect:akamai] [http] [info] https://ec-apis.newegg.com
+[waf-detect:akamai] [http] [info] https://kb.newegg.com
+[waf-detect:cloudflare] [http] [info] https://c1.newegg.com
+[waf-detect:cloudflare] [http] [info] https://chat.newegg.com
+[waf-detect:akamai] [http] [info] https://e11sellerimagestest.newegg.com
+[waf-detect:akamai] [http] [info] https://mkplapp.newegg.com
+[waf-detect:akamai] [http] [info] http://media.newegg.com
+[waf-detect:akamai] [http] [info] https://m.newegg.com
+[waf-detect:cloudflare] [http] [info] https://l.promo.newegg.com
+[waf-detect:akamai] [http] [info] https://logistics.newegg.com
+[waf-detect:akamai] [http] [info] http://ows1.newegg.com
+[waf-detect:cloudfront] [http] [info] https://sli.newegg.com
+[waf-detect:akamai] [http] [info] https://pf.newegg.com
+[waf-detect:akamai] [http] [info] https://partner.newegg.com
+[waf-detect:akamai] [http] [info] https://promotions.newegg.com
+[waf-detect:akamai] [http] [info] https://sandboxapis.newegg.com
+[waf-detect:akamai] [http] [info] https://ssl-images.newegg.com
+[waf-detect:cloudflare] [http] [info] https://s.promo.newegg.com
+[waf-detect:akamai] [http] [info] https://secure.m.newegg.com
+[waf-detect:akamai] [http] [info] https://sellerimages.newegg.com
+[waf-detect:akamai] [http] [info] https://pmtcards.newegg.com
+[waf-detect:akamai] [http] [info] https://secure.newegg.com
+[waf-detect:cloudflare] [http] [info] https://s.promo-flash.newegg.com
+[waf-detect:akamai] [http] [info] https://sellerportal.newegg.com
+[waf-detect:akamai] [http] [info] https://push.newegg.com
+[waf-detect:akamai] [http] [info] https://sellingpilot.newegg.com
+[waf-detect:cloudflare] [http] [info] https://s.promo.global.newegg.com
+[waf-detect:cloudflare] [http] [info] https://w.promo-flash.newegg.com
+[waf-detect:akamai] [http] [info] https://vendorportal.newegg.com
+[waf-detect:cloudflare] [http] [info] https://w.promo.global.newegg.com
+[waf-detect:cloudflare] [http] [info] https://w.promo.newegg.com
+[waf-detect:akamai] [http] [info] https://www2.newegg.com
+[waf-detect:cloudflare] [http] [info] https://x.promo-flash.newegg.com
+[waf-detect:cloudflare] [http] [info] https://x.promo.global.newegg.com
+[waf-detect:cloudflare] [http] [info] https://x.promo.newegg.com
+[cors-misconfig:arbitrary-origin] [http] [info] https://apis.newegg.com [cors_origin="https://2ituk.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://chat.newegg.com [cors_origin="http://yts6n.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://ec-apis.newegg.com [cors_origin="http://gizqv.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://as2.newegg.com [cors_origin="http://s2jqv.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://e11sellerportaltest.newegg.com [cors_origin="https://9omxt.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://developer.newegg.com [cors_origin="http://okej1.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://mkplapp.newegg.com [cors_origin="https://6rf8g.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://pmtcards.newegg.com [cors_origin="https://vfmdh.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://sandboxapis.newegg.com [cors_origin="https://tnvvc.newegg.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://secure.newegg.com [cors_origin="https://kpl3y.newegg.com"]
+[request-based-interaction:dns] [http] [info] http://media.newegg.com/
+[request-based-interaction:dns] [http] [info] https://m.newegg.com/
+[request-based-interaction:dns] [http] [info] http://ows1.newegg.com/
+[deprecated-tls:tls_1.1] [ssl] [info] metrics-staging.newegg.com:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] metrics-staging.newegg.com:443 ["tls10"]
+[tls-version] [ssl] [info] apis.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] developer.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] helptest.newegg.com:443 ["tls12"]
+[deprecated-tls:tls_1.1] [ssl] [info] m.newegg.com:443 ["tls11"]
+[tls-version] [ssl] [info] apis.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] developer.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] e11sellerimagestest.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] carriercentral.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] helptest.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] e11sellerportaltest.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] edi04.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] api.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] ih.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] help.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] investors.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] e11sellerimagestest.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] chat.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] l.promo.global.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] l.promo.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] e11sellerportaltest.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] l.promo-flash.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] cloudfront.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] as2.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] c1.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] ec-apis.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] images10.newegg.com:443 ["tls12"]
+[deprecated-tls:tls_1.0] [ssl] [info] m.newegg.com:443 ["tls10"]
+[tls-version] [ssl] [info] eniac.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] edi04.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] api.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] l.promo.global.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] ih.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] chat.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] kb.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] investors.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] help.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] l.promo-flash.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] c1.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] cloudfront.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] as2.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] images10.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] ec-apis.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] m.newegg.com:443 ["tls10"]
+[tls-version] [ssl] [info] carriercentral.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] eniac.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] l.promo.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] metrics-staging.newegg.com:443 ["tls10"]
+[tls-version] [ssl] [info] mkplapp.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] kb.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] mkplapp.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] logistics.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] m.newegg.com:443 ["tls11"]
+[tls-version] [ssl] [info] sandboxapis.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] nuget.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] pf.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] partner.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] sandboxapis.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] metrics-staging.newegg.com:443 ["tls11"]
+[tls-version] [ssl] [info] logistics.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] promotions.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] s.promo-flash.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] secure.m.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] pmtcards.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] m.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] push.newegg.com:443 ["tls12"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] m.newegg.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] s.promo.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] s.promo.global.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] ows1.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] secure.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] sellerimages.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] sellerportal.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] pf.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] nuget.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] sellingpilot.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] partner.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] s.promo-flash.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] promotions.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] sli.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] secure.m.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] s.promo.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] pmtcards.newegg.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] metrics-staging.newegg.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] m.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] push.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] s.promo.global.newegg.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] m.newegg.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] ows1.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] metrics-staging.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] sellingpilot.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] sellerportal.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] sellerimages.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] sli.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] ssl-images.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] vendorportal.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] secure.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] w.promo-flash.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] metrics-staging.newegg.com:443 ["tls13"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] metrics-staging.newegg.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] ssl-images.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] vendorportal.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] w.promo.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] www2.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] w.promo-flash.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] x.promo.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] w.promo.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] w.promo.global.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] www2.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] x.promo-flash.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] x.promo.global.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] w.promo.global.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] x.promo-flash.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] gamecrate.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] x.promo.global.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] bridge.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] x.promo.newegg.com:443 ["tls13"]
+[tls-version] [ssl] [info] corporate.newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] newegg.com:443 ["tls12"]
+[tls-version] [ssl] [info] whistleblower.newegg.com:443 ["tls12"]
+[apple-app-site-association] [http] [info] https://secure.newegg.com/.well-known/apple-app-site-association [""]
+[tech-detect:ms-iis] [http] [info] http://autodiscover.newegg.com
+[tech-detect:akamai] [http] [info] https://helptest.newegg.com
+[tech-detect:cloudflare] [http] [info] https://l.promo.global.newegg.com
+[tech-detect:cloudflare] [http] [info] https://l.promo-flash.newegg.com
+[tech-detect:akamai] [http] [info] https://edi04.newegg.com
+[tech-detect:akamai] [http] [info] https://carriercentral.newegg.com
+[tech-detect:akamai] [http] [info] https://ih.newegg.com
+[tech-detect:akamai] [http] [info] https://e11sellerimagestest.newegg.com
+[tech-detect:akamai] [http] [info] https://help.newegg.com
+[tech-detect:akamai] [http] [info] https://investors.newegg.com
+[tech-detect:akamai] [http] [info] https://images10.newegg.com
+[tech-detect:akamai] [http] [info] https://api.newegg.com
+[tech-detect:akamai] [http] [info] https://ec-apis.newegg.com
+[tech-detect:akamai] [http] [info] https://apis.newegg.com
+[tech-detect:akamai] [http] [info] https://eniac.newegg.com
+[tech-detect:akamai] [http] [info] https://developer.newegg.com
+[tech-detect:akamai] [http] [info] https://kb.newegg.com
+[tech-detect:cloudflare] [http] [info] https://c1.newegg.com
+[tech-detect:cloudflare] [http] [info] https://chat.newegg.com/chat
+[tech-detect:google-font-api] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[tech-detect:akamai] [http] [info] http://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[tech-detect:cloudflare] [http] [info] https://chat.newegg.com
+[tech-detect:cloudflare] [http] [info] https://l.promo.newegg.com
+[tech-detect:akamai] [http] [info] https://m.newegg.com
+[tech-detect:akamai] [http] [info] http://media.newegg.com
+[tech-detect:akamai] [http] [info] https://mkplapp.newegg.com
+[tech-detect:akamai] [http] [info] https://logistics.newegg.com
+[tech-detect:akamai] [http] [info] http://ows1.newegg.com
+[tech-detect:akamai] [http] [info] https://promotions.newegg.com
+[tech-detect:akamai] [http] [info] https://pf.newegg.com
+[tech-detect:akamai] [http] [info] https://partner.newegg.com
+[tech-detect:akamai] [http] [info] https://secure.m.newegg.com
+[tech-detect:akamai] [http] [info] https://sellingpilot.newegg.com
+[tech-detect:akamai] [http] [info] https://sellerportal.newegg.com
+[tech-detect:akamai] [http] [info] https://sellerimages.newegg.com
+[tech-detect:akamai] [http] [info] https://secure.newegg.com
+[tech-detect:cloudflare] [http] [info] https://s.promo.global.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://s.promo-flash.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://s.promo.newegg.com/ats/
+[tech-detect:akamai] [http] [info] https://ssl-images.newegg.com
+[tech-detect:akamai] [http] [info] https://vendorportal.newegg.com
+[tech-detect:cloudflare] [http] [info] https://w.promo-flash.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://w.promo.global.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://w.promo.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://s.promo.global.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://s.promo.newegg.com/ats
+[tech-detect:akamai] [http] [info] https://www2.newegg.com
+[tech-detect:cloudflare] [http] [info] https://s.promo-flash.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://w.promo-flash.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://w.promo.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://w.promo.global.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://s.promo.newegg.com
+[tech-detect:cloudflare] [http] [info] https://s.promo.global.newegg.com
+[tech-detect:cloudflare] [http] [info] https://x.promo-flash.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://x.promo.global.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://x.promo.newegg.com/ats/
+[tech-detect:cloudflare] [http] [info] https://s.promo-flash.newegg.com
+[tech-detect:cloudflare] [http] [info] https://w.promo.global.newegg.com
+[tech-detect:cloudflare] [http] [info] https://w.promo-flash.newegg.com
+[tech-detect:cloudflare] [http] [info] https://w.promo.newegg.com
+[tech-detect:cloudflare] [http] [info] https://x.promo.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://x.promo-flash.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://x.promo.global.newegg.com/ats
+[tech-detect:cloudflare] [http] [info] https://x.promo-flash.newegg.com
+[tech-detect:cloudflare] [http] [info] https://x.promo.global.newegg.com
+[tech-detect:cloudflare] [http] [info] https://x.promo.newegg.com
+[akamai-cache-detect] [http] [info] https://apis.newegg.com
+[akamai-cache-detect] [http] [info] https://kb.newegg.com
+[akamai-cache-detect] [http] [info] https://as2.newegg.com
+[akamai-cache-detect] [http] [info] https://e11sellerportaltest.newegg.com
+[akamai-cache-detect] [http] [info] https://helptest.newegg.com
+[akamai-cache-detect] [http] [info] https://developer.newegg.com
+[akamai-cache-detect] [http] [info] http://ows1.newegg.com
+[akamai-cache-detect] [http] [info] https://sandboxapis.newegg.com
+[akamai-cache-detect] [http] [info] https://sellerportal.newegg.com
+[clientaccesspolicy] [http] [info] https://ec-apis.newegg.com/clientaccesspolicy.xml
+[clientaccesspolicy] [http] [info] https://as2.newegg.com/clientaccesspolicy.xml
+[akamai-detect] [http] [info] https://helptest.newegg.com
+[akamai-detect] [http] [info] https://eniac.newegg.com
+[akamai-detect] [http] [info] https://images10.newegg.com
+[akamai-detect] [http] [info] https://investors.newegg.com
+[akamai-detect] [http] [info] https://kb.newegg.com
+[akamai-detect] [http] [info] https://developer.newegg.com
+[akamai-detect] [http] [info] https://e11sellerimagestest.newegg.com
+[akamai-detect] [http] [info] https://e11sellerportaltest.newegg.com
+[akamai-detect] [http] [info] https://carriercentral.newegg.com
+[akamai-detect] [http] [info] https://ih.newegg.com
+[akamai-detect] [http] [info] https://help.newegg.com
+[akamai-detect] [http] [info] https://api.newegg.com
+[akamai-detect] [http] [info] https://ec-apis.newegg.com
+[akamai-detect] [http] [info] https://apis.newegg.com
+[akamai-detect] [http] [info] https://edi04.newegg.com
+[akamai-detect] [http] [info] https://as2.newegg.com
+[akamai-detect] [http] [info] http://ows1.newegg.com
+[akamai-detect] [http] [info] http://media.newegg.com
+[akamai-detect] [http] [info] https://logistics.newegg.com
+[akamai-detect] [http] [info] https://nuget.newegg.com
+[akamai-detect] [http] [info] https://pf.newegg.com
+[akamai-detect] [http] [info] https://promotions.newegg.com
+[akamai-detect] [http] [info] https://partner.newegg.com
+[akamai-detect] [http] [info] https://sellingpilot.newegg.com
+[akamai-detect] [http] [info] https://sellerportal.newegg.com
+[akamai-detect] [http] [info] https://sellerimages.newegg.com
+[akamai-detect] [http] [info] https://secure.m.newegg.com
+[akamai-detect] [http] [info] https://pmtcards.newegg.com
+[akamai-detect] [http] [info] https://m.newegg.com
+[akamai-detect] [http] [info] https://push.newegg.com
+[akamai-detect] [http] [info] https://sandboxapis.newegg.com
+[akamai-detect] [http] [info] https://secure.newegg.com
+[akamai-detect] [http] [info] https://mkplapp.newegg.com
+[akamai-detect] [http] [info] https://ssl-images.newegg.com
+[akamai-detect] [http] [info] https://www2.newegg.com
+[akamai-detect] [http] [info] https://vendorportal.newegg.com
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/newegg.com ["2024-03-12T16:49:52Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/newegg.com ["2034-02-01T19:24:42Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/newegg.com ["A1-21.AKAM.NET","A16-66.AKAM.NET","A24-67.AKAM.NET","A28-64.AKAM.NET","A7-65.AKAM.NET","A9-66.AKAM.NET","NS0011.SECONDARY.CLOUDFLARE.COM","NS0197.SECONDARY.CLOUDFLARE.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/newegg.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/newegg.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/newegg.com ["2000-02-01T19:24:42Z"]
+[form-detection] [http] [info] https://developer.newegg.com
+[form-detection] [http] [info] https://www.gamecrate.com
+[robots-txt-endpoint] [http] [info] https://l.promo.global.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://c1.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://l.promo-flash.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://sellerimages.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://s.promo.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://l.promo.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://s.promo.global.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://s.promo-flash.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://metrics-staging.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://x.promo.global.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://x.promo-flash.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://w.promo-flash.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://w.promo.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://w.promo.global.newegg.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://x.promo.newegg.com/robots.txt
+[robots-txt] [http] [info] https://e11sellerimagestest.newegg.com/robots.txt
+[robots-txt] [http] [info] https://l.promo-flash.newegg.com/robots.txt
+[robots-txt] [http] [info] https://l.promo.global.newegg.com/robots.txt
+[robots-txt] [http] [info] https://c1.newegg.com/robots.txt
+[robots-txt] [http] [info] https://l.promo.newegg.com/robots.txt
+[robots-txt] [http] [info] https://s.promo.global.newegg.com/robots.txt
+[robots-txt] [http] [info] https://s.promo-flash.newegg.com/robots.txt
+[robots-txt] [http] [info] https://s.promo.newegg.com/robots.txt
+[robots-txt] [http] [info] https://metrics-staging.newegg.com/robots.txt
+[robots-txt] [http] [info] https://w.promo-flash.newegg.com/robots.txt
+[robots-txt] [http] [info] https://x.promo.newegg.com/robots.txt
+[robots-txt] [http] [info] https://x.promo.global.newegg.com/robots.txt
+[robots-txt] [http] [info] https://w.promo.global.newegg.com/robots.txt
+[robots-txt] [http] [info] https://x.promo-flash.newegg.com/robots.txt
+[robots-txt] [http] [info] https://w.promo.newegg.com/robots.txt
+[aspnet-version-detect] [http] [info] http://autodiscover.newegg.com/%3f ["4.0.30319"]
+[s3-detect] [http] [info] https://cloudfront.newegg.com/%c0
+[email-extractor] [http] [info] https://e11sellerimagestest.newegg.com ["datafeeds@newegg.com"]
+[email-extractor] [http] [info] https://api.newegg.com ["datafeeds@newegg.com"]
+[email-extractor] [http] [info] https://apis.newegg.com ["datafeeds@newegg.com"]
+[xss-deprecated-header] [http] [info] https://chat.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://l.promo-flash.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://l.promo.global.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://as2.newegg.com ["1; report=https://pf.newegg.com/csp?source=xss"]
+[email-extractor] [http] [info] https://edi04.newegg.com ["datafeeds@newegg.com"]
+[https-to-http-redirect] [http] [info] https://e11sellerportaltest.newegg.com
+[xss-deprecated-header] [http] [info] https://e11sellerportaltest.newegg.com ["1; mode=block"]
+[aws-bucket-service] [http] [info] https://cloudfront.newegg.com
+[aws-cloudfront-service] [http] [info] https://cloudfront.newegg.com
+[email-extractor] [http] [info] https://mkplapp.newegg.com ["datafeeds@newegg.com"]
+[xss-deprecated-header] [http] [info] https://sli.newegg.com ["1; mode=block"]
+[email-extractor] [http] [info] https://sandboxapis.newegg.com ["datafeeds@newegg.com"]
+[email-extractor] [http] [info] https://push.newegg.com ["datafeeds@newegg.com"]
+[xss-deprecated-header] [http] [info] https://l.promo.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://s.promo.global.newegg.com ["1; mode=block"]
+[email-extractor] [http] [info] https://sellerimages.newegg.com ["datafeeds@newegg.com"]
+[google-frontend-httpserver] [http] [info] https://metrics-staging.newegg.com
+[xss-deprecated-header] [http] [info] https://s.promo.newegg.com ["1; mode=block"]
+[email-extractor] [http] [info] https://sellerportal.newegg.com ["datafeeds@newegg.com"]
+[xss-deprecated-header] [http] [info] https://s.promo-flash.newegg.com ["1; mode=block"]
+[addeventlistener-detect] [http] [info] https://c1.newegg.com
+[google-floc-disabled] [http] [info] https://c1.newegg.com
+[email-extractor] [http] [info] https://vendorportal.newegg.com ["datafeeds@newegg.com"]
+[xss-deprecated-header] [http] [info] https://w.promo-flash.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://x.promo.global.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://w.promo.global.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://x.promo-flash.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://w.promo.newegg.com ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://x.promo.newegg.com ["1; mode=block"]
+[options-method] [http] [info] https://s.promo.global.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://s.promo-flash.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://s.promo.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://x.promo-flash.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://x.promo.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://w.promo-flash.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://w.promo.global.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://w.promo.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[options-method] [http] [info] https://x.promo.global.newegg.com ["OPTIONS, TRACE, GET, HEAD, POST"]
+[microsoft-iis-version] [http] [info] http://autodiscover.newegg.com ["Microsoft-IIS/10.0"]
+[old-copyright] [http] [info] https://ih.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:clear-site-data] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://ih.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ih.newegg.com
+[old-copyright] [http] [info] https://investors.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-frame-options] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://investors.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://investors.newegg.com
+[old-copyright] [http] [info] https://images10.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://images10.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://images10.newegg.com
+[old-copyright] [http] [info] https://api.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://api.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://api.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://api.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://api.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://api.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://api.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://api.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://api.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://api.newegg.com
+[old-copyright] [http] [info] https://edi04.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://edi04.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://edi04.newegg.com
+[old-copyright] [http] [info] https://eniac.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://eniac.newegg.com
+[old-copyright] [http] [info] https://developer.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://eniac.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://developer.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://developer.newegg.com
+[old-copyright] [http] [info] https://kb.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://kb.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://kb.newegg.com
+[old-copyright] [http] [info] https://help.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:permissions-policy] [http] [info] https://help.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://help.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://help.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://help.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://help.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://help.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://help.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://help.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://help.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://help.newegg.com
+[old-copyright] [http] [info] https://as2.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:strict-transport-security] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://as2.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://as2.newegg.com
+[old-copyright] [http] [info] https://carriercentral.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://carriercentral.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:content-type-charset-specification] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://e11sellerimagestest.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://apis.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://l.promo-flash.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://l.promo-flash.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://l.promo-flash.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://l.promo-flash.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://l.promo-flash.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://l.promo-flash.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://l.promo-flash.newegg.com
+[old-copyright] [http] [info] https://c1.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://c1.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://c1.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://c1.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://l.promo.global.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ec-apis.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://cloudfront.newegg.com
+[aws-detect:aws-cloudfront] [http] [info] https://cloudfront.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:referrer-policy] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:clear-site-data] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:permissions-policy] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[http-missing-security-headers:x-content-type-options] [http] [info] https://e11sellerportaltest.newegg.com/areyouahuman?referer=https%3A%2F%2Fe11sellerportaltest.newegg.com%2F
+[old-copyright] [http] [info] https://chat.newegg.com/areyouahuman?referer=https%3A%2F%2Fchat.newegg.com%2F ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://chat.newegg.com/areyouahuman?referer=https%3A%2F%2Fchat.newegg.com%2F
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://chat.newegg.com/areyouahuman?referer=https%3A%2F%2Fchat.newegg.com%2F
+[http-missing-security-headers:clear-site-data] [http] [info] https://chat.newegg.com/areyouahuman?referer=https%3A%2F%2Fchat.newegg.com%2F
+[old-copyright] [http] [info] http://media.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-content-type-options] [http] [info] http://media.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://media.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://media.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://media.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://media.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://media.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://media.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://media.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://media.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://media.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] http://media.newegg.com
+[old-copyright] [http] [info] https://logistics.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://logistics.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://logistics.newegg.com
+[old-copyright] [http] [info] https://mkplapp.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-frame-options] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://mkplapp.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://mkplapp.newegg.com
+[old-copyright] [http] [info] https://m.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-content-type-options] [http] [info] https://m.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://m.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://m.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://m.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://m.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://m.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://m.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://m.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://m.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://m.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://m.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://l.promo.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://metrics-staging.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://metrics-staging.newegg.com
+[old-copyright] [http] [info] http://ows1.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:strict-transport-security] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] http://ows1.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://ows1.newegg.com
+[old-copyright] [http] [info] https://partner.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://partner.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://partner.newegg.com
+[old-copyright] [http] [info] https://nuget.newegg.com ["&copy; 2000-2021"]
+[old-copyright] [http] [info] https://pmtcards.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pmtcards.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://nuget.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://nuget.newegg.com
+[old-copyright] [http] [info] https://sellerportal.newegg.com ["&copy; 2000-2021"]
+[old-copyright] [http] [info] https://pf.newegg.com ["&copy; 2000-2021"]
+[old-copyright] [http] [info] https://sellingpilot.newegg.com ["&copy; 2000-2021"]
+[old-copyright] [http] [info] https://secure.m.newegg.com ["&copy; 2000-2021"]
+[old-copyright] [http] [info] https://push.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:permissions-policy] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://push.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://push.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://push.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://push.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sellerportal.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://push.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://push.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pf.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://push.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://push.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://push.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sellingpilot.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://secure.m.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://push.newegg.com
+[old-copyright] [http] [info] https://sellerimages.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sellerimages.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sellerimages.newegg.com
+[old-copyright] [http] [info] https://promotions.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://promotions.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://promotions.newegg.com
+[old-copyright] [http] [info] https://secure.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:x-content-type-options] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://secure.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sandboxapis.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://s.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://s.promo.global.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://s.promo.global.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://s.promo.global.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://s.promo.global.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://s.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://s.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://s.promo.global.newegg.com/ats/
+[aws-detect:aws-cloudfront] [http] [info] https://sli.newegg.com
+[old-copyright] [http] [info] https://ssl-images.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ssl-images.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ssl-images.newegg.com
+[old-copyright] [http] [info] https://vendorportal.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:referrer-policy] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://vendorportal.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://s.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://w.promo-flash.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://w.promo-flash.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://w.promo-flash.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://w.promo-flash.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://w.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://w.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://w.promo-flash.newegg.com/ats/
+[old-copyright] [http] [info] https://www2.newegg.com ["&copy; 2000-2021"]
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www2.newegg.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://x.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://x.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://w.promo.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://x.promo-flash.newegg.com/ats/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://w.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://w.promo.global.newegg.com/ats/
+[http-missing-security-headers:content-security-policy] [http] [info] https://w.promo.global.newegg.com/ats/
+[http-missing-security-headers:permissions-policy] [http] [info] https://w.promo.global.newegg.com/ats/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://w.promo.global.newegg.com/ats/
+[http-missing-security-headers:clear-site-data] [http] [info] https://w.promo.global.newegg.com/ats/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://w.promo.global.newegg.com/ats/
+[dns-saas-service-detection:akamai-cdn] [dns] [info] ec-apis.newegg.com ["www.coboc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] as2.newegg.com ["as2.newegg.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] edi04.newegg.com ["www.coboc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] api.newegg.com ["www.coboc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] eniac.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] apis.newegg.com ["rosewill.com.edgekey.net"]
+[dns-saas-service-detection:ms-office] [dns] [info] autodiscover.newegg.com ["autodiscover.outlook.com"]
+[dns-saas-service-detection] [dns] [info] l.promo.global.newegg.com ["rts-aws-na.wafprod.mgsreops.com"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] e11sellerportaltest.newegg.com ["rosewill.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] developer.newegg.com ["rosewill.com.edgekey.net"]
+[dns-saas-service-detection:cloudflare-cdn] [dns] [info] chat.newegg.com ["chat.newegg.com.cdn.cloudflare.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] ih.newegg.com ["ih.newegg.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] investors.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:cloudflare-cdn] [dns] [info] c1.newegg.com ["c1.newegg.com.cdn.cloudflare.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] images10.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] kb.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] carriercentral.newegg.com ["negg.edgekey.net"]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] cloudfront.newegg.com ["d3gdw39r0xxcfe.cloudfront.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] help.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection] [dns] [info] l.promo-flash.newegg.com ["rts-aws-na.wafprod.mgsreops.com"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] helptest.newegg.com ["e11wwwtest.neweggbusiness.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] e11sellerimagestest.newegg.com ["e11wwwtest.neweggbusiness.com.edgekey.net"]
+[nameserver-fingerprint] [dns] [info] cloudfront.newegg.com ["ns-920.awsdns-51.net.","ns-1045.awsdns-02.org.","ns-11.awsdns-01.com.","ns-1931.awsdns-49.co.uk."]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] logistics.newegg.com ["www.coboc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] media.newegg.com ["rosewill.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] pf.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] nuget.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] mkplapp.newegg.com ["rosewill.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] ows1.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] m.newegg.com ["x-newegg.edgesuite.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] partner.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection] [dns] [info] l.promo.newegg.com ["rts-aws-na.wafprod.mgsreops.com"]
+[ssl-issuer] [ssl] [info] helptest.newegg.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] helptest.newegg.com:443 ["chattest.newegg.com","e11sellerimagestest.newegg.com","e11ssltest.neweggbusiness.com","e11stg.neweggbusiness.com","e11wwwtestp.newegg.com","pmtcardstestp.newegg.com","apis-stg.neweggtech.com","e11ssltestm.newegg.com","e11stgtest-secure.newegg.com","e11ssltest.newegg.com","e11stgtest-secure-m.newegg.ca","e11stgtest.newegg.com","stagingapis.newegg.com","e11sellerportaltest.newegg.com","e11ssltestm.newegg.ca","e11ssltestp.newegg.ca","e11stgtest-image.newegg.com","e11stgtest-secure.newegg.ca","e11stgtest.newegg.ca","e11wwwtest.newegg.ca","e11wwwtestp.newegg.ca","apis-stg.neweggbox.com","e11stgtest-m.newegg.com","e11wwwtest.neweggbusiness.com","kbtest.newegg.com","e11ssltestp.newegg.com","helptest.newegg.com","pmtcardstest.newegg.com","sandboxapis.newegg.com","e11ssltest.newegg.ca","e11stgtest-m.newegg.ca","e11stg-sec.neweggbusiness.com","e11stgtest-secure-m.newegg.com","e11wwwtest.newegg.com"]
+[ssl-issuer] [ssl] [info] apis.newegg.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] apis.newegg.com:443 ["www.rosewill.com","www.rosewillhome.com","developer.newegg.com","mkplapp.newegg.com","newegg.io","pmtcards.newegg.com","rosewill.com","www.buildeniac.com","www.newegg.io","apis.newegg.com","cp4.newegg.org","edi.rosewill.com","www.neweggstaffing.com","www.nutrend.com"]
+[ssl-issuer] [ssl] [info] developer.newegg.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] developer.newegg.com:443 ["developer.newegg.com","rosewill.com","www.newegg.io","www.neweggstaffing.com","www.nutrend.com","www.rosewillhome.com","apis.newegg.com","cp4.newegg.org","edi.rosewill.com","mkplapp.newegg.com","newegg.io","pmtcards.newegg.com","www.buildeniac.com","www.rosewill.com"]
+[ssl-issuer] [ssl] [info] e11sellerportaltest.newegg.com:443 ["Let's Encrypt"]
+[ssl-issuer] [ssl] [info] e11sellerimagestest.newegg.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] e11sellerportaltest.newegg.com:443 ["e11ssltestp.newegg.com","e11stgtest.newegg.com","e11wwwtest.newegg.com","e11ssltest.newegg.ca","e11stgtest-m.newegg.com","e11stgtest-secure.newegg.ca","e11stgtest.newegg.ca","kbtest.newegg.com","e11ssltest.newegg.com","e11ssltest.neweggbusiness.com","e11ssltestm.newegg.com","e11wwwtestp.newegg.ca","pmtcardstestp.newegg.com","apis-stg.neweggtech.com","helptest.newegg.com","pmtcardstest.newegg.com","apis-stg.neweggbox.com","e11ssltestm.newegg.ca","e11stg-sec.neweggbusiness.com","e11stg.neweggbusiness.com","e11stgtest-secure-m.newegg.ca","e11wwwtest.neweggbusiness.com","e11wwwtestp.newegg.com","chattest.newegg.com","e11sellerimagestest.newegg.com","e11ssltestp.newegg.ca","e11stgtest-m.newegg.ca","e11stgtest-secure.newegg.com","e11wwwtest.newegg.ca","stagingapis.newegg.com","e11stgtest-image.newegg.com","e11stgtest-secure-m.newegg.com","sandboxapis.newegg.com","e11sellerportaltest.newegg.com"]
+[ssl-dns-names] [ssl] [info] e11sellerimagestest.newegg.com:443 ["e11stg.neweggbusiness.com","e11ssltest.newegg.ca","e11ssltestm.newegg.com","pmtcardstest.newegg.com","e11sellerimagestest.newegg.com","e11ssltest.neweggbusiness.com","e11stgtest.newegg.com","e11wwwtestp.newegg.ca","e11wwwtestp.newegg.com","e11ssltestp.newegg.ca","e11stg-sec.neweggbusiness.com","e11stgtest-secure-m.newegg.com","helptest.newegg.com","kbtest.newegg.com","chattest.newegg.com","e11ssltestm.newegg.ca","e11stgtest-m.newegg.ca","e11stgtest-secure-m.newegg.ca","e11wwwtest.neweggbusiness.com","pmtcardstestp.newegg.com","sandboxapis.newegg.com","apis-stg.neweggtech.com","e11stgtest-m.newegg.com","e11stgtest-secure.newegg.ca","e11sellerportaltest.newegg.com","e11ssltest.newegg.com","e11stgtest-image.newegg.com","e11stgtest-secure.newegg.com","e11stgtest.newegg.ca","e11wwwtest.newegg.ca","stagingapis.newegg.com","apis-stg.neweggbox.com","e11ssltestp.newegg.com","e11wwwtest.newegg.com"]
+[ssl-issuer] [ssl] [info] images10.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] images10.newegg.com:443 ["c1.neweggimages.com","images10.rosewill.com","kb.newegg.com","newegg.ca","neweggbusiness.com","pmtcards.newegg.com","ih.newegg.com","images10.newegg.com","investors.newegg.com","promotions.nutrend.com","push.newegg.com","secure.newegg.ca","secure.neweggbusiness.com","staffing.newegg.com","www.usopc.com","c2.neweggimages.com","eniac.newegg.com","images10.nutrend.com","kb.newegg.ca","newegg.com","promotions.neweggbusiness.com","secure.m.newegg.ca","carriercentral.newegg.com","chat.newegg.com","imgion4.newegg.com","usopc.com","www-ts2.newegg.com","www.buildeniac.com","www.neweggbusiness.com","www2.newegg.com","flash.newegg.com","globalselling.newegg.com","kb.neweggbusiness.com","partner.newegg.com","secure.newegg.com","sellingpilot.newegg.com","www.newegg.com","www.rosewill.com","nuget.newegg.com","pf.newegg.com","promotions.newegg.com","waf-poc.newegg.com","ows1.newegg.com","download.newegg.com","help.newegg.ca","www.newegg.ca","esuohni.onewegg.com","imk.neweggimages.com","promotions.newegg.ca","secure.m.newegg.com","ssl-images.newegg.com","www-ts1.newegg.com","www.neweggstaffing.com","www.rosewillhome.com","help.newegg.com","help.neweggbusiness.com"]
+[ssl-issuer] [ssl] [info] ih.newegg.com:443 ["DigiCert Inc"]
+[ssl-issuer] [ssl] [info] api.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] ih.newegg.com:443 ["secure.m.newegg.com","nuget.newegg.com","c1.neweggimages.com","c2.neweggimages.com","help.newegg.com","images10.rosewill.com","imk.neweggimages.com","investors.newegg.com","neweggbusiness.com","pmtcards.newegg.com","ssl-images.newegg.com","www.neweggstaffing.com","www.rosewill.com","www.usopc.com","eniac.newegg.com","help.newegg.ca","imgion4.newegg.com","kb.neweggbusiness.com","promotions.nutrend.com","waf-poc.newegg.com","www-ts2.newegg.com","carriercentral.newegg.com","download.newegg.com","kb.newegg.ca","secure.neweggbusiness.com","sellingpilot.newegg.com","www-ts1.newegg.com","www.buildeniac.com","www.newegg.ca","chat.newegg.com","promotions.neweggbusiness.com","staffing.newegg.com","www.newegg.com","www.neweggbusiness.com","www2.newegg.com","flash.newegg.com","globalselling.newegg.com","help.neweggbusiness.com","images10.nutrend.com","partner.newegg.com","pf.newegg.com","promotions.newegg.com","usopc.com","images10.newegg.com","kb.newegg.com","secure.m.newegg.ca","secure.newegg.ca","secure.newegg.com","www.rosewillhome.com","esuohni.onewegg.com","ih.newegg.com","newegg.ca","newegg.com","ows1.newegg.com","promotions.newegg.ca","push.newegg.com"]
+[ssl-dns-names] [ssl] [info] api.newegg.com:443 ["api.newegg.com","dev-box-broadcast-ws.neweggtech.com","ec-apis.newegg.com","pre-apis.neweggtech.com","sellerportal.newegg.com","box-broadcast-ws.neweggbox.com","dev-readerservice.neweggbox.com","dev-www.neweggtech.com","apis.neweggtech.com","dev-www.neweggbox.com","newegg.io","reader.neweggbox.com","www.newegglogistics.com","www.neweggtech.com","dev-chat-broadcast.neweggbox.com","dev-upload.neweggbox.com","dev-upload.neweggtech.com","download.neweggtech.com","edi04.newegg.com","readerservice.neweggbox.com","readerservice.neweggtech.com","sellerimages.newegg.com","ecp.newegg.com","www.coboc.com","box-broadcast-ws.neweggtech.com","coboc.com","dev-box-broadcast-ws.neweggbox.com","dev-image.neweggbox.com","dev-reader.neweggtech.com","image.neweggbox.com","dev-chat-broadcast.neweggtech.com","dev-download.neweggbox.com","dev-download.neweggtech.com","dev-readerservice.neweggtech.com","image.neweggtech.com","logistics.newegg.com","mkplapp.newegg.com","sellingpilot.newegg.com","apis.neweggbox.com","dev-box-broadcast.neweggbox.com","dev-image.neweggtech.com","download.neweggbox.com","neweggbox.com","pre-apis.neweggbox.com","upload.neweggtech.com","www.newegg.io","dev-box-broadcast.neweggtech.com","reader.neweggtech.com","tapa.newegg.com","upload.neweggbox.com","vendorportal.newegg.com","www.neweggbox.com"]
+[ssl-issuer] [ssl] [info] carriercentral.newegg.com:443 ["DigiCert Inc"]
+[ssl-issuer] [ssl] [info] edi04.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] carriercentral.newegg.com:443 ["carriercentral.newegg.com","help.newegg.ca","www.neweggbusiness.com","www.rosewill.com","www.rosewillhome.com","c1.neweggimages.com","eniac.newegg.com","kb.newegg.com","promotions.nutrend.com","push.newegg.com","www-ts1.newegg.com","www-ts2.newegg.com","www.newegg.com","newegg.ca","esuohni.onewegg.com","flash.newegg.com","images10.newegg.com","images10.rosewill.com","partner.newegg.com","secure.m.newegg.com","globalselling.newegg.com","investors.newegg.com","kb.neweggbusiness.com","ows1.newegg.com","usopc.com","waf-poc.newegg.com","www.newegg.ca","www.neweggstaffing.com","ih.newegg.com","imgion4.newegg.com","kb.newegg.ca","neweggbusiness.com","promotions.newegg.ca","secure.neweggbusiness.com","staffing.newegg.com","www2.newegg.com","help.neweggbusiness.com","promotions.neweggbusiness.com","secure.newegg.com","www.buildeniac.com","imk.neweggimages.com","www.usopc.com","chat.newegg.com","download.newegg.com","help.newegg.com","pmtcards.newegg.com","promotions.newegg.com","secure.newegg.ca","c2.neweggimages.com","images10.nutrend.com","newegg.com","nuget.newegg.com","pf.newegg.com","secure.m.newegg.ca","sellingpilot.newegg.com","ssl-images.newegg.com"]
+[ssl-dns-names] [ssl] [info] edi04.newegg.com:443 ["dev-image.neweggtech.com","dev-upload.neweggtech.com","reader.neweggbox.com","www.newegg.io","www.neweggbox.com","mkplapp.newegg.com","reader.neweggtech.com","tapa.newegg.com","www.newegglogistics.com","box-broadcast-ws.neweggtech.com","edi04.newegg.com","logistics.newegg.com","sellerportal.newegg.com","www.neweggtech.com","coboc.com","dev-box-broadcast-ws.neweggtech.com","dev-box-broadcast.neweggbox.com","dev-box-broadcast.neweggtech.com","image.neweggbox.com","neweggbox.com","sellingpilot.newegg.com","upload.neweggtech.com","apis.neweggtech.com","image.neweggtech.com","readerservice.neweggbox.com","upload.neweggbox.com","box-broadcast-ws.neweggbox.com","dev-download.neweggtech.com","dev-image.neweggbox.com","dev-reader.neweggtech.com","dev-readerservice.neweggbox.com","dev-readerservice.neweggtech.com","dev-www.neweggtech.com","download.neweggtech.com","api.newegg.com","dev-download.neweggbox.com","dev-upload.neweggbox.com","dev-www.neweggbox.com","ecp.newegg.com","newegg.io","pre-apis.neweggtech.com","readerservice.neweggtech.com","apis.neweggbox.com","dev-box-broadcast-ws.neweggbox.com","dev-chat-broadcast.neweggbox.com","download.neweggbox.com","ec-apis.newegg.com","pre-apis.neweggbox.com","sellerimages.newegg.com","vendorportal.newegg.com","www.coboc.com","dev-chat-broadcast.neweggtech.com"]
+[ssl-issuer] [ssl] [info] eniac.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] eniac.newegg.com:443 ["www.rosewillhome.com","c2.neweggimages.com","carriercentral.newegg.com","imgion4.newegg.com","kb.neweggbusiness.com","newegg.ca","ssl-images.newegg.com","www2.newegg.com","ih.newegg.com","chat.newegg.com","eniac.newegg.com","help.newegg.ca","help.newegg.com","push.newegg.com","secure.m.newegg.ca","secure.m.newegg.com","newegg.com","nuget.newegg.com","promotions.nutrend.com","sellingpilot.newegg.com","waf-poc.newegg.com","www.newegg.ca","www.newegg.com","www.neweggbusiness.com","c1.neweggimages.com","kb.newegg.ca","www.buildeniac.com","www.neweggstaffing.com","flash.newegg.com","images10.newegg.com","pmtcards.newegg.com","promotions.newegg.ca","promotions.neweggbusiness.com","www-ts2.newegg.com","www.rosewill.com","images10.rosewill.com","investors.newegg.com","ows1.newegg.com","help.neweggbusiness.com","www.usopc.com","esuohni.onewegg.com","promotions.newegg.com","secure.newegg.ca","globalselling.newegg.com","images10.nutrend.com","imk.neweggimages.com","pf.newegg.com","secure.newegg.com","secure.neweggbusiness.com","staffing.newegg.com","usopc.com","download.newegg.com","kb.newegg.com","neweggbusiness.com","partner.newegg.com","www-ts1.newegg.com"]
+[ssl-issuer] [ssl] [info] help.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] help.newegg.com:443 ["imk.neweggimages.com","kb.newegg.ca","pf.newegg.com","ssl-images.newegg.com","www-ts2.newegg.com","www.newegg.com","help.newegg.com","kb.neweggbusiness.com","neweggbusiness.com","promotions.newegg.ca","secure.m.newegg.com","www-ts1.newegg.com","www.neweggbusiness.com","www.neweggstaffing.com","flash.newegg.com","kb.newegg.com","promotions.newegg.com","c1.neweggimages.com","download.newegg.com","investors.newegg.com","www.rosewill.com","www2.newegg.com","help.neweggbusiness.com","ih.newegg.com","images10.newegg.com","newegg.ca","ows1.newegg.com","push.newegg.com","secure.m.newegg.ca","staffing.newegg.com","imgion4.newegg.com","partner.newegg.com","secure.newegg.ca","secure.neweggbusiness.com","sellingpilot.newegg.com","www.buildeniac.com","www.newegg.ca","www.rosewillhome.com","www.usopc.com","help.newegg.ca","images10.nutrend.com","newegg.com","pmtcards.newegg.com","promotions.neweggbusiness.com","usopc.com","waf-poc.newegg.com","nuget.newegg.com","carriercentral.newegg.com","eniac.newegg.com","esuohni.onewegg.com","globalselling.newegg.com","images10.rosewill.com","promotions.nutrend.com","secure.newegg.com","c2.neweggimages.com","chat.newegg.com"]
+[ssl-issuer] [ssl] [info] investors.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] investors.newegg.com:443 ["ih.newegg.com","c1.neweggimages.com","carriercentral.newegg.com","esuohni.onewegg.com","images10.nutrend.com","pmtcards.newegg.com","ssl-images.newegg.com","waf-poc.newegg.com","globalselling.newegg.com","help.newegg.ca","imgion4.newegg.com","usopc.com","www-ts1.newegg.com","www.buildeniac.com","www.newegg.com","help.neweggbusiness.com","www.usopc.com","eniac.newegg.com","images10.rosewill.com","kb.newegg.ca","pf.newegg.com","sellingpilot.newegg.com","www-ts2.newegg.com","c2.neweggimages.com","nuget.newegg.com","www.neweggbusiness.com","www.rosewill.com","www.rosewillhome.com","www2.newegg.com","ows1.newegg.com","download.newegg.com","flash.newegg.com","help.newegg.com","imk.neweggimages.com","investors.newegg.com","kb.newegg.com","kb.neweggbusiness.com","chat.newegg.com","newegg.com","partner.newegg.com","promotions.newegg.com","promotions.neweggbusiness.com","push.newegg.com","secure.m.newegg.ca","secure.m.newegg.com","images10.newegg.com","neweggbusiness.com","promotions.nutrend.com","secure.newegg.ca","secure.newegg.com","staffing.newegg.com","www.newegg.ca","www.neweggstaffing.com","newegg.ca","promotions.newegg.ca","secure.neweggbusiness.com"]
+[ssl-issuer] [ssl] [info] ec-apis.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] ec-apis.newegg.com:443 ["www.coboc.com","coboc.com","dev-download.neweggtech.com","image.neweggbox.com","readerservice.neweggbox.com","box-broadcast-ws.neweggtech.com","dev-image.neweggbox.com","dev-readerservice.neweggtech.com","dev-www.neweggtech.com","ecp.newegg.com","sellerportal.newegg.com","dev-box-broadcast.neweggbox.com","dev-chat-broadcast.neweggbox.com","dev-upload.neweggbox.com","mkplapp.newegg.com","neweggbox.com","reader.neweggtech.com","tapa.newegg.com","www.newegg.io","api.newegg.com","dev-www.neweggbox.com","logistics.newegg.com","readerservice.neweggtech.com","www.newegglogistics.com","www.neweggtech.com","dev-upload.neweggtech.com","apis.neweggbox.com","dev-box-broadcast-ws.neweggbox.com","dev-box-broadcast-ws.neweggtech.com","dev-reader.neweggtech.com","dev-readerservice.neweggbox.com","image.neweggtech.com","sellingpilot.newegg.com","box-broadcast-ws.neweggbox.com","dev-box-broadcast.neweggtech.com","dev-chat-broadcast.neweggtech.com","dev-image.neweggtech.com","edi04.newegg.com","pre-apis.neweggbox.com","pre-apis.neweggtech.com","reader.neweggbox.com","apis.neweggtech.com","download.neweggbox.com","newegg.io","sellerimages.newegg.com","www.neweggbox.com","dev-download.neweggbox.com","upload.neweggbox.com","upload.neweggtech.com","vendorportal.newegg.com","download.neweggtech.com","ec-apis.newegg.com"]
+[ssl-issuer] [ssl] [info] as2.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] as2.newegg.com:443 ["as2.newegg.com"]
+[ssl-issuer] [ssl] [info] kb.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] kb.newegg.com:443 ["c2.neweggimages.com","help.newegg.com","www.neweggbusiness.com","www.neweggstaffing.com","www2.newegg.com","chat.newegg.com","kb.newegg.ca","secure.newegg.ca","sellingpilot.newegg.com","waf-poc.newegg.com","www.newegg.com","www.rosewill.com","help.newegg.ca","imk.neweggimages.com","newegg.com","neweggbusiness.com","staffing.newegg.com","www-ts2.newegg.com","www.newegg.ca","www.usopc.com","eniac.newegg.com","images10.rosewill.com","pmtcards.newegg.com","promotions.neweggbusiness.com","usopc.com","www.rosewillhome.com","c1.neweggimages.com","images10.nutrend.com","newegg.ca","promotions.nutrend.com","secure.neweggbusiness.com","ssl-images.newegg.com","carriercentral.newegg.com","flash.newegg.com","globalselling.newegg.com","kb.newegg.com","kb.neweggbusiness.com","nuget.newegg.com","promotions.newegg.ca","secure.m.newegg.ca","download.newegg.com","help.neweggbusiness.com","imgion4.newegg.com","promotions.newegg.com","secure.m.newegg.com","secure.newegg.com","www-ts1.newegg.com","www.buildeniac.com","esuohni.onewegg.com","ih.newegg.com","images10.newegg.com","investors.newegg.com","ows1.newegg.com","partner.newegg.com","pf.newegg.com","push.newegg.com"]
+[ssl-issuer] [ssl] [info] chat.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] chat.newegg.com:443 ["secure.m.newegg.com","newegg.com","*.newegg.com"]
+[wildcard-tls] [ssl] [info] chat.newegg.com:443 ["SAN: [newegg.com *.newegg.com secure.m.newegg.com]","CN: newegg.com"]
+[ssl-issuer] [ssl] [info] l.promo.global.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] l.promo.global.newegg.com:443 ["l.promo.global.newegg.com"]
+[ssl-issuer] [ssl] [info] l.promo.newegg.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] c1.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] l.promo.newegg.com:443 ["l.promo.newegg.com"]
+[ssl-dns-names] [ssl] [info] c1.newegg.com:443 ["newegg.com","*.newegg.com","secure.m.newegg.com"]
+[wildcard-tls] [ssl] [info] c1.newegg.com:443 ["CN: newegg.com","SAN: [newegg.com *.newegg.com secure.m.newegg.com]"]
+[ssl-issuer] [ssl] [info] l.promo-flash.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] l.promo-flash.newegg.com:443 ["l.promo-flash.newegg.com"]
+[ssl-issuer] [ssl] [info] logistics.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] logistics.newegg.com:443 ["dev-image.neweggbox.com","dev-www.neweggbox.com","ec-apis.newegg.com","image.neweggbox.com","readerservice.neweggbox.com","www.neweggtech.com","apis.neweggbox.com","dev-image.neweggtech.com","pre-apis.neweggtech.com","readerservice.neweggtech.com","www.neweggbox.com","box-broadcast-ws.neweggbox.com","dev-box-broadcast-ws.neweggbox.com","dev-box-broadcast.neweggbox.com","dev-download.neweggbox.com","download.neweggbox.com","newegg.io","api.newegg.com","dev-box-broadcast.neweggtech.com","mkplapp.newegg.com","pre-apis.neweggbox.com","reader.neweggbox.com","sellingpilot.newegg.com","tapa.newegg.com","www.newegglogistics.com","www.coboc.com","apis.neweggtech.com","dev-chat-broadcast.neweggtech.com","dev-download.neweggtech.com","dev-readerservice.neweggbox.com","logistics.newegg.com","box-broadcast-ws.neweggtech.com","dev-www.neweggtech.com","ecp.newegg.com","image.neweggtech.com","neweggbox.com","reader.neweggtech.com","coboc.com","dev-box-broadcast-ws.neweggtech.com","dev-upload.neweggbox.com","dev-upload.neweggtech.com","download.neweggtech.com","sellerimages.newegg.com","vendorportal.newegg.com","www.newegg.io","dev-chat-broadcast.neweggbox.com","dev-reader.neweggtech.com","dev-readerservice.neweggtech.com","edi04.newegg.com","sellerportal.newegg.com","upload.neweggbox.com","upload.neweggtech.com"]
+[ssl-issuer] [ssl] [info] m.newegg.com:443 ["DigiCert Inc"]
+[mismatched-ssl-certificate] [ssl] [info] m.newegg.com:443 ["CN: a248.e.akamai.net"]
+[ssl-dns-names] [ssl] [info] m.newegg.com:443 ["a248.e.akamai.net","*.akamaized.net","*.akamaized-staging.net","*.akamaihd.net","*.akamaihd-staging.net"]
+[wildcard-tls] [ssl] [info] m.newegg.com:443 ["CN: a248.e.akamai.net","SAN: [a248.e.akamai.net *.akamaized.net *.akamaized-staging.net *.akamaihd.net *.akamaihd-staging.net]"]
+[ssl-issuer] [ssl] [info] mkplapp.newegg.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] mkplapp.newegg.com:443 ["www.rosewill.com","www.rosewillhome.com","apis.newegg.com","cp4.newegg.org","developer.newegg.com","edi.rosewill.com","mkplapp.newegg.com","newegg.io","rosewill.com","www.neweggstaffing.com","pmtcards.newegg.com","www.buildeniac.com","www.newegg.io","www.nutrend.com"]
+[ssl-issuer] [ssl] [info] cloudfront.newegg.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] cloudfront.newegg.com:443 ["cloudfront.newegg.com"]
+[ssl-issuer] [ssl] [info] sandboxapis.newegg.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] sandboxapis.newegg.com:443 ["e11stgtest-secure.newegg.ca","e11wwwtest.newegg.ca","e11wwwtestp.newegg.ca","e11wwwtest.newegg.com","e11ssltestp.newegg.ca","e11ssltest.newegg.ca","e11ssltest.newegg.com","e11stgtest-secure-m.newegg.com","e11stgtest.newegg.com","pmtcardstestp.newegg.com","apis-stg.neweggtech.com","chattest.newegg.com","e11sellerimagestest.newegg.com","pmtcardstest.newegg.com","e11stgtest-m.newegg.ca","e11stgtest-secure.newegg.com","e11wwwtestp.newegg.com","stagingapis.newegg.com","e11ssltestm.newegg.ca","e11ssltestp.newegg.com","apis-stg.neweggbox.com","e11stg.neweggbusiness.com","e11stgtest-image.newegg.com","e11stgtest-m.newegg.com","e11wwwtest.neweggbusiness.com","helptest.newegg.com","kbtest.newegg.com","sandboxapis.newegg.com","e11ssltestm.newegg.com","e11stg-sec.neweggbusiness.com","e11sellerportaltest.newegg.com","e11ssltest.neweggbusiness.com","e11stgtest-secure-m.newegg.ca","e11stgtest.newegg.ca"]
+[ssl-issuer] [ssl] [info] metrics-staging.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] metrics-staging.newegg.com:443 ["metrics-staging.newegg.com"]
+[ssl-issuer] [ssl] [info] s.promo-flash.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] s.promo-flash.newegg.com:443 ["s.promo-flash.newegg.com"]
+[caa-fingerprint] [dns] [info] bridge.newegg.com
+[caa-fingerprint] [dns] [info] help.newegg.com
+[caa-fingerprint] [dns] [info] corporate.newegg.com
+[caa-fingerprint] [dns] [info] l.promo.global.newegg.com
+[caa-fingerprint] [dns] [info] helptest.newegg.com
+[caa-fingerprint] [dns] [info] as2.newegg.com
+[caa-fingerprint] [dns] [info] ih.newegg.com
+[caa-fingerprint] [dns] [info] chat.newegg.com
+[caa-fingerprint] [dns] [info] images10.newegg.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] sellerimages.newegg.com ["www.coboc.com.edgekey.net"]
+[caa-fingerprint] [dns] [info] gamecrate.newegg.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] ssl-images.newegg.com ["www.usopc.com.edgekey.net"]
+[caa-fingerprint] [dns] [info] eniac.newegg.com
+[caa-fingerprint] [dns] [info] investors.newegg.com
+[nameserver-fingerprint] [dns] [info] newegg.com ["a1-21.akam.net.","a24-67.akam.net.","a9-66.akam.net.","a7-65.akam.net.","ns0011.secondary.cloudflare.com.","ns0197.secondary.cloudflare.com.","a16-66.akam.net.","a28-64.akam.net."]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] secure.newegg.com ["negg.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] secure.m.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection] [dns] [info] s.promo-flash.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] sli.newegg.com ["d1tebxeetbovj3.cloudfront.net"]
+[caa-fingerprint] [dns] [info] apis.newegg.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] sellerportal.newegg.com ["www.coboc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] pmtcards.newegg.com ["negg.edgekey.net"]
+[ssl-issuer] [ssl] [info] s.promo.global.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] s.promo.global.newegg.com:443 ["s.promo.global.newegg.com"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] push.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] sellingpilot.newegg.com ["www.coboc.com.edgekey.net"]
+[ssl-issuer] [ssl] [info] nuget.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] nuget.newegg.com:443 ["sellingpilot.newegg.com","www-ts1.newegg.com","esuohni.onewegg.com","help.neweggbusiness.com","images10.newegg.com","newegg.ca","partner.newegg.com","www.newegg.ca","www.rosewillhome.com","www.usopc.com","eniac.newegg.com","flash.newegg.com","globalselling.newegg.com","investors.newegg.com","neweggbusiness.com","promotions.newegg.com","promotions.neweggbusiness.com","c2.neweggimages.com","download.newegg.com","imgion4.newegg.com","newegg.com","nuget.newegg.com","secure.newegg.ca","secure.neweggbusiness.com","usopc.com","pmtcards.newegg.com","secure.m.newegg.com","www.newegg.com","www.neweggstaffing.com","www.rosewill.com","www2.newegg.com","help.newegg.com","ih.newegg.com","pf.newegg.com","promotions.nutrend.com","secure.m.newegg.ca","staffing.newegg.com","www-ts2.newegg.com","www.neweggbusiness.com","carriercentral.newegg.com","images10.rosewill.com","kb.newegg.com","kb.neweggbusiness.com","waf-poc.newegg.com","www.buildeniac.com","help.newegg.ca","ows1.newegg.com","promotions.newegg.ca","push.newegg.com","ssl-images.newegg.com","c1.neweggimages.com","chat.newegg.com","images10.nutrend.com","imk.neweggimages.com","kb.newegg.ca","secure.newegg.com"]
+[ssl-issuer] [ssl] [info] pf.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] pf.newegg.com:443 ["imk.neweggimages.com","kb.newegg.com","pf.newegg.com","secure.neweggbusiness.com","www.newegg.ca","c1.neweggimages.com","download.newegg.com","globalselling.newegg.com","imgion4.newegg.com","kb.neweggbusiness.com","newegg.com","promotions.newegg.com","promotions.neweggbusiness.com","flash.newegg.com","help.neweggbusiness.com","images10.nutrend.com","investors.newegg.com","newegg.ca","promotions.nutrend.com","secure.m.newegg.com","secure.newegg.ca","www.usopc.com","secure.newegg.com","www.rosewill.com","www2.newegg.com","eniac.newegg.com","images10.rosewill.com","ows1.newegg.com","pmtcards.newegg.com","secure.m.newegg.ca","ssl-images.newegg.com","staffing.newegg.com","waf-poc.newegg.com","neweggbusiness.com","carriercentral.newegg.com","chat.newegg.com","partner.newegg.com","sellingpilot.newegg.com","www-ts1.newegg.com","www.buildeniac.com","www.rosewillhome.com","nuget.newegg.com","c2.neweggimages.com","help.newegg.com","images10.newegg.com","promotions.newegg.ca","push.newegg.com","usopc.com","www.newegg.com","esuohni.onewegg.com","kb.newegg.ca","www-ts2.newegg.com","www.neweggbusiness.com","www.neweggstaffing.com","help.newegg.ca","ih.newegg.com"]
+[ssl-issuer] [ssl] [info] promotions.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] promotions.newegg.com:443 ["www.newegg.com","ih.newegg.com","chat.newegg.com","eniac.newegg.com","promotions.neweggbusiness.com","ssl-images.newegg.com","staffing.newegg.com","www-ts1.newegg.com","www.neweggbusiness.com","globalselling.newegg.com","help.newegg.com","kb.newegg.ca","kb.newegg.com","usopc.com","www.newegg.ca","www.rosewill.com","www.rosewillhome.com","carriercentral.newegg.com","download.newegg.com","newegg.com","kb.neweggbusiness.com","pf.newegg.com","secure.newegg.ca","www.neweggstaffing.com","www2.newegg.com","ows1.newegg.com","c1.neweggimages.com","esuohni.onewegg.com","images10.newegg.com","images10.rosewill.com","newegg.ca","secure.m.newegg.ca","secure.m.newegg.com","c2.neweggimages.com","flash.newegg.com","imgion4.newegg.com","imk.neweggimages.com","pmtcards.newegg.com","push.newegg.com","waf-poc.newegg.com","www-ts2.newegg.com","help.neweggbusiness.com","www.usopc.com","help.newegg.ca","neweggbusiness.com","nuget.newegg.com","partner.newegg.com","promotions.newegg.ca","promotions.newegg.com","images10.nutrend.com","investors.newegg.com","promotions.nutrend.com","secure.newegg.com","secure.neweggbusiness.com","sellingpilot.newegg.com","www.buildeniac.com"]
+[ssl-issuer] [ssl] [info] ows1.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] ows1.newegg.com:443 ["www.usopc.com","help.neweggbusiness.com","kb.newegg.com","kb.neweggbusiness.com","newegg.com","pf.newegg.com","promotions.newegg.ca","www-ts2.newegg.com","images10.nutrend.com","kb.newegg.ca","pmtcards.newegg.com","www.buildeniac.com","www.newegg.ca","www.neweggbusiness.com","www.rosewillhome.com","c2.neweggimages.com","carriercentral.newegg.com","secure.neweggbusiness.com","www.neweggstaffing.com","www2.newegg.com","esuohni.onewegg.com","help.newegg.com","imgion4.newegg.com","newegg.ca","push.newegg.com","secure.m.newegg.com","usopc.com","help.newegg.ca","images10.newegg.com","nuget.newegg.com","secure.newegg.com","ssl-images.newegg.com","www.newegg.com","chat.newegg.com","download.newegg.com","globalselling.newegg.com","ih.newegg.com","images10.rosewill.com","imk.neweggimages.com","investors.newegg.com","promotions.neweggbusiness.com","c1.neweggimages.com","eniac.newegg.com","secure.m.newegg.ca","secure.newegg.ca","sellingpilot.newegg.com","staffing.newegg.com","waf-poc.newegg.com","flash.newegg.com","neweggbusiness.com","ows1.newegg.com","partner.newegg.com","promotions.newegg.com","promotions.nutrend.com","www-ts1.newegg.com","www.rosewill.com"]
+[ssl-issuer] [ssl] [info] partner.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] partner.newegg.com:443 ["neweggbusiness.com","www.usopc.com","chat.newegg.com","download.newegg.com","partner.newegg.com","promotions.newegg.ca","promotions.newegg.com","push.newegg.com","secure.newegg.ca","esuohni.onewegg.com","pf.newegg.com","secure.newegg.com","www.buildeniac.com","www.neweggstaffing.com","www.rosewill.com","www.rosewillhome.com","promotions.neweggbusiness.com","ssl-images.newegg.com","staffing.newegg.com","usopc.com","www-ts1.newegg.com","www-ts2.newegg.com","www.newegg.com","www.neweggbusiness.com","flash.newegg.com","help.newegg.com","help.neweggbusiness.com","pmtcards.newegg.com","www.newegg.ca","www2.newegg.com","c1.neweggimages.com","help.newegg.ca","secure.neweggbusiness.com","carriercentral.newegg.com","images10.rosewill.com","newegg.ca","promotions.nutrend.com","secure.m.newegg.ca","secure.m.newegg.com","sellingpilot.newegg.com","waf-poc.newegg.com","ows1.newegg.com","c2.neweggimages.com","eniac.newegg.com","images10.newegg.com","imk.neweggimages.com","kb.newegg.ca","kb.neweggbusiness.com","newegg.com","globalselling.newegg.com","ih.newegg.com","images10.nutrend.com","imgion4.newegg.com","investors.newegg.com","kb.newegg.com","nuget.newegg.com"]
+[ssl-issuer] [ssl] [info] sli.newegg.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] sli.newegg.com:443 ["sli.newegg.com"]
+[ssl-issuer] [ssl] [info] pmtcards.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] pmtcards.newegg.com:443 ["kb.newegg.ca","partner.newegg.com","pf.newegg.com","promotions.neweggbusiness.com","secure.neweggbusiness.com","ih.newegg.com","c1.neweggimages.com","download.newegg.com","investors.newegg.com","newegg.ca","promotions.nutrend.com","staffing.newegg.com","usopc.com","eniac.newegg.com","nuget.newegg.com","ows1.newegg.com","promotions.newegg.com","secure.m.newegg.com","waf-poc.newegg.com","www-ts2.newegg.com","www.buildeniac.com","newegg.com","pmtcards.newegg.com","secure.newegg.ca","www-ts1.newegg.com","www.neweggbusiness.com","flash.newegg.com","imk.neweggimages.com","kb.neweggbusiness.com","neweggbusiness.com","secure.newegg.com","www.newegg.com","www.rosewill.com","www2.newegg.com","esuohni.onewegg.com","globalselling.newegg.com","imgion4.newegg.com","push.newegg.com","ssl-images.newegg.com","images10.nutrend.com","kb.newegg.com","sellingpilot.newegg.com","www.newegg.ca","www.neweggstaffing.com","www.rosewillhome.com","help.neweggbusiness.com","www.usopc.com","c2.neweggimages.com","carriercentral.newegg.com","help.newegg.ca","images10.rosewill.com","promotions.newegg.ca","secure.m.newegg.ca","chat.newegg.com","help.newegg.com","images10.newegg.com"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] promotions.newegg.com ["www.usopc.com.edgekey.net"]
+[ssl-issuer] [ssl] [info] push.newegg.com:443 ["DigiCert Inc"]
+[ssl-issuer] [ssl] [info] s.promo.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] push.newegg.com:443 ["www-ts1.newegg.com","www.neweggbusiness.com","www.rosewill.com","chat.newegg.com","help.newegg.ca","images10.rosewill.com","kb.neweggbusiness.com","promotions.newegg.ca","push.newegg.com","www2.newegg.com","eniac.newegg.com","globalselling.newegg.com","imgion4.newegg.com","nuget.newegg.com","partner.newegg.com","pf.newegg.com","promotions.newegg.com","secure.neweggbusiness.com","c1.neweggimages.com","help.newegg.com","kb.newegg.com","promotions.neweggbusiness.com","secure.m.newegg.ca","secure.newegg.com","www-ts2.newegg.com","www.newegg.ca","download.newegg.com","esuohni.onewegg.com","flash.newegg.com","www.neweggstaffing.com","promotions.nutrend.com","ssl-images.newegg.com","waf-poc.newegg.com","www.newegg.com","www.rosewillhome.com","c2.neweggimages.com","images10.nutrend.com","investors.newegg.com","newegg.ca","pmtcards.newegg.com","sellingpilot.newegg.com","usopc.com","www.buildeniac.com","carriercentral.newegg.com","help.neweggbusiness.com","images10.newegg.com","kb.newegg.ca","newegg.com","neweggbusiness.com","ows1.newegg.com","staffing.newegg.com","www.usopc.com","ih.newegg.com","imk.neweggimages.com","secure.m.newegg.com","secure.newegg.ca"]
+[ssl-dns-names] [ssl] [info] s.promo.newegg.com:443 ["s.promo.newegg.com"]
+[caa-fingerprint] [dns] [info] cloudfront.newegg.com
+[caa-fingerprint] [dns] [info] autodiscover.newegg.com
+[caa-fingerprint] [dns] [info] ec-apis.newegg.com
+[caa-fingerprint] [dns] [info] e11sellerimagestest.newegg.com
+[caa-fingerprint] [dns] [info] l.promo-flash.newegg.com
+[dns-saas-service-detection] [dns] [info] s.promo.global.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[caa-fingerprint] [dns] [info] edi04.newegg.com
+[ssl-issuer] [ssl] [info] secure.m.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] secure.m.newegg.com:443 ["ows1.newegg.com","secure.neweggbusiness.com","www.neweggbusiness.com","globalselling.newegg.com","newegg.com","partner.newegg.com","pmtcards.newegg.com","promotions.neweggbusiness.com","sellingpilot.newegg.com","www.buildeniac.com","www.neweggstaffing.com","esuohni.onewegg.com","ih.newegg.com","kb.newegg.ca","newegg.ca","nuget.newegg.com","promotions.newegg.com","promotions.nutrend.com","secure.m.newegg.ca","download.newegg.com","eniac.newegg.com","images10.nutrend.com","staffing.newegg.com","c2.neweggimages.com","carriercentral.newegg.com","chat.newegg.com","flash.newegg.com","imgion4.newegg.com","push.newegg.com","secure.newegg.com","www-ts2.newegg.com","www.usopc.com","help.neweggbusiness.com","imk.neweggimages.com","investors.newegg.com","pf.newegg.com","secure.m.newegg.com","ssl-images.newegg.com","waf-poc.newegg.com","help.newegg.com","neweggbusiness.com","secure.newegg.ca","usopc.com","www-ts1.newegg.com","www.newegg.ca","images10.newegg.com","kb.newegg.com","kb.neweggbusiness.com","promotions.newegg.ca","www.newegg.com","www.rosewill.com","www.rosewillhome.com","www2.newegg.com","c1.neweggimages.com","help.newegg.ca","images10.rosewill.com"]
+[ssl-issuer] [ssl] [info] sellingpilot.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] sellingpilot.newegg.com:443 ["apis.neweggbox.com","apis.neweggtech.com","dev-box-broadcast-ws.neweggbox.com","mkplapp.newegg.com","pre-apis.neweggtech.com","dev-download.neweggbox.com","dev-image.neweggtech.com","dev-readerservice.neweggtech.com","upload.neweggtech.com","vendorportal.newegg.com","www.newegg.io","dev-box-broadcast.neweggbox.com","image.neweggtech.com","readerservice.neweggtech.com","www.neweggtech.com","dev-download.neweggtech.com","edi04.newegg.com","newegg.io","sellerimages.newegg.com","sellingpilot.newegg.com","upload.neweggbox.com","dev-box-broadcast.neweggtech.com","box-broadcast-ws.neweggbox.com","box-broadcast-ws.neweggtech.com","dev-box-broadcast-ws.neweggtech.com","reader.neweggbox.com","reader.neweggtech.com","sellerportal.newegg.com","tapa.newegg.com","dev-chat-broadcast.neweggbox.com","dev-www.neweggbox.com","dev-www.neweggtech.com","download.neweggbox.com","download.neweggtech.com","pre-apis.neweggbox.com","readerservice.neweggbox.com","www.newegglogistics.com","dev-image.neweggbox.com","dev-reader.neweggtech.com","dev-readerservice.neweggbox.com","image.neweggbox.com","www.coboc.com","coboc.com","dev-upload.neweggbox.com","dev-upload.neweggtech.com","ec-apis.newegg.com","logistics.newegg.com","neweggbox.com","www.neweggbox.com","ecp.newegg.com","dev-chat-broadcast.neweggtech.com","api.newegg.com"]
+[caa-fingerprint] [dns] [info] kb.newegg.com
+[ssl-issuer] [ssl] [info] sellerportal.newegg.com:443 ["DigiCert Inc"]
+[ssl-issuer] [ssl] [info] secure.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] sellerportal.newegg.com:443 ["dev-reader.neweggtech.com","dev-upload.neweggtech.com","download.neweggbox.com","download.neweggtech.com","mkplapp.newegg.com","reader.neweggtech.com","sellingpilot.newegg.com","dev-image.neweggbox.com","dev-readerservice.neweggbox.com","newegg.io","neweggbox.com","tapa.newegg.com","upload.neweggtech.com","www.neweggtech.com","dev-download.neweggbox.com","box-broadcast-ws.neweggbox.com","dev-chat-broadcast.neweggbox.com","dev-readerservice.neweggtech.com","image.neweggbox.com","reader.neweggbox.com","apis.neweggbox.com","coboc.com","dev-box-broadcast-ws.neweggtech.com","dev-download.neweggtech.com","ec-apis.newegg.com","pre-apis.neweggbox.com","readerservice.neweggbox.com","api.newegg.com","apis.neweggtech.com","dev-box-broadcast-ws.neweggbox.com","dev-box-broadcast.neweggbox.com","dev-box-broadcast.neweggtech.com","dev-image.neweggtech.com","vendorportal.newegg.com","www.neweggbox.com","www.coboc.com","edi04.newegg.com","sellerportal.newegg.com","ecp.newegg.com","box-broadcast-ws.neweggtech.com","dev-upload.neweggbox.com","dev-www.neweggbox.com","dev-www.neweggtech.com","sellerimages.newegg.com","www.newegg.io","www.newegglogistics.com","image.neweggtech.com","logistics.newegg.com","pre-apis.neweggtech.com","readerservice.neweggtech.com","upload.neweggbox.com","dev-chat-broadcast.neweggtech.com"]
+[ssl-dns-names] [ssl] [info] secure.newegg.com:443 ["imgion4.newegg.com","newegg.com","ows1.newegg.com","promotions.neweggbusiness.com","secure.newegg.com","sellingpilot.newegg.com","www.newegg.com","globalselling.newegg.com","images10.rosewill.com","newegg.ca","pf.newegg.com","promotions.newegg.ca","promotions.newegg.com","www-ts2.newegg.com","help.newegg.com","neweggbusiness.com","partner.newegg.com","www.neweggstaffing.com","www.usopc.com","esuohni.onewegg.com","imk.neweggimages.com","push.newegg.com","secure.m.newegg.ca","www.buildeniac.com","www.rosewillhome.com","www2.newegg.com","c2.neweggimages.com","help.newegg.ca","help.neweggbusiness.com","kb.newegg.ca","ssl-images.newegg.com","waf-poc.newegg.com","www.neweggbusiness.com","www.rosewill.com","c1.neweggimages.com","carriercentral.newegg.com","download.newegg.com","flash.newegg.com","kb.neweggbusiness.com","pmtcards.newegg.com","secure.neweggbusiness.com","usopc.com","chat.newegg.com","ih.newegg.com","investors.newegg.com","nuget.newegg.com","promotions.nutrend.com","secure.m.newegg.com","secure.newegg.ca","staffing.newegg.com","eniac.newegg.com","images10.nutrend.com","kb.newegg.com","www-ts1.newegg.com","www.newegg.ca","images10.newegg.com"]
+[ssl-issuer] [ssl] [info] sellerimages.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] sellerimages.newegg.com:443 ["dev-www.neweggbox.com","download.neweggtech.com","dev-chat-broadcast.neweggtech.com","dev-download.neweggbox.com","www.coboc.com","api.newegg.com","coboc.com","dev-upload.neweggbox.com","dev-box-broadcast.neweggbox.com","image.neweggtech.com","reader.neweggtech.com","vendorportal.newegg.com","dev-chat-broadcast.neweggbox.com","dev-box-broadcast.neweggtech.com","ec-apis.newegg.com","sellingpilot.newegg.com","box-broadcast-ws.neweggtech.com","dev-image.neweggtech.com","dev-readerservice.neweggtech.com","download.neweggbox.com","ecp.newegg.com","image.neweggbox.com","sellerimages.newegg.com","upload.neweggbox.com","apis.neweggtech.com","box-broadcast-ws.neweggbox.com","mkplapp.newegg.com","readerservice.neweggbox.com","sellerportal.newegg.com","www.newegg.io","www.newegglogistics.com","dev-box-broadcast-ws.neweggbox.com","dev-image.neweggbox.com","dev-readerservice.neweggbox.com","dev-upload.neweggtech.com","newegg.io","pre-apis.neweggbox.com","reader.neweggbox.com","tapa.newegg.com","apis.neweggbox.com","dev-box-broadcast-ws.neweggtech.com","dev-www.neweggtech.com","logistics.newegg.com","neweggbox.com","pre-apis.neweggtech.com","upload.neweggtech.com","dev-download.neweggtech.com","dev-reader.neweggtech.com","edi04.newegg.com","readerservice.neweggtech.com","www.neweggbox.com","www.neweggtech.com"]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] sandboxapis.newegg.com ["e11wwwtest.neweggbusiness.com.edgekey.net"]
+[caa-fingerprint] [dns] [info] c1.newegg.com
+[ssl-issuer] [ssl] [info] vendorportal.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] vendorportal.newegg.com:443 ["box-broadcast-ws.neweggtech.com","dev-download.neweggtech.com","dev-reader.neweggtech.com","download.neweggtech.com","sellingpilot.newegg.com","dev-box-broadcast.neweggtech.com","dev-readerservice.neweggbox.com","dev-readerservice.neweggtech.com","download.neweggbox.com","reader.neweggtech.com","tapa.newegg.com","upload.neweggbox.com","apis.neweggbox.com","dev-image.neweggtech.com","newegg.io","upload.neweggtech.com","dev-box-broadcast-ws.neweggtech.com","dev-www.neweggtech.com","edi04.newegg.com","readerservice.neweggbox.com","sellerportal.newegg.com","www.neweggtech.com","ecp.newegg.com","box-broadcast-ws.neweggbox.com","coboc.com","dev-box-broadcast-ws.neweggbox.com","dev-box-broadcast.neweggbox.com","logistics.newegg.com","mkplapp.newegg.com","neweggbox.com","www.coboc.com","ec-apis.newegg.com","image.neweggtech.com","pre-apis.neweggbox.com","readerservice.neweggtech.com","vendorportal.newegg.com","www.neweggbox.com","www.newegglogistics.com","dev-chat-broadcast.neweggbox.com","dev-chat-broadcast.neweggtech.com","apis.neweggtech.com","dev-image.neweggbox.com","image.neweggbox.com","pre-apis.neweggtech.com","reader.neweggbox.com","sellerimages.newegg.com","dev-upload.neweggbox.com","dev-upload.neweggtech.com","dev-www.neweggbox.com","www.newegg.io","dev-download.neweggbox.com","api.newegg.com"]
+[ssl-issuer] [ssl] [info] ssl-images.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] ssl-images.newegg.com:443 ["partner.newegg.com","staffing.newegg.com","usopc.com","www-ts1.newegg.com","www-ts2.newegg.com","help.newegg.com","images10.nutrend.com","newegg.ca","promotions.newegg.ca","promotions.newegg.com","secure.m.newegg.com","sellingpilot.newegg.com","www.buildeniac.com","c2.neweggimages.com","imk.neweggimages.com","kb.newegg.ca","kb.neweggbusiness.com","ssl-images.newegg.com","www.newegg.com","www.neweggbusiness.com","www.neweggstaffing.com","chat.newegg.com","eniac.newegg.com","investors.newegg.com","pmtcards.newegg.com","www.newegg.ca","www.rosewill.com","www2.newegg.com","esuohni.onewegg.com","flash.newegg.com","promotions.neweggbusiness.com","promotions.nutrend.com","www.usopc.com","help.newegg.ca","ih.newegg.com","images10.newegg.com","kb.newegg.com","neweggbusiness.com","secure.newegg.com","www.rosewillhome.com","carriercentral.newegg.com","help.neweggbusiness.com","pf.newegg.com","secure.neweggbusiness.com","waf-poc.newegg.com","c1.neweggimages.com","images10.rosewill.com","imgion4.newegg.com","newegg.com","nuget.newegg.com","push.newegg.com","secure.m.newegg.ca","secure.newegg.ca","download.newegg.com","globalselling.newegg.com","ows1.newegg.com"]
+[caa-fingerprint] [dns] [info] e11sellerportaltest.newegg.com
+[ssl-issuer] [ssl] [info] w.promo-flash.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] w.promo-flash.newegg.com:443 ["w.promo-flash.newegg.com"]
+[dns-saas-service-detection] [dns] [info] s.promo.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[caa-fingerprint] [dns] [info] carriercentral.newegg.com
+[ssl-issuer] [ssl] [info] w.promo.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] w.promo.newegg.com:443 ["w.promo.newegg.com"]
+[caa-fingerprint] [dns] [info] developer.newegg.com
+[ssl-issuer] [ssl] [info] x.promo.global.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] x.promo.global.newegg.com:443 ["x.promo.global.newegg.com"]
+[ssl-issuer] [ssl] [info] gamecrate.newegg.com:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] gamecrate.newegg.com:443 ["newegg.com","*.newegg.ca","*.newegg.com","*.neweggbusiness.com","newegg.ca","neweggbusiness.com"]
+[wildcard-tls] [ssl] [info] gamecrate.newegg.com:443 ["SAN: [newegg.com *.newegg.ca *.newegg.com *.neweggbusiness.com newegg.ca neweggbusiness.com]","CN: newegg.com"]
+[ssl-issuer] [ssl] [info] www2.newegg.com:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] www2.newegg.com:443 ["c2.neweggimages.com","eniac.newegg.com","ih.newegg.com","kb.newegg.com","nuget.newegg.com","pmtcards.newegg.com","promotions.neweggbusiness.com","push.newegg.com","esuohni.onewegg.com","images10.nutrend.com","usopc.com","www-ts2.newegg.com","www.newegg.ca","www.newegg.com","www.rosewill.com","www.rosewillhome.com","help.newegg.com","neweggbusiness.com","secure.m.newegg.ca","sellingpilot.newegg.com","ssl-images.newegg.com","waf-poc.newegg.com","www-ts1.newegg.com","c1.neweggimages.com","chat.newegg.com","download.newegg.com","help.neweggbusiness.com","pf.newegg.com","staffing.newegg.com","ows1.newegg.com","imgion4.newegg.com","kb.neweggbusiness.com","promotions.nutrend.com","secure.m.newegg.com","secure.newegg.ca","www.neweggstaffing.com","carriercentral.newegg.com","globalselling.newegg.com","secure.newegg.com","www2.newegg.com","www.usopc.com","flash.newegg.com","images10.newegg.com","imk.neweggimages.com","investors.newegg.com","secure.neweggbusiness.com","www.buildeniac.com","www.neweggbusiness.com","help.newegg.ca","images10.rosewill.com","kb.newegg.ca","newegg.ca","newegg.com","partner.newegg.com","promotions.newegg.ca","promotions.newegg.com"]
+[ssl-issuer] [ssl] [info] corporate.newegg.com:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] corporate.newegg.com:443 ["neweggbusiness.com","newegg.com","*.newegg.ca","*.newegg.com","*.neweggbusiness.com","newegg.ca"]
+[wildcard-tls] [ssl] [info] corporate.newegg.com:443 ["SAN: [newegg.com *.newegg.ca *.newegg.com *.neweggbusiness.com newegg.ca neweggbusiness.com]","CN: newegg.com"]
+[caa-fingerprint] [dns] [info] api.newegg.com
+[ssl-issuer] [ssl] [info] w.promo.global.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] w.promo.global.newegg.com:443 ["w.promo.global.newegg.com"]
+[ssl-issuer] [ssl] [info] bridge.newegg.com:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] bridge.newegg.com:443 ["newegg.com","*.newegg.ca","*.newegg.com","*.neweggbusiness.com","newegg.ca","neweggbusiness.com"]
+[wildcard-tls] [ssl] [info] bridge.newegg.com:443 ["CN: newegg.com","SAN: [newegg.com *.newegg.ca *.newegg.com *.neweggbusiness.com newegg.ca neweggbusiness.com]"]
+[ssl-issuer] [ssl] [info] x.promo-flash.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] x.promo-flash.newegg.com:443 ["x.promo-flash.newegg.com"]
+[ssl-issuer] [ssl] [info] newegg.com:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] newegg.com:443 ["newegg.com","*.newegg.ca","*.newegg.com","*.neweggbusiness.com","newegg.ca","neweggbusiness.com"]
+[wildcard-tls] [ssl] [info] newegg.com:443 ["CN: newegg.com","SAN: [newegg.com *.newegg.ca *.newegg.com *.neweggbusiness.com newegg.ca neweggbusiness.com]"]
+[ssl-issuer] [ssl] [info] whistleblower.newegg.com:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] whistleblower.newegg.com:443 ["neweggbusiness.com","newegg.com","*.newegg.ca","*.newegg.com","*.neweggbusiness.com","newegg.ca"]
+[wildcard-tls] [ssl] [info] whistleblower.newegg.com:443 ["CN: newegg.com","SAN: [newegg.com *.newegg.ca *.newegg.com *.neweggbusiness.com newegg.ca neweggbusiness.com]"]
+[ssl-issuer] [ssl] [info] x.promo.newegg.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] x.promo.newegg.com:443 ["x.promo.newegg.com"]
+[mx-fingerprint] [dns] [info] newegg.com ["10 mxa-004ed001.gslb.pphosted.com.","10 mxb-004ed001.gslb.pphosted.com."]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] vendorportal.newegg.com ["www.coboc.com.edgekey.net"]
+[spf-record-detect] [dns] [info] newegg.com ["v=spf1 ip4:107.20.210.250/32 ip4:52.1.14.157/32 ip4:216.52.208.0/24 ip4:204.14.213.0/24 ip4:204.89.152.0/24 ip4:50.79.138.221 include:spf-004ed001.pphosted.com include:u1970239.wl.sendgrid.net include:spf.protection.outlook.com -all""]
+[txt-fingerprint] [dns] [info] newegg.com [""_a4kh6j7awcaw7fxqj5shnpuurxqqwy8"",""v=spf1 ip4:107.20.210.250/32 ip4:52.1.14.157/32 ip4:216.52.208.0/24 ip4:204.14.213.0/24 ip4:204.89.152.0/24 ip4:50.79.138.221 include:spf-004ed001.pphosted.com include:u1970239.wl.sendgrid.net include:spf.protection.outlook.com -all"",""google-site-verification=ajXtDle0UfsPUgtjCZ37T8opwg2zvXLzkHNjZTlIVFI"",""apple-domain-verification=fookR9-T71Tb7G4opXgos6kiHa32YIsCriQxJY4SNU8""]
+[dns-saas-service-detection] [dns] [info] w.promo.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[dns-saas-service-detection] [dns] [info] w.promo-flash.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[nameserver-fingerprint] [dns] [info] sli.newegg.com ["ns-692.awsdns-22.net.","ns-1724.awsdns-23.co.uk.","ns-1403.awsdns-47.org.","ns-184.awsdns-23.com."]
+[dns-saas-service-detection] [dns] [info] w.promo.global.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[dmarc-detect] [dns] [info] _dmarc.newegg.com [""v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-reports@newegg.com; ruf=mailto:dmarcruf@newegg.com""]
+[caa-fingerprint] [dns] [info] promotions.newegg.com
+[caa-fingerprint] [dns] [info] sellerportal.newegg.com
+[caa-fingerprint] [dns] [info] sellerimages.newegg.com
+[caa-fingerprint] [dns] [info] s.promo.global.newegg.com
+[caa-fingerprint] [dns] [info] s.promo-flash.newegg.com
+[caa-fingerprint] [dns] [info] logistics.newegg.com
+[caa-fingerprint] [dns] [info] metrics-staging.newegg.com
+[caa-fingerprint] [dns] [info] mkplapp.newegg.com
+[caa-fingerprint] [dns] [info] pmtcards.newegg.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] www2.newegg.com ["www.usopc.com.edgekey.net"]
+[dns-saas-service-detection] [dns] [info] x.promo.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[caa-fingerprint] [dns] [info] media.newegg.com
+[caa-fingerprint] [dns] [info] ows1.newegg.com
+[caa-fingerprint] [dns] [info] push.newegg.com
+[caa-fingerprint] [dns] [info] l.promo.newegg.com
+[caa-fingerprint] [dns] [info] newegg.com ["digicert.com","letsencrypt.org","sectigo.com","pki.goog","amazon.com"]
+[dns-saas-service-detection] [dns] [info] x.promo-flash.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[dns-saas-service-detection] [dns] [info] x.promo.global.newegg.com ["op173-101.wafprod.mgsreops.com"]
+[caa-fingerprint] [dns] [info] m.newegg.com
+[caa-fingerprint] [dns] [info] s.promo.newegg.com
+[caa-fingerprint] [dns] [info] pf.newegg.com
+[caa-fingerprint] [dns] [info] nuget.newegg.com
+[caa-fingerprint] [dns] [info] partner.newegg.com
+[caa-fingerprint] [dns] [info] secure.newegg.com
+[caa-fingerprint] [dns] [info] secure.m.newegg.com
+[caa-fingerprint] [dns] [info] sandboxapis.newegg.com
+[caa-fingerprint] [dns] [info] sellingpilot.newegg.com
+[caa-fingerprint] [dns] [info] whistleblower.newegg.com
+[caa-fingerprint] [dns] [info] x.promo.global.newegg.com
+[caa-fingerprint] [dns] [info] x.promo.newegg.com
+[caa-fingerprint] [dns] [info] vendorportal.newegg.com
+[caa-fingerprint] [dns] [info] w.promo.newegg.com
+[caa-fingerprint] [dns] [info] sli.newegg.com
+[caa-fingerprint] [dns] [info] w.promo-flash.newegg.com
+[caa-fingerprint] [dns] [info] www2.newegg.com
+[caa-fingerprint] [dns] [info] w.promo.global.newegg.com
+[caa-fingerprint] [dns] [info] x.promo-flash.newegg.com
+[caa-fingerprint] [dns] [info] ssl-images.newegg.com

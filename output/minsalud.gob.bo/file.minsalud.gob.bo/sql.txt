@@ -1,0 +1,2 @@
+https://file.minsalud.gob.bo/share/noauth/messages_961d9dfc7693747aab62d2d84160de5a.js?locale=en_US
+https://file.minsalud.gob.bo/share/res/modules/editors/tinymce/tinymce.min.js?checksum=f34ea2e33cbdf16fb05ecb3e9a6f6562

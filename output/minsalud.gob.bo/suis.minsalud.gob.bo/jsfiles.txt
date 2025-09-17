@@ -1,0 +1,17 @@
+http://suis.minsalud.gob.bo/assets/js/bootstrap.min.js
+http://suis.minsalud.gob.bo/assets/js/jquery-min.js
+http://suis.minsalud.gob.bo/assets/js/jquery.counterup.min.js
+http://suis.minsalud.gob.bo/assets/js/jquery.mixitup.min.js
+http://suis.minsalud.gob.bo/assets/js/jquery.nav.js
+http://suis.minsalud.gob.bo/assets/js/lightbox.min.js
+http://suis.minsalud.gob.bo/assets/js/main.js
+http://suis.minsalud.gob.bo/assets/js/owl.carousel.js
+http://suis.minsalud.gob.bo/assets/js/smooth-on-scroll.js
+http://suis.minsalud.gob.bo/assets/js/smooth-scroll.js
+http://suis.minsalud.gob.bo/assets/js/style.changer.js
+http://suis.minsalud.gob.bo/assets/js/text-rotator.js
+http://suis.minsalud.gob.bo/assets/js/waypoints.min.js
+http://suis.minsalud.gob.bo/assets/js/wow.js
+http://suis.minsalud.gob.bo/js/bootstrap.min.js
+http://suis.minsalud.gob.bo/plugins/iCheck/icheck.min.js
+http://suis.minsalud.gob.bo/plugins/jQuery/jQuery-2.1.4.min.js

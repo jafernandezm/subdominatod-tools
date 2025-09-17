@@ -1,0 +1,2 @@
+https://www.partners.skyscanner.net/news-case-studies/rss.xml
+https://www.skyscanner.net/sttc/px/captcha-v2/manifest.json

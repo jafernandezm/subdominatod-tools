@@ -1,0 +1,8 @@
+https://rues.minsalud.gob.bo/fonts/Simple-Line-Iconsb26c.eot?v=2.4.0
+https://rues.minsalud.gob.bo/fonts/Simple-Line-Iconsb26c.ttf?v=2.4.0
+https://rues.minsalud.gob.bo/fonts/Simple-Line-Iconsb26c.woff2?v=2.4.0
+https://rues.minsalud.gob.bo/fonts/Simple-Line-Iconsb26c.woff?v=2.4.0
+https://rues.minsalud.gob.bo/fonts/fontawesome-webfont3e6e.eot?v=4.7.0
+https://rues.minsalud.gob.bo/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0
+https://rues.minsalud.gob.bo/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0
+https://rues.minsalud.gob.bo/fonts/fontawesome-webfont3e6e.woff?v=4.7.0

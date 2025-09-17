@@ -1,0 +1,3 @@
+https://gitlab.minsalud.gob.bo/explore/projects?archived=only
+https://gitlab.minsalud.gob.bo/explore/projects?archived=true
+https://gitlab.minsalud.gob.bo/users/sign_in?redirect_to_referer=yes

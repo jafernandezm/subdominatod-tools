@@ -1,0 +1,2 @@
+http://travelpro.skyscanner.net/travelpro/blog?format=RSS
+http://travelpro.skyscanner.net/travelpro/home?format=RSS

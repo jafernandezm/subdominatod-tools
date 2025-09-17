@@ -1,0 +1,153 @@
+[
+  {
+    "url": "https://designify.com:443",
+    "host": "172.64.148.112",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [
+      "Cloudflare, HSTS, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 1102,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://designify.com:80",
+    "host": "104.18.39.144",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://designify.com:8080",
+    "host": "104.18.39.144",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://api.designify.com:80",
+    "host": "34.90.25.172",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 308,
+    "title": "308 Permanent Redirect",
+    "tech": [],
+    "content_type": "text/html",
+    "response_size": 164,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://l.news.designify.com:8080",
+    "host": "104.18.39.144",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://l.news.designify.com:80",
+    "host": "104.18.39.144",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "https://www.designify.com:443",
+    "host": "172.64.148.112",
+    "ip": "",
+    "scheme": "https",
+    "port": "443",
+    "status_code": 200,
+    "title": "Designify - Turn any photo into awesome",
+    "tech": [
+      "Cloudflare, Google Analytics, HSTS, HTTP/3, Paddle, Storyblok, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 152734,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://www.designify.com:80",
+    "host": "104.18.39.144",
+    "ip": "",
+    "scheme": "http",
+    "port": "80",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  },
+  {
+    "url": "http://www.designify.com:8080",
+    "host": "104.18.39.144",
+    "ip": "",
+    "scheme": "http",
+    "port": "8080",
+    "status_code": 301,
+    "title": "301 Moved Permanently",
+    "tech": [
+      "Cloudflare, HTTP/3, cloudflare"
+    ],
+    "content_type": "text/html",
+    "response_size": 167,
+    "tls_cn": "",
+    "cname": "",
+    "cdn": true
+  }
+]

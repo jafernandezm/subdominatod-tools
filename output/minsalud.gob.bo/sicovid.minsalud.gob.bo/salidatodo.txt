@@ -1,0 +1,5 @@
+http://127.0.0.1:8080
+http://example.com/
+https://sicovid.minsalud.gob.bo
+https://sicovid.minsalud.gob.bo/static/login/
+https://sicovid.minsalud.gob.bo/static/login/index.js

@@ -1,0 +1,6 @@
+http://127.0.0.1:8080
+http://example.com/
+http://svr-mail.soporte.minsalud.gob.bo/
+https://svr-mail.soporte.minsalud.gob.bo
+https://svr-mail.soporte.minsalud.gob.bo/static/login/
+https://svr-mail.soporte.minsalud.gob.bo/static/login/index.js

@@ -1,0 +1,5420 @@
+"columns and relationships of \"users_private\""
+type users_private {
+  "An array relationship"
+  addresses(
+    "distinct select on columns"
+    distinct_on: [user_addresses_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [user_addresses_order_by!],
+    "filter the rows returned"
+    where: user_addresses_bool_exp
+  ): [user_addresses!]!
+  "An array relationship"
+  annual_sales_totals(
+    "distinct select on columns"
+    distinct_on: [annual_sales_totals_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [annual_sales_totals_order_by!],
+    "filter the rows returned"
+    where: annual_sales_totals_bool_exp
+  ): [annual_sales_totals!]!
+  "An aggregate relationship"
+  annual_sales_totals_aggregate(
+    "distinct select on columns"
+    distinct_on: [annual_sales_totals_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [annual_sales_totals_order_by!],
+    "filter the rows returned"
+    where: annual_sales_totals_bool_exp
+  ): annual_sales_totals_aggregate!
+  brand_id: uuid
+  created_at: timestamptz
+  current_balance: Int
+  "An object relationship"
+  default_shipping_address: user_addresses
+  default_shipping_address_id: uuid
+  email: String
+  is_manager: Boolean
+  "An array relationship"
+  roles(
+    "distinct select on columns"
+    distinct_on: [user_roles_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [user_roles_order_by!],
+    "filter the rows returned"
+    where: user_roles_bool_exp
+  ): [user_roles!]!
+  stripe_account_id: String
+  updated_at: timestamptz
+  user_id: String
+}
+
+"columns and relationships of \"variant_type_options\""
+type variant_type_options {
+  "An object relationship"
+  brand: brands!
+  brand_id: uuid!
+  "A computed field, executes function \"vto_content\""
+  content(
+    "distinct select on columns"
+    distinct_on: [variant_type_options_translations_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [variant_type_options_translations_order_by!],
+    "filter the rows returned"
+    where: variant_type_options_translations_bool_exp
+  ): [variant_type_options_translations!]
+  created_at: timestamptz!
+  id: uuid!
+  option: String!
+  updated_at: timestamptz!
+  "An object relationship"
+  variant_type: variant_types!
+  variant_type_id: uuid!
+  "An array relationship"
+  variant_type_options_translations(
+    "distinct select on columns"
+    distinct_on: [variant_type_options_translations_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [variant_type_options_translations_order_by!],
+    "filter the rows returned"
+    where: variant_type_options_translations_bool_exp
+  ): [variant_type_options_translations!]!
+}
+
+"columns and relationships of \"variant_type_options_translations\""
+type variant_type_options_translations {
+  display: String!
+  id: Int!
+  lang: String!
+  variant_type_option_id: uuid!
+}
+
+"columns and relationships of \"variant_types\""
+type variant_types {
+  "An object relationship"
+  brand: brands!
+  brand_id: uuid!
+  "A computed field, executes function \"vt_content\""
+  content(
+    "distinct select on columns"
+    distinct_on: [variant_types_translations_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [variant_types_translations_order_by!],
+    "filter the rows returned"
+    where: variant_types_translations_bool_exp
+  ): [variant_types_translations!]
+  id: uuid!
+  type: String!
+  "An array relationship"
+  variant_type_options(
+    "distinct select on columns"
+    distinct_on: [variant_type_options_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [variant_type_options_order_by!],
+    "filter the rows returned"
+    where: variant_type_options_bool_exp
+  ): [variant_type_options!]!
+  "An array relationship"
+  variant_types_translations(
+    "distinct select on columns"
+    distinct_on: [variant_types_translations_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [variant_types_translations_order_by!],
+    "filter the rows returned"
+    where: variant_types_translations_bool_exp
+  ): [variant_types_translations!]!
+}
+
+"aggregated selection of \"variant_types\""
+type variant_types_aggregate {
+  aggregate: variant_types_aggregate_fields
+  nodes: [variant_types!]!
+}
+
+"aggregate fields of \"variant_types\""
+type variant_types_aggregate_fields {
+  count(columns: [variant_types_select_column!], distinct: Boolean): Int!
+  max: variant_types_max_fields
+  min: variant_types_min_fields
+}
+
+"aggregate max on columns"
+type variant_types_max_fields {
+  brand_id: uuid
+  id: uuid
+  type: String
+}
+
+"aggregate min on columns"
+type variant_types_min_fields {
+  brand_id: uuid
+  id: uuid
+  type: String
+}
+
+"columns and relationships of \"variant_types_translations\""
+type variant_types_translations {
+  display: String!
+  id: Int!
+  lang: String!
+  variant_type_id: uuid!
+}
+
+"columns and relationships of \"wms_items\""
+type wms_items {
+  "An object relationship"
+  brand: brands!
+  "An object relationship"
+  brand_category: brand_categories
+  id: uuid!
+  "An object relationship"
+  listing: listings
+  listing_id: uuid
+  lpn: String!
+  "An object relationship"
+  product: products
+  "An object relationship"
+  product_style: product_styles
+  "An object relationship"
+  sku: skus
+}
+
+"columns and relationships of \"workflow_definitions\""
+type workflow_definitions {
+  callbacks(
+    "JSON select path"
+    path: String
+  ): jsonb
+  created_at: timestamptz!
+  id: uuid!
+  schema(
+    "JSON select path"
+    path: String
+  ): jsonb!
+  type: String!
+  updated_at: timestamptz!
+  "An array relationship"
+  workflow_items(
+    "distinct select on columns"
+    distinct_on: [workflow_items_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [workflow_items_order_by!],
+    "filter the rows returned"
+    where: workflow_items_bool_exp
+  ): [workflow_items!]!
+  "An array relationship"
+  workflows(
+    "distinct select on columns"
+    distinct_on: [workflows_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [workflows_order_by!],
+    "filter the rows returned"
+    where: workflows_bool_exp
+  ): [workflows!]!
+}
+
+"columns and relationships of \"workflow_item_event_types\""
+type workflow_item_event_types {
+  type: String!
+}
+
+"columns and relationships of \"workflow_item_events\""
+type workflow_item_events {
+  event_type: workflow_item_event_types_enum!
+  id: uuid!
+  payload(
+    "JSON select path"
+    path: String
+  ): jsonb
+  timestamp: timestamptz!
+  "An object relationship"
+  user: users
+  value: String!
+  "An object relationship"
+  workflow_item: workflow_items!
+  "An object relationship"
+  workflow_item_event_type: workflow_item_event_types!
+  workflow_item_id: uuid!
+}
+
+"columns and relationships of \"workflow_items\""
+type workflow_items {
+  brand_id: uuid!
+  created_at: timestamptz!
+  data(
+    "JSON select path"
+    path: String
+  ): jsonb!
+  id: uuid!
+  state: String!
+  updated_at: timestamptz!
+  "An object relationship"
+  workflow: workflows!
+  "An object relationship"
+  workflow_definition: workflow_definitions!
+  workflow_definition_id: uuid!
+  workflow_id: uuid!
+  "An array relationship"
+  workflow_item_events(
+    "distinct select on columns"
+    distinct_on: [workflow_item_events_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [workflow_item_events_order_by!],
+    "filter the rows returned"
+    where: workflow_item_events_bool_exp
+  ): [workflow_item_events!]!
+}
+
+"response of any mutation on the table \"workflow_items\""
+type workflow_items_mutation_response {
+  "number of rows affected by the mutation"
+  affected_rows: Int!
+  "data from the rows affected by the mutation"
+  returning: [workflow_items!]!
+}
+
+"columns and relationships of \"workflows\""
+type workflows {
+  brand_id: uuid!
+  created_at: timestamptz!
+  id: uuid!
+  updated_at: timestamptz!
+  "An object relationship"
+  workflow_definition: workflow_definitions!
+  workflow_definition_id: uuid!
+  "An array relationship"
+  workflow_items(
+    "distinct select on columns"
+    distinct_on: [workflow_items_select_column!],
+    "limit the number of rows returned"
+    limit: Int,
+    "skip the first n rows. Use only with order_by"
+    offset: Int,
+    "sort the rows by one or more columns"
+    order_by: [workflow_items_order_by!],
+    "filter the rows returned"
+    where: workflow_items_bool_exp
+  ): [workflow_items!]!
+}
+
+enum AddressField {
+  ADDRESS_LINE_1
+  ADDRESS_LINE_2
+  ADMINISTRATIVE_AREA
+  COUNTRY
+  LOCALITY
+  NAME
+  PHONE_NUMBER
+  POSTAL_CODE
+}
+
+enum CollectionType {
+  manual
+  rule
+}
+
+enum CreateStoreTakebackMetadataSchemas {
+  LululemonTakebackInputV1
+}
+
+enum DiscountErrorCode {
+  DOES_NOT_APPLY
+  EMAIL_REQUIRED
+  UNKNOWN_CODE
+  USES_EXCEEDED
+}
+
+enum GetStoreTakebackMetadataSchemas {
+  LululemonTakebackResultV1
+}
+
+enum ItemFulfillmentType {
+  LISTING
+}
+
+enum LookupTakebacksOrderBy {
+  default
+}
+
+enum ReturnChargeType {
+  RETURN_SHIPPING
+}
+
+enum TakebackItemIdType {
+  PRODUCT_ID
+  PRODUCT_STYLE_CODE
+  PRODUCT_STYLE_ID
+}
+
+enum TakebackRequestStoreCreditStatus {
+  REQUEST_ERROR
+  SUCCESS
+}
+
+enum TakebackType {
+  MAIL_IN
+  STORE
+}
+
+enum ValidateAddressV2AddressType {
+  BUSINESS
+  RESIDENTIAL
+  UNKNOWN
+}
+
+enum ValidateAddressV2ResultValidationReasonCode {
+  ADDRESS_NOT_FOUND
+  EXCEEDS_35_CHARACTER_LIMIT
+  EXCEEDS_50_CHARACTER_LIMIT
+  GENERIC_VALIDATION_ERROR
+  GEOCODE_NOT_SPECIFIC
+  INELIGIBLE_REGION
+  INELIGIBLE_SHIP_TO_PO_BOX
+  INVALID_POSTAL_CODE
+  MISSING_PREMISE
+  MISSING_SUBPREMISE
+  MULTIPLE_MATCHES_FOUND
+  STREET_NOT_DELIVERABLE
+  STREET_NOT_FOUND
+  UNVERIFIED_PREMISE
+  UNVERIFIED_SUBPREMISE
+}
+
+enum ValidateAddressV2ResultValidationReasonType {
+  BLOCKED
+  WARNING
+}
+
+enum ValidateAddressV2ResultValidationResult {
+  BLOCKED
+  UNVERIFIED
+  VERIFIED
+}
+
+"unique or primary key constraints on table \"addresses\""
+enum addresses_constraint {
+  "unique or primary key constraint on columns \"id\""
+  addresses_pkey
+}
+
+"select columns of table \"addresses\""
+enum addresses_select_column {
+  "column name"
+  administrative_area
+  "column name"
+  country
+  "column name"
+  id
+  "column name"
+  locality
+  "column name"
+  longlat_pub
+}
+
+"placeholder for update columns of table \"addresses\" (current role has no relevant permissions)"
+enum addresses_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column {
+  "column name"
+  country
+  "column name"
+  storefront_id
+  "column name"
+  tax_year
+  "column name"
+  total
+  "column name"
+  total_sales_count
+  "column name"
+  user_id
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_avg_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_avg_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_corr_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_corr_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_covar_samp_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_covar_samp_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_max_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_max_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_min_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_min_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_stddev_samp_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_stddev_samp_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_sum_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_sum_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select \"annual_sales_totals_aggregate_bool_exp_var_samp_arguments_columns\" columns of table \"annual_sales_totals\""
+enum annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_var_samp_arguments_columns {
+  "column name"
+  tax_year
+}
+
+"select columns of table \"applied_discount_codes\""
+enum applied_discount_codes_select_column {
+  "column name"
+  discount_amount
+  "column name"
+  id
+  "column name"
+  order_id
+}
+
+"unique or primary key constraints on table \"attempted_discount_codes\""
+enum attempted_discount_codes_constraint {
+  "unique or primary key constraint on columns \"id\""
+  attempted_discount_codes_pkey
+}
+
+"select columns of table \"attempted_discount_codes\""
+enum attempted_discount_codes_select_column {
+  "column name"
+  discount_amount
+  "column name"
+  id
+  "column name"
+  order_intent_id
+}
+
+"placeholder for update columns of table \"attempted_discount_codes\" (current role has no relevant permissions)"
+enum attempted_discount_codes_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"attribute_type_options\""
+enum attribute_type_options_select_column {
+  "column name"
+  attribute_type_id
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  option
+  "column name"
+  updated_at
+}
+
+"select columns of table \"attribute_type_options_translations\""
+enum attribute_type_options_translations_select_column {
+  "column name"
+  attribute_type_option_id
+  "column name"
+  display
+  "column name"
+  id
+  "column name"
+  lang
+}
+
+"select columns of table \"attribute_types\""
+enum attribute_types_select_column {
+  "column name"
+  brand_id
+  "column name"
+  id
+  "column name"
+  type
+}
+
+"select columns of table \"attribute_types_translations\""
+enum attribute_types_translations_select_column {
+  "column name"
+  attribute_type_id
+  "column name"
+  display
+  "column name"
+  id
+  "column name"
+  lang
+}
+
+"unique or primary key constraints on table \"auction_bids\""
+enum auction_bids_constraint {
+  "unique or primary key constraint on columns \"id\""
+  auction_bids_pkey
+}
+
+"select columns of table \"auction_bids_history\""
+enum auction_bids_history_select_column {
+  "column name"
+  amount
+  "column name"
+  auction_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  order
+  "column name"
+  user_id
+}
+
+"select columns of table \"auction_bids\""
+enum auction_bids_select_column {
+  "column name"
+  address_id
+  "column name"
+  amount
+  "column name"
+  auction_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  order
+  "column name"
+  payment_intent_id
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"auction_bids\" (current role has no relevant permissions)"
+enum auction_bids_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"auctions\""
+enum auctions_select_column {
+  "column name"
+  end
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  max_price
+  "column name"
+  start
+}
+
+"select columns of table \"brand_categories\""
+enum brand_categories_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  default_price_multiplier
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  parent_id
+  "column name"
+  singular
+  "column name"
+  uid
+  "column name"
+  updated_at
+}
+
+"select columns of table \"brand_categories_translations\""
+enum brand_categories_translations_select_column {
+  "column name"
+  category_id
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  name
+  "column name"
+  singular
+}
+
+"select columns of table \"brand_fulfillment_in_store_options\""
+enum brand_fulfillment_in_store_options_select_column {
+  "column name"
+  brand_fulfillment_in_store_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  retail_store_id
+  "column name"
+  shipping_fee
+  "column name"
+  updated_at
+}
+
+"select columns of table \"brand_fulfillment_in_store_settings\""
+enum brand_fulfillment_in_store_settings_select_column {
+  "column name"
+  brand_fulfillment_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"brand_fulfillment_postal_options\""
+enum brand_fulfillment_postal_options_select_column {
+  "column name"
+  brand_fulfillment_postal_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  postal_options_id
+  "column name"
+  shipping_fee
+  "column name"
+  updated_at
+}
+
+"select columns of table \"brand_fulfillment_postal_settings\""
+enum brand_fulfillment_postal_settings_select_column {
+  "column name"
+  brand_fulfillment_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"brand_fulfillment_settings\""
+enum brand_fulfillment_settings_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  fulfillment_type
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  updated_at
+}
+
+"select columns of table \"brand_passwords\""
+enum brand_passwords_select_column {
+  "column name"
+  brand_id
+  "column name"
+  enabled
+}
+
+"select columns of table \"brands\""
+enum brands_select_column {
+  "column name"
+  content
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  settings
+  "column name"
+  slug
+  "column name"
+  updated_at
+}
+
+enum building_access_types_enum {
+  elevator
+  ground_floor
+  walkup
+}
+
+enum chat_channel_types_enum {
+  livestream
+  messaging
+}
+
+"select columns of table \"chat_channels\""
+enum chat_channels_select_column {
+  "column name"
+  brand_id
+  "column name"
+  channel_external_identifier
+  "column name"
+  channel_type
+  "column name"
+  created_at
+  "column name"
+  key
+  "column name"
+  updated_at
+}
+
+"select columns of table \"collapsed_product_results\""
+enum collapsed_product_results_select_column {
+  "column name"
+  part_id
+  "column name"
+  product_id
+}
+
+"select columns of table \"collection_media_groups\""
+enum collection_media_groups_select_column {
+  "column name"
+  collection_id
+  "column name"
+  created_at
+  "column name"
+  media_group_id
+  "column name"
+  updated_at
+}
+
+enum collection_types_enum {
+  manual
+  rule
+}
+
+"select columns of table \"collections\""
+enum collections_select_column {
+  "column name"
+  active
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  read_only
+  "column name"
+  slug
+  "column name"
+  type
+  "column name"
+  updated_at
+}
+
+"select columns of table \"collections_translations\""
+enum collections_translations_select_column {
+  "column name"
+  collection_id
+  "column name"
+  description
+  "column name"
+  display_name
+  "column name"
+  id
+  "column name"
+  locale
+}
+
+"select columns of table \"condition_questions\""
+enum condition_questions_select_column {
+  "column name"
+  addl_info_comment
+  "column name"
+  addl_info_comment_required
+  "column name"
+  addl_info_images
+  "column name"
+  addl_info_images_required
+  "column name"
+  addl_info_on_response_value
+  "column name"
+  addl_info_prompt
+  "column name"
+  brand_id
+  "column name"
+  depends_on_question_id
+  "column name"
+  depends_on_response_value
+  "column name"
+  fail_description
+  "column name"
+  fail_on_response_value
+  "column name"
+  help_text
+  "column name"
+  hidden
+  "column name"
+  id
+  "column name"
+  index
+  "column name"
+  listing_description_false
+  "column name"
+  listing_description_true
+  "column name"
+  question_set_id
+  "column name"
+  score_false
+  "column name"
+  score_true
+  "column name"
+  severity
+  "column name"
+  severity_on_response_value
+  "column name"
+  severity_text
+  "column name"
+  text
+}
+
+"select columns of table \"condition_questions_translations\""
+enum condition_questions_translations_select_column {
+  "column name"
+  addl_info_prompt
+  "column name"
+  condition_question_id
+  "column name"
+  fail_description
+  "column name"
+  help_text
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  listing_description_false
+  "column name"
+  listing_description_true
+  "column name"
+  severity_text
+  "column name"
+  text
+}
+
+"unique or primary key constraints on table \"condition_responses\""
+enum condition_responses_constraint {
+  "unique or primary key constraint on columns \"id\""
+  condition_question_responses_pkey
+}
+
+"select columns of table \"condition_responses\""
+enum condition_responses_select_column {
+  "column name"
+  comment
+  "column name"
+  condition_question_id
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  response
+  "column name"
+  score
+  "column name"
+  severity
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"condition_responses\" (current role has no relevant permissions)"
+enum condition_responses_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"credit\""
+enum credit_select_column {
+  "column name"
+  credit_type
+  "column name"
+  currency_code
+  "column name"
+  currency_value
+  "column name"
+  id
+}
+
+enum credit_types_enum {
+  conditional_coupon
+  fixed_amount
+  static_conditional_coupon
+}
+
+"ordering argument of a cursor"
+enum cursor_ordering {
+  "ascending ordering of the cursor"
+  ASC
+  "descending ordering of the cursor"
+  DESC
+}
+
+"select columns of table \"dac7_verified_storefronts\""
+enum dac7_verified_storefronts_select_column {
+  "column name"
+  storefront_id
+}
+
+"unique or primary key constraints on table \"email_signups\""
+enum email_signups_constraint {
+  "unique or primary key constraint on columns \"brand_id\", \"type\", \"email\""
+  email_signups_email_brand_id_type_key
+  "unique or primary key constraint on columns \"id\""
+  email_signups_pkey
+}
+
+"update columns of table \"email_signups\""
+enum email_signups_update_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  email
+  "column name"
+  id
+  "column name"
+  interest_in_selling
+  "column name"
+  payload
+  "column name"
+  type
+}
+
+"select columns of table \"external_sku_ids\""
+enum external_sku_ids_select_column {
+  "column name"
+  brand_id
+  "column name"
+  external_id
+  "column name"
+  external_id_type
+  "column name"
+  id
+  "column name"
+  sku_id
+}
+
+"unique or primary key constraints on table \"form_submissions\""
+enum form_submissions_constraint {
+  "unique or primary key constraint on columns \"id\""
+  form_submissions_pkey
+}
+
+"select columns of table \"form_submissions\""
+enum form_submissions_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  form_id
+  "column name"
+  id
+  "column name"
+  submission_data
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"form_submissions\" (current role has no relevant permissions)"
+enum form_submissions_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"forms\""
+enum forms_select_column {
+  "column name"
+  brand_id
+  "column name"
+  id
+  "column name"
+  schema
+  "column name"
+  type
+}
+
+"select columns of table \"fulfillment_intents\""
+enum fulfillment_intents_select_column {
+  "column name"
+  id
+}
+
+"select columns of table \"fulfillment_services\""
+enum fulfillment_services_select_column {
+  "column name"
+  id
+  "column name"
+  type
+}
+
+enum fulfillment_types_enum {
+  archive_p2p
+  archive_wms
+  bergen
+}
+
+enum fulfillment_types_v2_enum {
+  in_store_purchase
+  pickup
+  pickup_and_delivery
+  pickup_point
+  shipping
+}
+
+"select columns of table \"fulfillments\""
+enum fulfillments_select_column {
+  "column name"
+  fulfillment_service_id
+  "column name"
+  id
+}
+
+enum gift_card_statuses_enum {
+  disabled
+  expired
+  fulfilled
+  redeemed
+  submitted
+  unsubmitted
+}
+
+"select columns of table \"gift_cards\""
+enum gift_cards_select_column {
+  "column name"
+  external_id
+  "column name"
+  id
+  "column name"
+  status
+  "column name"
+  transaction_id
+}
+
+"select columns of table \"images\""
+enum images_select_column {
+  "column name"
+  alt
+  "column name"
+  created_at
+  "column name"
+  href
+  "column name"
+  id
+  "column name"
+  updated_at
+}
+
+enum in_store_pickup_statuses_enum {
+  awaiting_pickup
+  awaiting_receipt
+  cancelled
+  picked_up
+}
+
+"select columns of table \"in_store_pickups\""
+enum in_store_pickups_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  identifier
+  "column name"
+  shipping_information_id
+  "column name"
+  status
+  "column name"
+  updated_at
+}
+
+"unique or primary key constraints on table \"listing_auto_price_reduce\""
+enum listing_auto_price_reduce_constraint {
+  "unique or primary key constraint on columns \"listing_id\""
+  listing_auto_price_reduce_listing_id_key
+  "unique or primary key constraint on columns \"id\""
+  listing_auto_price_reduce_pkey
+}
+
+"select columns of table \"listing_auto_price_reduce\""
+enum listing_auto_price_reduce_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  interval_days
+  "column name"
+  listing_id
+  "column name"
+  min_price
+  "column name"
+  percent
+  "column name"
+  price_updated_at
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"update columns of table \"listing_auto_price_reduce\""
+enum listing_auto_price_reduce_update_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  interval_days
+  "column name"
+  listing_id
+  "column name"
+  min_price
+  "column name"
+  percent
+  "column name"
+  price_updated_at
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"select columns of table \"listing_channels\""
+enum listing_channels_select_column {
+  "column name"
+  brand_id
+  "column name"
+  display
+  "column name"
+  id
+  "column name"
+  platform_id
+}
+
+enum listing_event_types_enum {
+  price_change
+  sale_change
+  status_change
+  user_action
+  visibility_change
+}
+
+"select columns of table \"listing_event_types\""
+enum listing_event_types_select_column {
+  "column name"
+  type
+}
+
+"select columns of table \"listing_events\""
+enum listing_events_select_column {
+  "column name"
+  event_type
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  listing_status
+  "column name"
+  payload
+  "column name"
+  timestamp
+  "column name"
+  value
+}
+
+"unique or primary key constraints on table \"listing_images\""
+enum listing_images_constraint {
+  "unique or primary key constraint on columns \"id\""
+  listing_images_pkey
+}
+
+"select columns of table \"listing_images\""
+enum listing_images_select_column {
+  "column name"
+  alt
+  "column name"
+  condition_response_id
+  "column name"
+  created_at
+  "column name"
+  hidden
+  "column name"
+  id
+  "column name"
+  index
+  "column name"
+  listing_id
+  "column name"
+  path
+  "column name"
+  src
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"listing_images\" (current role has no relevant permissions)"
+enum listing_images_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"unique or primary key constraints on table \"listing_metadata\""
+enum listing_metadata_constraint {
+  "unique or primary key constraint on columns \"key\", \"listing_id\""
+  listing_metadata_listing_id_key_key
+  "unique or primary key constraint on columns \"id\""
+  listing_metadata_pkey
+}
+
+"select columns of table \"listing_metadata\""
+enum listing_metadata_select_column {
+  "column name"
+  id
+  "column name"
+  key
+  "column name"
+  listing_id
+  "column name"
+  value
+}
+
+"update columns of table \"listing_metadata\""
+enum listing_metadata_update_column {
+  "column name"
+  id
+  "column name"
+  key
+  "column name"
+  listing_id
+  "column name"
+  value
+}
+
+enum listing_platform_types_enum {
+  archive
+  ebay
+}
+
+"select columns of table \"listing_platforms\""
+enum listing_platforms_select_column {
+  "column name"
+  id
+  "column name"
+  type
+}
+
+"select columns of table \"listing_relistings\""
+enum listing_relistings_select_column {
+  "column name"
+  new_listing_id
+  "column name"
+  previous_listing_id
+}
+
+enum listing_review_outcomes_enum {
+  approved
+  changes_requested
+  rejected
+}
+
+"unique or primary key constraints on table \"listing_reviews\""
+enum listing_reviews_constraint {
+  "unique or primary key constraint on columns \"id\""
+  listing_reviews_pkey
+}
+
+"placeholder for update columns of table \"listing_reviews\" (current role has no relevant permissions)"
+enum listing_reviews_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum listing_statuses_enum {
+  accepted
+  cancelled_by_buyer
+  cancelled_by_channel_update
+  cancelled_by_seller
+  changes_requested
+  completed
+  delayed
+  deleted
+  delivered
+  disputed
+  dropped_off
+  in_review
+  listed
+  lost
+  never_picked_up
+  payment_disputed_lost
+  payment_processing
+  pending_email_verification
+  rejected
+  return_delivered
+  return_lost
+  return_returned_to_sender
+  return_shipped
+  return_verified
+  returned_to_sender
+  shipped
+  sold
+  unlisted
+}
+
+"select columns of table \"listing_statuses\""
+enum listing_statuses_select_column {
+  "column name"
+  status
+}
+
+"select columns of table \"listing_user_action_timestamp\""
+enum listing_user_action_timestamp_select_column {
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  user_action_timestamp
+}
+
+enum listing_visibilities_enum {
+  HIDDEN
+  PUBLIC
+}
+
+"select columns of table \"listings\""
+enum listings_select_column {
+  "column name"
+  brand_id
+  "column name"
+  bumped_at
+  "column name"
+  channel_id
+  "column name"
+  condition_score
+  "column name"
+  confidence_score
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  original_price
+  "column name"
+  price
+  "column name"
+  product_id
+  "column name"
+  return_shipping_label_id
+  "column name"
+  seller_comment
+  "column name"
+  shipping_label_id
+  "column name"
+  sku_id
+  "column name"
+  status
+  "column name"
+  storefront_id
+  "column name"
+  unassociated_listing_data_id
+  "column name"
+  updated_at
+  "column name"
+  user_id
+  "column name"
+  visibility
+}
+
+"select columns of table \"mail_takebacks\""
+enum mail_takebacks_select_column {
+  "column name"
+  id
+  "column name"
+  return_shipping_address_id
+  "column name"
+  shipping_label_id
+  "column name"
+  takeback_id
+}
+
+"select columns of table \"media_group_items\""
+enum media_group_items_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  image_id
+  "column name"
+  media_group_id
+  "column name"
+  position
+  "column name"
+  updated_at
+}
+
+"select columns of table \"media_groups\""
+enum media_groups_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  type
+  "column name"
+  updated_at
+}
+
+"unique or primary key constraints on table \"mobile_uploads\""
+enum mobile_uploads_constraint {
+  "unique or primary key constraint on columns \"id\""
+  mobile_uploads_pkey
+}
+
+"select columns of table \"mobile_uploads\""
+enum mobile_uploads_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  path
+  "column name"
+  session_id
+}
+
+"placeholder for update columns of table \"mobile_uploads\" (current role has no relevant permissions)"
+enum mobile_uploads_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"unique or primary key constraints on table \"order_addresses\""
+enum order_addresses_constraint {
+  "unique or primary key constraint on columns \"id\""
+  order_addresses_pkey
+}
+
+"select columns of table \"order_addresses\""
+enum order_addresses_select_column {
+  "column name"
+  address_line_1
+  "column name"
+  address_line_2
+  "column name"
+  administrative_area
+  "column name"
+  country
+  "column name"
+  id
+  "column name"
+  locality
+  "column name"
+  name
+  "column name"
+  organization
+  "column name"
+  phone_number
+  "column name"
+  postal_code
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"order_addresses\" (current role has no relevant permissions)"
+enum order_addresses_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"column ordering options"
+enum order_by {
+  "in ascending order, nulls last"
+  asc
+  "in ascending order, nulls first"
+  asc_nulls_first
+  "in ascending order, nulls last"
+  asc_nulls_last
+  "in descending order, nulls first"
+  desc
+  "in descending order, nulls first"
+  desc_nulls_first
+  "in descending order, nulls last"
+  desc_nulls_last
+}
+
+"unique or primary key constraints on table \"order_intent_items\""
+enum order_intent_items_constraint {
+  "unique or primary key constraint on columns \"id\""
+  order_intent_items_pkey
+  "unique or primary key constraint on columns \"purchasing_partner_id\", \"order_item_number\""
+  order_intent_items_purchasing_partner_id_order_item_number_key
+}
+
+"select columns of table \"order_intent_items\""
+enum order_intent_items_select_column {
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  order_intent_id
+  "column name"
+  price
+  "column name"
+  shipping_information_id
+  "column name"
+  tax
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"order_intent_items\" (current role has no relevant permissions)"
+enum order_intent_items_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum order_intent_statuses_enum {
+  blocked
+  failed
+  paid
+  pending
+}
+
+"unique or primary key constraints on table \"order_intents\""
+enum order_intents_constraint {
+  "unique or primary key constraint on columns \"id\""
+  order_intents_pkey
+  "unique or primary key constraint on columns \"purchasing_partner_id\", \"order_number\""
+  order_intents_purchasing_partner_id_order_number_key
+}
+
+"select columns of table \"order_intents\""
+enum order_intents_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  order_number
+  "column name"
+  preferred_language
+  "column name"
+  shipping
+  "column name"
+  shipping_address_id
+  "column name"
+  shipping_tax
+  "column name"
+  status
+  "column name"
+  stripe_payment_id
+  "column name"
+  subtotal
+  "column name"
+  tax
+  "column name"
+  total
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"order_intents\" (current role has no relevant permissions)"
+enum order_intents_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"unique or primary key constraints on table \"order_items\""
+enum order_items_constraint {
+  "unique or primary key constraint on columns \"listing_id\""
+  order_items_listing_id_key
+  "unique or primary key constraint on columns \"id\""
+  order_items_pkey
+  "unique or primary key constraint on columns \"purchasing_partner_id\", \"order_item_number\""
+  order_items_purchasing_partner_id_order_item_number_key
+}
+
+"select columns of table \"order_items\""
+enum order_items_select_column {
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  order_id
+  "column name"
+  price
+  "column name"
+  tax
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"order_items\" (current role has no relevant permissions)"
+enum order_items_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum order_statuses_enum {
+  paid
+  pending
+  unpackable
+  unpickable
+}
+
+"select columns of table \"order_statuses\""
+enum order_statuses_select_column {
+  "column name"
+  status
+}
+
+"unique or primary key constraints on table \"orders\""
+enum orders_constraint {
+  "unique or primary key constraint on columns \"id\""
+  orders_pkey
+  "unique or primary key constraint on columns \"purchasing_partner_id\", \"order_number\""
+  orders_purchasing_partner_id_order_number_key
+}
+
+"select columns of table \"orders\""
+enum orders_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  order_number
+  "column name"
+  preferred_language
+  "column name"
+  shipping
+  "column name"
+  shipping_address_id
+  "column name"
+  shipping_tax
+  "column name"
+  status
+  "column name"
+  stripe_payment_id
+  "column name"
+  subtotal
+  "column name"
+  tax
+  "column name"
+  total
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"orders\" (current role has no relevant permissions)"
+enum orders_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"unique or primary key constraints on table \"orphan_condition_responses\""
+enum orphan_condition_responses_constraint {
+  "unique or primary key constraint on columns \"id\""
+  orphan_condition_responses_pkey
+}
+
+"select columns of table \"orphan_condition_responses\""
+enum orphan_condition_responses_select_column {
+  "column name"
+  comment
+  "column name"
+  condition_question_id
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  response
+  "column name"
+  score
+  "column name"
+  severity
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"orphan_condition_responses\" (current role has no relevant permissions)"
+enum orphan_condition_responses_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"unique or primary key constraints on table \"orphan_listings\""
+enum orphan_listings_constraint {
+  "unique or primary key constraint on columns \"id\""
+  orphan_listings_pkey
+}
+
+"unique or primary key constraints on table \"orphan_listings_images\""
+enum orphan_listings_images_constraint {
+  "unique or primary key constraint on columns \"id\""
+  orphan_listings_images_pkey
+}
+
+"select columns of table \"orphan_listings_images\""
+enum orphan_listings_images_select_column {
+  "column name"
+  alt
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  index
+  "column name"
+  listing_id
+  "column name"
+  path
+  "column name"
+  src
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"orphan_listings_images\" (current role has no relevant permissions)"
+enum orphan_listings_images_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"orphan_listings\""
+enum orphan_listings_select_column {
+  "column name"
+  brand_id
+  "column name"
+  color
+  "column name"
+  created_at
+  "column name"
+  description
+  "column name"
+  id
+  "column name"
+  product_link
+  "column name"
+  size
+  "column name"
+  title
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"orphan_listings\" (current role has no relevant permissions)"
+enum orphan_listings_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum photo_enhancement_request_statuses_enum {
+  complete
+  error
+  pending
+}
+
+"select columns of table \"photo_enhancement_requests\""
+enum photo_enhancement_requests_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  external_id
+  "column name"
+  id
+  "column name"
+  image_id
+  "column name"
+  listing_image_id
+  "column name"
+  original_src
+  "column name"
+  product_image_id
+  "column name"
+  sku_image_id
+  "column name"
+  src
+  "column name"
+  status
+  "column name"
+  type
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+enum photo_enhancement_types_enum {
+  bg_removal
+  bg_removal_ai
+  bg_removal_manual
+}
+
+"unique or primary key constraints on table \"pos_events\""
+enum pos_events_constraint {
+  "unique or primary key constraint on columns \"id\""
+  pos_events_pkey
+}
+
+"placeholder for update columns of table \"pos_events\" (current role has no relevant permissions)"
+enum pos_events_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"select columns of table \"pos_stations\""
+enum pos_stations_select_column {
+  "column name"
+  active
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  retail_store_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"postal_options\""
+enum postal_options_select_column {
+  "column name"
+  carrier
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  method
+  "column name"
+  service
+  "column name"
+  updated_at
+}
+
+"select columns of table \"product_attribute_type_options\""
+enum product_attribute_type_options_select_column {
+  "column name"
+  attribute_type_id
+  "column name"
+  attribute_type_option_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  product_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"product_colors\""
+enum product_colors_select_column {
+  "column name"
+  color
+  "column name"
+  id
+  "column name"
+  product_id
+  "column name"
+  uid
+}
+
+"select columns of table \"product_colors_translations\""
+enum product_colors_translations_select_column {
+  "column name"
+  color
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  product_color_id
+}
+
+"select columns of table \"product_images\""
+enum product_images_select_column {
+  "column name"
+  alt
+  "column name"
+  created_at
+  "column name"
+  detail
+  "column name"
+  id
+  "column name"
+  index
+  "column name"
+  primary
+  "column name"
+  primary_hover
+  "column name"
+  product_id
+  "column name"
+  src
+  "column name"
+  swatch
+  "column name"
+  uid
+  "column name"
+  updated_at
+}
+
+"select columns of table \"product_images_translations\""
+enum product_images_translations_select_column {
+  "column name"
+  alt
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  product_image_id
+}
+
+"select columns of table \"product_style_attribute_type_options\""
+enum product_style_attribute_type_options_select_column {
+  "column name"
+  attribute_type_id
+  "column name"
+  attribute_type_option_id
+  "column name"
+  id
+  "column name"
+  product_style_id
+}
+
+enum product_style_sources_enum {
+  imported
+  user_generated
+}
+
+"select columns of table \"product_style_variant_media_groups\""
+enum product_style_variant_media_groups_select_column {
+  "column name"
+  created_at
+  "column name"
+  media_group_id
+  "column name"
+  product_style_variant_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"product_style_variant_options\""
+enum product_style_variant_options_select_column {
+  "column name"
+  product_style_variant_id
+  "column name"
+  variant_type_id
+  "column name"
+  variant_type_option_id
+}
+
+"select columns of table \"product_style_variants\""
+enum product_style_variants_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  price
+  "column name"
+  product_style_id
+  "column name"
+  product_style_variant
+  "column name"
+  updated_at
+}
+
+"select columns of table \"product_styles_listed\""
+enum product_styles_listed_select_column {
+  "column name"
+  latest_created_at
+  "column name"
+  max_price
+  "column name"
+  min_price
+  "column name"
+  product_style_id
+  "column name"
+  sizes
+}
+
+"select columns of table \"product_styles\""
+enum product_styles_select_column {
+  "column name"
+  brand_id
+  "column name"
+  category_id
+  "column name"
+  disallow_listing
+  "column name"
+  id
+  "column name"
+  price
+  "column name"
+  product_style
+  "column name"
+  source
+}
+
+"select columns of table \"product_styles_translations\""
+enum product_styles_translations_select_column {
+  "column name"
+  description
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  name
+  "column name"
+  product_style_id
+}
+
+"select columns of table \"product_tags\""
+enum product_tags_select_column {
+  "column name"
+  id
+  "column name"
+  product_id
+  "column name"
+  value
+}
+
+"select columns of table \"products\""
+enum products_select_column {
+  "column name"
+  brand_id
+  "column name"
+  care
+  "column name"
+  category_id
+  "column name"
+  color
+  "column name"
+  created_at
+  "column name"
+  current_price
+  "column name"
+  default_price_multiplier
+  "column name"
+  description
+  "column name"
+  disallow_listing
+  "column name"
+  fit
+  "column name"
+  id
+  "column name"
+  lowest_price
+  "column name"
+  material
+  "column name"
+  name
+  "column name"
+  normalized_name
+  "column name"
+  original_price
+  "column name"
+  parent_product_id
+  "column name"
+  product_style_id
+  "column name"
+  question_set_id
+  "column name"
+  sale_price
+  "column name"
+  super_category_id
+  "column name"
+  uid
+  "column name"
+  updated_at
+  "column name"
+  url
+}
+
+"select \"products_aggregate_bool_exp_bool_and_arguments_columns\" columns of table \"products\""
+enum products_select_column_products_aggregate_bool_exp_bool_and_arguments_columns {
+  "column name"
+  disallow_listing
+}
+
+"select \"products_aggregate_bool_exp_bool_or_arguments_columns\" columns of table \"products\""
+enum products_select_column_products_aggregate_bool_exp_bool_or_arguments_columns {
+  "column name"
+  disallow_listing
+}
+
+"select columns of table \"products_translations\""
+enum products_translations_select_column {
+  "column name"
+  care
+  "column name"
+  color
+  "column name"
+  description
+  "column name"
+  fit
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  material
+  "column name"
+  name
+  "column name"
+  normalized_name
+  "column name"
+  product_id
+}
+
+"select columns of table \"question_sets\""
+enum question_sets_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  notes
+  "column name"
+  uid
+  "column name"
+  updated_at
+}
+
+"select columns of table \"retail_associates\""
+enum retail_associates_select_column {
+  "column name"
+  brand_id
+  "column name"
+  id
+  "column name"
+  retail_store_id
+  "column name"
+  store_number
+  "column name"
+  user_id
+}
+
+"select columns of table \"retail_store_addresses\""
+enum retail_store_addresses_select_column {
+  "column name"
+  address_line_1
+  "column name"
+  address_line_2
+  "column name"
+  administrative_area
+  "column name"
+  country
+  "column name"
+  id
+  "column name"
+  locality
+  "column name"
+  name
+  "column name"
+  postal_code
+}
+
+"select columns of table \"retail_store_brand_uses\""
+enum retail_store_brand_uses_select_column {
+  "column name"
+  brand_id
+  "column name"
+  retail_store_id
+  "column name"
+  use_case
+}
+
+enum retail_store_use_cases_enum {
+  TAKEBACK
+}
+
+"select columns of table \"retail_stores\""
+enum retail_stores_select_column {
+  "column name"
+  address_id
+  "column name"
+  created_at
+  "column name"
+  external_identifier
+  "column name"
+  id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"retail_stores_translations\""
+enum retail_stores_translations_select_column {
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  name
+  "column name"
+  retail_store_id
+}
+
+enum return_item_statuses_enum {
+  damaged
+  initiated
+  missing
+  received
+  refunded
+}
+
+"unique or primary key constraints on table \"return_items\""
+enum return_items_constraint {
+  "unique or primary key constraint on columns \"id\""
+  return_items_pkey
+}
+
+"select columns of table \"return_items\""
+enum return_items_select_column {
+  "column name"
+  created_at
+  "column name"
+  damage_type
+  "column name"
+  id
+  "column name"
+  order_item_id
+  "column name"
+  return_id
+  "column name"
+  return_reason
+  "column name"
+  status
+  "column name"
+  updated_at
+}
+
+"placeholder for update columns of table \"return_items\" (current role has no relevant permissions)"
+enum return_items_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum return_statuses_enum {
+  initiated
+  received
+  refunded
+}
+
+"unique or primary key constraints on table \"returns\""
+enum returns_constraint {
+  "unique or primary key constraint on columns \"id\""
+  returns_pkey
+}
+
+"select columns of table \"returns\""
+enum returns_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  email
+  "column name"
+  id
+  "column name"
+  preferred_language
+  "column name"
+  return_shipping_address_id
+  "column name"
+  return_shipping_label_id
+  "column name"
+  status
+  "column name"
+  stripe_refund_id
+  "column name"
+  subtotal
+  "column name"
+  tax
+  "column name"
+  total
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"returns\" (current role has no relevant permissions)"
+enum returns_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum review_statuses_enum {
+  approved
+  in_review
+  rejected
+}
+
+enum roles_enum {
+  admin_app_access
+  curator
+  inventory_manager
+  listing_reviewer
+  manager
+  photo_enhancer
+  previewer
+  retail_associate
+  verified_seller
+  view_orphan_listings
+}
+
+"select columns of table \"roles\""
+enum roles_select_column {
+  "column name"
+  role
+}
+
+"select columns of table \"search_page_translations\""
+enum search_page_translations_select_column {
+  "column name"
+  created_at
+  "column name"
+  description
+  "column name"
+  display_name
+  "column name"
+  id
+  "column name"
+  locale
+  "column name"
+  search_page_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"search_pages\""
+enum search_pages_select_column {
+  "column name"
+  active
+  "column name"
+  brand_id
+  "column name"
+  collection_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  slug
+  "column name"
+  updated_at
+}
+
+"select columns of table \"searchable_products_results\""
+enum searchable_products_results_select_column {
+  "column name"
+  brand_id
+  "column name"
+  color
+  "column name"
+  color_mapping
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  sizes
+  "column name"
+  skus
+  "column name"
+  type
+}
+
+"select columns of table \"searchable_products\""
+enum searchable_products_select_column {
+  "column name"
+  color
+  "column name"
+  color_mapping
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  product_brand_id
+  "column name"
+  sizes
+  "column name"
+  skus
+  "column name"
+  type
+}
+
+"unique or primary key constraints on table \"seller_ratings\""
+enum seller_ratings_constraint {
+  "unique or primary key constraint on columns \"listing_id\""
+  seller_ratings_listing_id_key
+  "unique or primary key constraint on columns \"id\""
+  seller_ratings_pkey
+}
+
+"select columns of table \"seller_ratings\""
+enum seller_ratings_select_column {
+  "column name"
+  comment
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  rating
+  "column name"
+  seller_id
+  "column name"
+  storefront_id
+  "column name"
+  user_id
+  "column name"
+  user_rated
+}
+
+"update columns of table \"seller_ratings\""
+enum seller_ratings_update_column {
+  "column name"
+  comment
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  rating
+  "column name"
+  seller_id
+  "column name"
+  storefront_id
+  "column name"
+  user_id
+  "column name"
+  user_rated
+}
+
+enum shipping_carriers_enum {
+  aptdeco
+  canada_post
+  colissimo
+  dhl_express
+  dpd_de
+  dpd_uk
+  evri
+  fedex
+  posti
+  postnl
+  postnord
+  ups
+  usps
+}
+
+"select columns of table \"shipping_carriers\""
+enum shipping_carriers_select_column {
+  "column name"
+  carrier
+}
+
+"unique or primary key constraints on table \"shipping_information\""
+enum shipping_information_constraint {
+  "unique or primary key constraint on columns \"id\""
+  shipping_information_pkey
+}
+
+"select columns of table \"shipping_information\""
+enum shipping_information_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  shipping_method
+  "column name"
+  shipping_method_identifier
+  "column name"
+  updated_at
+}
+
+"update columns of table \"shipping_information\""
+enum shipping_information_update_column {
+  "column name"
+  updated_at
+}
+
+"select columns of table \"shipping_labels_private\""
+enum shipping_labels_private_select_column {
+  "column name"
+  id
+  "column name"
+  label_url
+  "column name"
+  metadata
+}
+
+"select columns of table \"shipping_labels\""
+enum shipping_labels_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  shipping_carrier
+  "column name"
+  shipping_service
+  "column name"
+  shipping_service_id
+  "column name"
+  status
+  "column name"
+  tracking_number
+  "column name"
+  tracking_url
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+enum shipping_methods_enum {
+  aptdeco
+  canada_post_regular_parcel
+  colissimo_home
+  dhl_express_worldwide
+  dpd_de_classic
+  dpd_uk_next_day
+  fedex_2_day
+  fedex_ground
+  fedex_home_delivery
+  fedex_priority_overnight
+  fedex_standard_overnight
+  hermes_uk_parcelshop_dropoff
+  in_person_fulfillment
+  in_store_pickup
+  in_store_purchase
+  posti_home_parcel
+  posti_postal_parcel
+  postnl_standard
+  postnord_my_pack_collect
+  ups_ground
+  ups_surepost
+  usps_priority
+}
+
+enum shipping_services_enum {
+  dpd
+  fedex_cafe
+  posti
+  postnl
+  postnord
+  shippo
+}
+
+enum shipping_statuses_enum {
+  AWAITING_PICKUP
+  DELIVERED
+  FAILURE
+  PRE_TRANSIT
+  RETURNED
+  TRANSIT
+  UNKNOWN
+}
+
+"select columns of table \"shipping_statuses\""
+enum shipping_statuses_select_column {
+  "column name"
+  status
+}
+
+"select columns of table \"short_links\""
+enum short_links_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  identifier
+  "column name"
+  path
+  "column name"
+  query_params
+  "column name"
+  updated_at
+}
+
+"select columns of table \"sku_images\""
+enum sku_images_select_column {
+  "column name"
+  alt
+  "column name"
+  created_at
+  "column name"
+  detail
+  "column name"
+  id
+  "column name"
+  index
+  "column name"
+  primary
+  "column name"
+  primary_hover
+  "column name"
+  sku_id
+  "column name"
+  src
+  "column name"
+  swatch
+  "column name"
+  uid
+  "column name"
+  updated_at
+}
+
+"select columns of table \"sku_images_translations\""
+enum sku_images_translations_select_column {
+  "column name"
+  alt
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  sku_image_id
+}
+
+"select columns of table \"sku_variant_type_options\""
+enum sku_variant_type_options_select_column {
+  "column name"
+  id
+  "column name"
+  sku_id
+  "column name"
+  variant_type_id
+  "column name"
+  variant_type_option_id
+}
+
+"select columns of table \"skus\""
+enum skus_select_column {
+  "column name"
+  brand_id
+  "column name"
+  care
+  "column name"
+  created_at
+  "column name"
+  description
+  "column name"
+  dimensions
+  "column name"
+  dimensions_lite
+  "column name"
+  id
+  "column name"
+  is_material
+  "column name"
+  luggage_sleeve
+  "column name"
+  new_logo
+  "column name"
+  original_price
+  "column name"
+  product_id
+  "column name"
+  product_style_id
+  "column name"
+  size
+  "column name"
+  sku
+  "column name"
+  uid
+  "column name"
+  updated_at
+  "column name"
+  weight
+  "column name"
+  weight_unit
+}
+
+"select columns of table \"skus_translations\""
+enum skus_translations_select_column {
+  "column name"
+  care
+  "column name"
+  description
+  "column name"
+  dimensions
+  "column name"
+  dimensions_lite
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  size
+  "column name"
+  sku_id
+}
+
+"select columns of table \"storefront_fulfillment_in_store_options\""
+enum storefront_fulfillment_in_store_options_select_column {
+  "column name"
+  brand_fulfillment_in_store_options_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  shipping_fee
+  "column name"
+  storefront_fulfillment_in_store_settings_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"storefront_fulfillment_in_store_settings\""
+enum storefront_fulfillment_in_store_settings_select_column {
+  "column name"
+  brand_fulfillment_in_store_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  storefront_fulfillment_settings_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"storefront_fulfillment_postal_options\""
+enum storefront_fulfillment_postal_options_select_column {
+  "column name"
+  brand_fulfillment_postal_options_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  shipping_fee
+  "column name"
+  storefront_fulfillment_postal_settings_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"storefront_fulfillment_postal_settings\""
+enum storefront_fulfillment_postal_settings_select_column {
+  "column name"
+  brand_fulfillment_postal_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  storefront_fulfillment_settings_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"storefront_fulfillment_settings\""
+enum storefront_fulfillment_settings_select_column {
+  "column name"
+  brand_fulfillment_settings_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  storefront_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"storefront_images\""
+enum storefront_images_select_column {
+  "column name"
+  alt
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  path
+  "column name"
+  src
+  "column name"
+  updated_at
+}
+
+"select columns of table \"storefront_payout_settings\""
+enum storefront_payout_settings_select_column {
+  "column name"
+  cashout_percent
+  "column name"
+  store_credit_percent
+  "column name"
+  stripe_account_id
+}
+
+"unique or primary key constraints on table \"storefront_reviews\""
+enum storefront_reviews_constraint {
+  "unique or primary key constraint on columns \"order_id\", \"storefront_id\""
+  storefront_reviews_order_id_storefront_id_key
+  "unique or primary key constraint on columns \"id\""
+  storefront_reviews_pkey
+}
+
+"select columns of table \"storefront_reviews\""
+enum storefront_reviews_select_column {
+  "column name"
+  comment
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  order_id
+  "column name"
+  rating
+  "column name"
+  status
+  "column name"
+  storefront_id
+  "column name"
+  updated_at
+}
+
+"placeholder for update columns of table \"storefront_reviews\" (current role has no relevant permissions)"
+enum storefront_reviews_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+enum storefront_statuses_enum {
+  active
+  inactive
+}
+
+enum storefront_types_enum {
+  business
+  personal
+}
+
+"select columns of table \"storefront_verified_attributes\""
+enum storefront_verified_attributes_select_column {
+  "column name"
+  attribute
+  "column name"
+  storefront_id
+}
+
+"select columns of table \"storefronts\""
+enum storefronts_select_column {
+  "column name"
+  bio
+  "column name"
+  brand_id
+  "column name"
+  hide_address
+  "column name"
+  id
+  "column name"
+  links
+  "column name"
+  logo_id
+  "column name"
+  name
+  "column name"
+  primary_address_id
+  "column name"
+  slug
+  "column name"
+  status
+  "column name"
+  type
+  "column name"
+  verified
+}
+
+enum takeback_item_statuses_enum {
+  accepted
+  not_accepted
+  pending
+}
+
+"select columns of table \"takeback_items\""
+enum takeback_items_select_column {
+  "column name"
+  created_at
+  "column name"
+  credit_id
+  "column name"
+  estimate_credit_id
+  "column name"
+  form_submission_id
+  "column name"
+  id
+  "column name"
+  lpn
+  "column name"
+  status
+  "column name"
+  style_code
+  "column name"
+  takeback_id
+  "column name"
+  updated_at
+}
+
+enum takeback_statuses_enum {
+  cancelled
+  completed
+  initiated
+  ready
+  received
+}
+
+"select columns of table \"takebacks\""
+enum takebacks_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  credit_id
+  "column name"
+  estimate_credit_id
+  "column name"
+  id
+  "column name"
+  status
+  "column name"
+  store_number
+  "column name"
+  takeback_number
+  "column name"
+  transaction_id
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+enum transaction_types_enum {
+  archive_credit
+  cash_out
+  credit
+  debit
+  sale
+  store_credit
+  takeback_external_credit
+  takeback_external_credit_reversed
+}
+
+"select columns of table \"transaction_types\""
+enum transaction_types_select_column {
+  "column name"
+  type
+}
+
+"select columns of table \"transactions\""
+enum transactions_select_column {
+  "column name"
+  amount
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  fee
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  type
+  "column name"
+  user_id
+}
+
+"select columns of table \"unassociated_listing_data_schemas\""
+enum unassociated_listing_data_schemas_select_column {
+  "column name"
+  brand_id
+  "column name"
+  category_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  question_set_id
+  "column name"
+  schema
+  "column name"
+  updated_at
+}
+
+"select columns of table \"unassociated_listing_data\""
+enum unassociated_listing_data_select_column {
+  "column name"
+  brand_id
+  "column name"
+  category_id
+  "column name"
+  created_at
+  "column name"
+  custom_metadata
+  "column name"
+  description
+  "column name"
+  id
+  "column name"
+  name
+  "column name"
+  original_price
+  "column name"
+  storefront_id
+  "column name"
+  updated_at
+  "column name"
+  user_id
+  "column name"
+  variant_data
+}
+
+"select columns of table \"unique_listings_results\""
+enum unique_listings_results_select_column {
+  "column name"
+  brand_id
+  "column name"
+  color
+  "column name"
+  color_mapping
+  "column name"
+  latest_created_at
+  "column name"
+  max_price
+  "column name"
+  min_price
+  "column name"
+  name
+  "column name"
+  priority
+  "column name"
+  product_id
+  "column name"
+  sizes
+  "column name"
+  type
+}
+
+"select columns of table \"unique_listings_results_tnf\""
+enum unique_listings_results_tnf_select_column {
+  "column name"
+  brand_id
+  "column name"
+  color
+  "column name"
+  color_mapping
+  "column name"
+  latest_created_at
+  "column name"
+  max_price
+  "column name"
+  min_price
+  "column name"
+  name
+  "column name"
+  priority
+  "column name"
+  product_id
+  "column name"
+  size_groupings
+  "column name"
+  sizes
+  "column name"
+  tags
+  "column name"
+  type
+}
+
+"select columns of table \"unique_tags_results\""
+enum unique_tags_results_select_column {
+  "column name"
+  value
+}
+
+"unique or primary key constraints on table \"user_addresses\""
+enum user_addresses_constraint {
+  "unique or primary key constraint on columns \"id\""
+  user_addresses_pkey
+}
+
+"select columns of table \"user_addresses\""
+enum user_addresses_select_column {
+  "column name"
+  address_line_1
+  "column name"
+  address_line_2
+  "column name"
+  administrative_area
+  "column name"
+  building_access
+  "column name"
+  country
+  "column name"
+  created_at
+  "column name"
+  floors
+  "column name"
+  id
+  "column name"
+  locality
+  "column name"
+  name
+  "column name"
+  organization
+  "column name"
+  phone_number
+  "column name"
+  postal_code
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"update columns of table \"user_addresses\""
+enum user_addresses_update_column {
+  "column name"
+  address_line_1
+  "column name"
+  address_line_2
+  "column name"
+  administrative_area
+  "column name"
+  building_access
+  "column name"
+  country
+  "column name"
+  created_at
+  "column name"
+  floors
+  "column name"
+  id
+  "column name"
+  locality
+  "column name"
+  name
+  "column name"
+  organization
+  "column name"
+  phone_number
+  "column name"
+  postal_code
+  "column name"
+  updated_at
+}
+
+"unique or primary key constraints on table \"user_alerts\""
+enum user_alerts_constraint {
+  "unique or primary key constraint on columns \"id\""
+  user_alerts_id_key
+  "unique or primary key constraint on columns \"id\""
+  user_alerts_pkey
+  "unique or primary key constraint on columns \"uid\""
+  user_alerts_uid_key
+}
+
+"select columns of table \"user_alerts\""
+enum user_alerts_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  product_id
+  "column name"
+  sku_id
+  "column name"
+  uid
+  "column name"
+  user_id
+}
+
+"update columns of table \"user_alerts\""
+enum user_alerts_update_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  product_id
+  "column name"
+  sku_id
+  "column name"
+  uid
+  "column name"
+  user_id
+}
+
+"select columns of table \"user_balances\""
+enum user_balances_select_column {
+  "column name"
+  brand_id
+  "column name"
+  current_balance
+  "column name"
+  id
+  "column name"
+  storefront_id
+  "column name"
+  user_id
+}
+
+"unique or primary key constraints on table \"user_favorites\""
+enum user_favorites_constraint {
+  "unique or primary key constraint on columns \"id\""
+  user_favorites_pkey
+}
+
+"select columns of table \"user_favorites\""
+enum user_favorites_select_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  product_id
+  "column name"
+  user_id
+}
+
+"update columns of table \"user_favorites\""
+enum user_favorites_update_column {
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  product_id
+  "column name"
+  user_id
+}
+
+"select columns of table \"user_metadata\""
+enum user_metadata_select_column {
+  "column name"
+  brand_id
+  "column name"
+  id
+  "column name"
+  key
+  "column name"
+  user_id
+  "column name"
+  value
+}
+
+"select columns of table \"user_roles\""
+enum user_roles_select_column {
+  "column name"
+  brand_id
+  "column name"
+  id
+  "column name"
+  role
+  "column name"
+  user_id
+}
+
+enum user_verification_check_statuses_enum {
+  canceled
+  error
+  processing
+  redacted
+  requires_input
+  unverified
+  verified
+}
+
+"unique or primary key constraints on table \"user_verification_checks\""
+enum user_verification_checks_constraint {
+  "unique or primary key constraint on columns \"id\""
+  user_verification_checks_pkey
+}
+
+"select columns of table \"user_verification_checks\""
+enum user_verification_checks_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  status
+  "column name"
+  stripe_verification_response_id
+  "column name"
+  stripe_verification_session_id
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"placeholder for update columns of table \"user_verification_checks\" (current role has no relevant permissions)"
+enum user_verification_checks_update_column {
+  "placeholder (do not use)"
+  _PLACEHOLDER
+}
+
+"unique or primary key constraints on table \"users\""
+enum users_constraint {
+  "unique or primary key constraint on columns \"auth_tenant_id\", \"email\""
+  users_email_key
+  "unique or primary key constraint on columns \"id\""
+  users_pkey
+}
+
+"select columns of table \"users_private\""
+enum users_private_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  current_balance
+  "column name"
+  default_shipping_address_id
+  "column name"
+  email
+  "column name"
+  is_manager
+  "column name"
+  stripe_account_id
+  "column name"
+  updated_at
+  "column name"
+  user_id
+}
+
+"select columns of table \"users\""
+enum users_select_column {
+  "column name"
+  first_name
+  "column name"
+  id
+  "column name"
+  last_name
+  "column name"
+  state
+}
+
+"update columns of table \"users\""
+enum users_update_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  default_shipping_address_id
+  "column name"
+  email
+  "column name"
+  first_name
+  "column name"
+  id
+  "column name"
+  last_name
+  "column name"
+  state
+  "column name"
+  stripe_account_id
+  "column name"
+  updated_at
+}
+
+"select columns of table \"variant_type_options\""
+enum variant_type_options_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  option
+  "column name"
+  updated_at
+  "column name"
+  variant_type_id
+}
+
+"select columns of table \"variant_type_options_translations\""
+enum variant_type_options_translations_select_column {
+  "column name"
+  display
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  variant_type_option_id
+}
+
+"select columns of table \"variant_types\""
+enum variant_types_select_column {
+  "column name"
+  brand_id
+  "column name"
+  id
+  "column name"
+  type
+}
+
+"select columns of table \"variant_types_translations\""
+enum variant_types_translations_select_column {
+  "column name"
+  display
+  "column name"
+  id
+  "column name"
+  lang
+  "column name"
+  variant_type_id
+}
+
+enum verified_identity_attributes_enum {
+  address
+  name
+  tax_id
+}
+
+"select columns of table \"wms_items\""
+enum wms_items_select_column {
+  "column name"
+  id
+  "column name"
+  listing_id
+  "column name"
+  lpn
+}
+
+"select columns of table \"workflow_definitions\""
+enum workflow_definitions_select_column {
+  "column name"
+  callbacks
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  schema
+  "column name"
+  type
+  "column name"
+  updated_at
+}
+
+enum workflow_item_event_types_enum {
+  state_change
+}
+
+"select columns of table \"workflow_item_event_types\""
+enum workflow_item_event_types_select_column {
+  "column name"
+  type
+}
+
+"select columns of table \"workflow_item_events\""
+enum workflow_item_events_select_column {
+  "column name"
+  event_type
+  "column name"
+  id
+  "column name"
+  payload
+  "column name"
+  timestamp
+  "column name"
+  value
+  "column name"
+  workflow_item_id
+}
+
+"select columns of table \"workflow_items\""
+enum workflow_items_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  data
+  "column name"
+  id
+  "column name"
+  state
+  "column name"
+  updated_at
+  "column name"
+  workflow_definition_id
+  "column name"
+  workflow_id
+}
+
+"select columns of table \"workflows\""
+enum workflows_select_column {
+  "column name"
+  brand_id
+  "column name"
+  created_at
+  "column name"
+  id
+  "column name"
+  updated_at
+  "column name"
+  workflow_definition_id
+}
+
+scalar bigint
+
+scalar float8
+
+scalar geography
+
+scalar geometry
+
+scalar json
+
+scalar jsonb
+
+scalar numeric
+
+scalar timestamptz
+
+scalar uuid
+
+input AddVariantOptionsToSkuInput {
+  brand_id: uuid!
+  sku_id: uuid!
+  variant_options: [VariantOptionInput!]!
+}
+
+input AddressInput {
+  address_line_1: String!
+  address_line_2: String
+  administrative_area: String
+  country: String
+  locality: String!
+  name: String!
+  phone_number: String
+  postal_code: String!
+}
+
+input AddressInputV2 {
+  address_line_1: String!
+  address_line_2: String
+  administrative_area: String
+  building_access: String
+  country: String!
+  floors: Int
+  locality: String!
+  name: String!
+  phone_number: String
+  postal_code: String!
+}
+
+input AttributeOptionTranslationInput {
+  display: String!
+  lang: String!
+}
+
+input AttributeValueInput {
+  id: uuid!
+  type_id: uuid!
+  value: String!
+}
+
+"Boolean expression to compare columns of type \"Boolean\". All fields are combined with logical 'AND'."
+input Boolean_comparison_exp {
+  _eq: Boolean
+  _gt: Boolean
+  _gte: Boolean
+  _in: [Boolean!]
+  _is_null: Boolean
+  _lt: Boolean
+  _lte: Boolean
+  _neq: Boolean
+  _nin: [Boolean!]
+}
+
+input BulkCreateListingsInput {
+  brand_id: uuid!
+  listings: [CreateListingInput!]!
+  storefront_id: String
+  user_id: String
+}
+
+input CalculateCartEstimatesV2Input {
+  brand_id: uuid!
+  cart: CartInputV2!
+  customer_information: CartCustomerInformationV2
+}
+
+input CalculateCartEstimatesV3Input {
+  brand_id: uuid!
+  cart: CartInputV3!
+  customer_information: CartCustomerInformationV2
+}
+
+input CancelOrderInput {
+  email: String
+  order_id: uuid!
+  order_items: [CancelOrderItemInput]!
+}
+
+input CancelOrderItemInput {
+  id: uuid!
+  reason: String
+}
+
+input CancelStoreTakebackInput {
+  retail_store_id: uuid
+  takeback_id: uuid!
+}
+
+input CartCustomerInformation {
+  email: String
+  preferred_language: String!
+  shipping_address: AddressInput
+}
+
+input CartCustomerInformationV2 {
+  email: String
+  estimate_postal_code: EstimatePostalCodeInput
+  shipping_address: AddressInputV2
+}
+
+input CartEstimates {
+  shipping_amount: Int!
+  storefront_carts: [CartEstimatesStorefrontCart!]!
+}
+
+input CartEstimatesCartItem {
+  id: uuid!
+}
+
+input CartEstimatesStorefrontCart {
+  items: [CartEstimatesCartItem!]!
+  shipping_amount: Int!
+  storefront_id: uuid!
+}
+
+input CartInput {
+  discount_code: String
+  items: [CartItemInput!]!
+}
+
+input CartInputV2 {
+  discount_codes: [String!]!
+  items: [CartItemInputV2!]!
+}
+
+input CartInputV3 {
+  discount_codes: [String!]!
+  items: [CartItemInputV3!]!
+}
+
+input CartItemInput {
+  listing_id: uuid!
+  shipping_information: CartItemShippingInformation
+}
+
+input CartItemInputV2 {
+  listing_id: uuid!
+  shipping_information: CartItemShippingInformation
+}
+
+input CartItemInputV3 {
+  listing_id: uuid!
+  selected_fulfillment_option_id: uuid
+}
+
+input CartItemShippingInformation {
+  shipping_method: String!
+  shipping_method_identifier: String
+}
+
+input CartPreCalculatedAttemptedDiscountCode {
+  discount_amount: Int!
+  discount_id: uuid!
+}
+
+input CartPreCalculatedItemValues {
+  listing_id: uuid!
+  price: Int
+  shipping_information_id: uuid
+  tax: Int
+}
+
+input CartPreCalculatedShippingInformation {
+  id: uuid!
+  shipping_method: String!
+  shipping_method_identifier: String
+}
+
+input CartPreCalculatedValues {
+  attempted_discount_codes: [CartPreCalculatedAttemptedDiscountCode!]
+  cart_items: [CartPreCalculatedItemValues!]
+  discount_total: Int
+  shipping_information_objects: [CartPreCalculatedShippingInformation!]
+  subtotal: Int
+  tax: Int
+  total: Int
+}
+
+input CategoryInfoInput {
+  id: String!
+  name: String!
+  question_set_id: String!
+}
+
+input CheckPostalCodeRequest {
+  country: String!
+  postal_code: String!
+  specific_region: SpecificRegion
+}
+
+input CheckoutCustomerInformationV2 {
+  email: String!
+  preferred_language: String!
+  shipping_address: AddressInputV2
+}
+
+input CheckoutEstimatesV2 {
+  shipping: DiscountableMoneyInput!
+  subtotal: DiscountableMoneyInput!
+  tax: MoneyInput!
+  total: DiscountableMoneyInput!
+}
+
+input CheckoutFulfillmentGroupInput {
+  fulfillment_option_id: uuid!
+  items: [CheckoutItemInputV2!]!
+  price: DiscountableMoneyInput!
+}
+
+input CheckoutInputV2 {
+  discount_codes: [String!]!
+  fulfillment_groups: [CheckoutFulfillmentGroupInput!]!
+}
+
+input CheckoutItemInputV2 {
+  fulfillment_group_id: uuid
+  listing_id: uuid!
+  price: DiscountableMoneyInput!
+}
+
+input CollectionDetailsInput {
+  description: String
+  display_name: String!
+  locale: String!
+}
+
+input CollectionMediaInput {
+  alt: String
+  href: String!
+  position: Int!
+}
+
+input CreateCollectionInput {
+  active: Boolean
+  brand_id: uuid!
+  collection_type: CollectionType!
+  definition: jsonb
+  media: [CollectionMediaInput!]
+  slug: String!
+  translations: [CollectionDetailsInput!]!
+}
+
+input CreateCreditCardHoldInput {
+  amount: Int!
+  currency: String
+  idempotencyKey: String
+  slug: String!
+  statement_descriptor: String
+}
+
+input CreateDirectChatInput {
+  auth_tenant_id: String
+  brand_id: uuid!
+  email: String!
+  first_name: String
+  language: String
+  last_name: String
+  listing_id: uuid!
+}
+
+input CreateDirectMessageInput {
+  auth_tenant_id: String
+  brand_id: uuid!
+  email: String!
+  first_name: String
+  language: String
+  last_name: String
+  listing_id: uuid!
+}
+
+input CreateFormSubmissionInput {
+  brand_id: uuid!
+  form_id: uuid!
+  submission_data: jsonb!
+}
+
+input CreateListingInput {
+  condition_score: Int
+  price: Int
+  seller_comment: String
+  sku_id: uuid!
+  status: String
+}
+
+input CreateMailTakebackInput {
+  return_shipping_address: AddressInput!
+  storefront_id: uuid
+  takeback_items: [CreateTakebackItemInput!]!
+}
+
+input CreateManualCollectionInput {
+  brand_id: uuid!
+  items: ManualCollectionItemsInput!
+}
+
+input CreateOrUpdateStorefrontInput {
+  bio: String
+  brand_id: String!
+  email: String!
+  enabled_in_store_fulfillment_option_ids: [String!]
+  hide_address: Boolean
+  links: jsonb
+  logo: jsonb
+  name: String!
+  phone_number: String
+  primary_address: jsonb
+  slug: String
+  storefront_id: String
+}
+
+input CreatePaymentIntentInput {
+  amount: Int!
+  currency: String
+  idempotencyKey: String
+  order_intent_id: String
+  payment_method: String
+  shipping_address: AddressInput
+  slug: String!
+  statement_descriptor: String
+}
+
+input CreateProductImagesInput {
+  brand_id: String!
+  product_id: uuid!
+  product_images: [jsonb!]!
+}
+
+input CreateProductStyleInput {
+  attribute_values: [AttributeValueInput!]!
+  brand_id: String!
+  product_style: jsonb!
+  products: [jsonb!]
+}
+
+input CreateProductStyleV2Input {
+  attribute_values: [AttributeValueInput!]
+  brand_id: String!
+  category_id: String
+  disallow_listing: Boolean
+  new_attribute_values: [NewAttributeInput!]
+  price: Int!
+  product_style: String!
+  translations: [ProductStylesTranslationsInput!]!
+}
+
+input CreateProductStyleVariantInput {
+  brand_id: uuid!
+  media_groups: [MediaGroupInput!]
+  price: Int
+  product_style_id: uuid!
+  product_style_variant: String!
+  product_style_variant_options: [ProductStyleVariantOptionsInput!]!
+}
+
+input CreateProductStyleVariantMediaGroupsInput {
+  brand_id: uuid!
+  media_groups: [MediaGroupInput!]!
+  product_style_variant_id: uuid!
+}
+
+input CreateProductsInput {
+  brand_id: String!
+  product_style_id: uuid!
+  products: [jsonb!]!
+}
+
+input CreateSearchPageCustomPriorityInput {
+  type: String!
+  value: jsonb!
+}
+
+input CreateSearchPageInput {
+  active: Boolean!
+  brand_id: uuid!
+  definition: jsonb!
+  order_by: CreateSearchPageOrderByInput!
+  slug: String!
+  translations: [SearchPageTranslationInput!]!
+}
+
+input CreateSearchPageOrderByInput {
+  custom_priority: CreateSearchPageCustomPriorityInput
+  rule_priority: [jsonb!]
+}
+
+input CreateSingleSkuInput {
+  brand_id: uuid!
+  category_id: uuid!
+  color: String!
+  description: String!
+  extra_product_data: String
+  extra_product_translations_data: String
+  extra_sku_data: String
+  extra_sku_translations_data: String
+  images: [String!]
+  language_code: String!
+  name: String!
+  price: Int!
+  product_tag_values: [String!]
+  size: String!
+  storefront_id: uuid
+}
+
+input CreateSkuImagesInput {
+  brand_id: String!
+  sku_id: uuid!
+  sku_images: [SkuImageInput!]!
+}
+
+input CreateSkusInput {
+  brand_id: String!
+  product_id: uuid!
+  skus: [jsonb!]!
+}
+
+input CreateStoreDonationInput {
+  count: Int!
+  retail_store_id: uuid!
+}
+
+input CreateStoreTakebackInput {
+  metadata: StoreTakebackMetadataInput
+  retail_store_id: uuid!
+  takeback_items: [CreateTakebackItemInputV2!]!
+  user: StoreTakebackUser!
+}
+
+input CreateStripeAccountInput {
+  business_type: String
+  country: String
+  email: String!
+  first_name: String!
+  last_name: String!
+  slug: String!
+  storefront_id: String
+  uid: String!
+}
+
+input CreateTakebackItemInput {
+  credit_type: String
+  form: FormSubmissionInput
+  form_id: uuid
+  form_submission_data: jsonb
+  item_id: uuid!
+  lpn: String
+  product_id: String
+  product_style_id: String
+  sku_id: String
+  style_code: String
+}
+
+input CreateTakebackItemInputV2 {
+  credit_type: String
+  form: FormSubmissionInput
+  item_id: uuid!
+  lpn: String
+  product_id: String
+  product_style_id: String
+  sku_id: String
+  style_code: String
+}
+
+input CreateVariantSkusInput {
+  brand_id: uuid!
+  product_style_id: uuid!
+  skus: [SkuInput!]!
+}
+
+input CreateVariantTypeOptionInput {
+  brand_id: uuid!
+  option: String!
+  translations: [VariantTypeOptionTranslationInput!]!
+  variant_type_id: uuid!
+}
+
+input CreateVerificationSessionInput {
+  brand_slug: String!
+  user_id: String!
+  user_verification_check_id: uuid!
+}
+
+input DeleteCollectionInput {
+  brand_id: uuid!
+  collection_id: uuid!
+}
+
+input DeleteProductImagesInput {
+  brand_id: String!
+  product_image_ids: [uuid!]!
+}
+
+input DeleteProductStyleVariantsInput {
+  brand_id: String!
+  product_style_variant_ids: [uuid!]!
+}
+
+input DeleteProductsInput {
+  brand_id: String!
+  product_ids: [uuid!]!
+}
+
+input DeleteSearchPageInput {
+  brand_id: uuid!
+  id: uuid!
+}
+
+input DeleteSkuImagesInput {
+  brand_id: String!
+  sku_image_ids: [uuid!]!
+}
+
+input DeleteSkusInput {
+  brand_id: String!
+  sku_ids: [uuid!]!
+}
+
+input DeleteVariantOptionFromSkuInput {
+  brand_id: uuid!
+  sku_id: uuid!
+  variant_type_id: uuid!
+  variant_type_option_id: uuid!
+}
+
+input DetectLanguageRequest {
+  inputText: String!
+}
+
+input DiscountableMoneyInput {
+  discounted: MoneyInput!
+  original: MoneyInput!
+}
+
+input DonationItemInput {
+  comment: String
+  product_id: uuid!
+}
+
+input EditListingImageOrderInput {
+  brand_id: uuid!
+  images: jsonb!
+  listing_id: uuid!
+}
+
+input EntityDistanceRequest {
+  brandId: String!
+  sourceLocation: SourceLocationInput!
+  targetIds: [EntityIdInput!]!
+  unitSystem: String!
+}
+
+input EntityIdInput {
+  id: uuid!
+  type: String!
+}
+
+input EstimatePostalCodeInput {
+  country: String!
+  postal_code: String!
+}
+
+input FormSubmissionInput {
+  id: uuid!
+  submission_data: jsonb!
+}
+
+input GenerateTestEmailInput {
+  brand_id: String!
+  locale: String!
+  template_name: String!
+  test_data: jsonb!
+}
+
+input GetAttributeOptionsInput {
+  attribute_type: String!
+  brand_id: uuid!
+  locale: String!
+}
+
+input GetCheckoutFulfillmentOptionsInput {
+  brand_id: uuid!
+}
+
+input GetCollectionDefinitionInput {
+  brand_id: uuid!
+  collection_id: uuid!
+}
+
+input GetFormSubmissionInput {
+  brand_id: uuid!
+  form_submission_id: uuid!
+}
+
+input GetFormSubmissionsRequest {
+  brand_id: uuid!
+  form_id: uuid!
+  has_keys: [String]
+  limit: Int!
+  offset: Int!
+}
+
+input GetItemFulfillmentOptionsInput {
+  brand_id: uuid!
+  customer_information: ItemFulfillmentCustomerInformation
+  item_id: String!
+  item_type: ItemFulfillmentType!
+}
+
+input GetManualCollectionItemsInput {
+  brand_id: uuid!
+  collection_id: uuid!
+}
+
+input GetOrCreateStreamChatUserInput {
+  brand_id: uuid!
+}
+
+input GetProductStyleSkusInput {
+  brand_id: uuid!
+  product_style_id: uuid!
+}
+
+input GetProductsXmlSitemapInput {
+  brand_id: uuid!
+}
+
+input GetReturnEstimateInput {
+  brand_id: uuid!
+  return_items: [ReturnItemInput!]!
+}
+
+input GetSearchPageSortInput {
+  brand_id: uuid!
+  search_page_id: uuid!
+}
+
+input GetStoreTakebackInput {
+  retail_store_id: uuid
+  takeback_id: uuid!
+}
+
+input GetTakebackEstimateInput {
+  takeback_items: [TakebackEstimateItemInput!]!
+  takeback_type: TakebackType
+}
+
+input GetTakebackItemEstimatesInput {
+  item_ids: [TakebackItemIdInput!]!
+  takeback_type: TakebackType!
+}
+
+input GetUserPreferredLanguageInput {
+  brand_id: String!
+}
+
+input GetVariantTypeOptionsInput {
+  brand_id: uuid!
+  variant_type_id: uuid!
+}
+
+input GetVariantsInput {
+  brand_id: uuid!
+}
+
+input GetWorkflowDefinitionV1Input {
+  brand_id: uuid!
+  workflow_definition_id: uuid!
+}
+
+input GetWorkflowItemInput {
+  brand_id: uuid!
+  workflow_item_id: uuid!
+}
+
+input GetWorkflowItemsInput {
+  brand_id: uuid!
+  request: jsonb!
+}
+
+"Boolean expression to compare columns of type \"Int\". All fields are combined with logical 'AND'."
+input Int_comparison_exp {
+  _eq: Int
+  _gt: Int
+  _gte: Int
+  _in: [Int!]
+  _is_null: Boolean
+  _lt: Int
+  _lte: Int
+  _neq: Int
+  _nin: [Int!]
+}
+
+input ItemFulfillmentCustomerInformation {
+  email: String
+  estimate_postal_code: EstimatePostalCodeInput
+  shipping_address: AddressInputV2
+}
+
+input LinkExternalAccountInput {
+  brand_id: uuid!
+  email: String
+  external_id: String
+  storefront_id: uuid
+}
+
+input ListingReviewInput {
+  comments: String
+  outcome: String!
+}
+
+input LookupTakebacksDateRange {
+  end_date: timestamptz
+  start_date: timestamptz
+}
+
+input LookupTakebacksInput {
+  limit: Int!
+  locale: String!
+  offset: Int!
+  order_by: LookupTakebacksOrderBy!
+  query: LookupTakebacksQuery!
+  retail_store_id: uuid
+}
+
+input LookupTakebacksQuery {
+  date_range: LookupTakebacksDateRange
+  free_text_search: String
+  retail_store_ids: [String!]
+}
+
+input ManualCollectionItemsInput {
+  listing_ids: [uuid!]
+  product_ids: [uuid!]
+  product_style_ids: [uuid!]
+  product_style_variant_ids: [uuid!]
+}
+
+input MediaGroupInput {
+  items: [MediaGroupItemsInput!]!
+  type: String!
+}
+
+input MediaGroupItemsInput {
+  alt: String
+  href: String!
+  position: Int!
+}
+
+input MoneyInput {
+  amount: Int!
+  currency: String!
+}
+
+input NewAttributeInput {
+  option: String!
+  option_translations: [AttributeOptionTranslationInput!]!
+  type: String!
+}
+
+input ProcessCartCheckoutInput {
+  brand_id: uuid!
+  cart: CartInput!
+  cart_estimates: CartEstimates!
+  customer_information: CartCustomerInformation!
+  payment_method: String!
+  pre_calculated_values: CartPreCalculatedValues
+}
+
+input ProcessCartCheckoutInputV2 {
+  brand_id: uuid!
+  cart: CheckoutInputV2!
+  cart_estimates: CheckoutEstimatesV2!
+  customer_information: CheckoutCustomerInformationV2!
+  payment_method: String!
+}
+
+input ProductImageUpdateInput {
+  id: uuid!
+  index: Int!
+  primary: Boolean!
+}
+
+input ProductStyleVariantOptionsInput {
+  variant_type_id: uuid!
+  variant_type_option_id: uuid!
+}
+
+input ProductStylesTranslationsInput {
+  description: String
+  lang: String!
+  name: String!
+}
+
+input ProvisionUserInput {
+  brand_id: String!
+  first_name: String
+  id_token: String!
+  language: String
+  last_name: String
+}
+
+input RecommendPriceInput {
+  brandId: uuid!
+  conditionInformation: jsonb!
+  productInformation: jsonb!
+}
+
+input RecommendationsInput {
+  brandId: uuid!
+  context: jsonb!
+  limit: Int!
+  recommendationConfiguration: jsonb!
+}
+
+input RefreshStreamChatTokenInput {
+  brand_id: uuid!
+  stream_chat_user_id: String!
+  verification_code: String
+}
+
+input ReissueStoreTakebackCreditInput {
+  retail_store_id: uuid
+  takeback_id: uuid!
+}
+
+input RequestPasswordResetEmailInput {
+  brand_id: uuid!
+  email: String!
+}
+
+input RequestPasswordResetEmailInputV2 {
+  auth_tenant_id: String!
+  email: String!
+}
+
+input ResetPasswordInput {
+  auth_tenant_id: String
+  email: String!
+  password: String!
+  token: String!
+}
+
+input ResolveExternalIdInput {
+  brandId: uuid!
+  externalId: String!
+  externalIdType: String!
+}
+
+input ReturnItemInput {
+  order_item_id: uuid!
+  return_reason: String
+}
+
+input SearchPageTranslationInput {
+  description: String
+  display_name: String!
+  locale: String!
+}
+
+input SellerCloneListingInput {
+  brandId: uuid!
+  listingId: uuid!
+  updates: SellerCloneListingUpdates
+}
+
+input SellerCloneListingUpdates {
+  channelId: uuid
+}
+
+input SetBrandSortInput {
+  rule_priorities: [jsonb!]!
+}
+
+input SetListingImagesInput {
+  brand_id: uuid!
+  listing_id: uuid!
+  listing_images: [jsonb!]!
+}
+
+input SetUserMetadataInput {
+  brand_id: uuid!
+  data: [UserMetadataInput!]!
+}
+
+input SetUserPreferredLanguageInput {
+  brand_id: String!
+  language: String!
+}
+
+input SkuImageInput {
+  alt: String
+  detail: Boolean!
+  images_translations: [SkuImageTranslationInput!]!
+  index: Int!
+  primary: Boolean!
+  primary_hover: Boolean
+  src: String!
+  swatch: Boolean!
+}
+
+input SkuImageTranslationInput {
+  alt: String
+  lang: String
+}
+
+input SkuImageUpdateInput {
+  id: uuid!
+  index: Int!
+  primary: Boolean!
+}
+
+input SkuInput {
+  sku: String!
+  skus_translations: [SkuTranslationInput!]!
+  variant_options: [VariantOptionInput!]!
+}
+
+input SkuTranslationInput {
+  description: String!
+  lang: String!
+}
+
+input SourceLocationInput {
+  type: String!
+  val: String!
+}
+
+input SpecificRegion {
+  region_type: String!
+  region_value: String!
+}
+
+input StoreTakebackMetadataInput {
+  schema: CreateStoreTakebackMetadataSchemas!
+  value: jsonb!
+}
+
+input StoreTakebackUser {
+  auth_tenant_id: String
+  email: String!
+  email_marketing_consent: Boolean!
+  first_name: String!
+  last_name: String!
+}
+
+"Boolean expression to compare columns of type \"String\". All fields are combined with logical 'AND'."
+input String_comparison_exp {
+  _eq: String
+  _gt: String
+  _gte: String
+  "does the column match the given case-insensitive pattern"
+  _ilike: String
+  _in: [String!]
+  "does the column match the given POSIX regular expression, case insensitive"
+  _iregex: String
+  _is_null: Boolean
+  "does the column match the given pattern"
+  _like: String
+  _lt: String
+  _lte: String
+  _neq: String
+  "does the column NOT match the given case-insensitive pattern"
+  _nilike: String
+  _nin: [String!]
+  "does the column NOT match the given POSIX regular expression, case insensitive"
+  _niregex: String
+  "does the column NOT match the given pattern"
+  _nlike: String
+  "does the column NOT match the given POSIX regular expression, case sensitive"
+  _nregex: String
+  "does the column NOT match the given SQL regular expression"
+  _nsimilar: String
+  "does the column match the given POSIX regular expression, case sensitive"
+  _regex: String
+  "does the column match the given SQL regular expression"
+  _similar: String
+}
+
+input SubmitWorkflowItemInput {
+  action: String!
+  brand_id: uuid!
+  data: jsonb!
+  workflow_item_id: uuid!
+}
+
+input TakebackEstimateItemInput {
+  credit_type: String
+  item_id: uuid!
+  lpn: String
+  product_id: String
+  product_style_id: String
+  style_code: String
+}
+
+input TakebackItemIdInput {
+  id: String!
+  id_type: TakebackItemIdType!
+}
+
+input TranslateRequest {
+  inputLangCode: String
+  inputText: String!
+  outputLangCode: String!
+}
+
+input UpdateCollectionInput {
+  active: Boolean
+  brand_id: uuid!
+  collection_id: uuid!
+  definition: jsonb
+  media: [CollectionMediaInput!]
+  translations: [CollectionDetailsInput!]
+}
+
+input UpdateFormSubmissionInput {
+  brand_id: uuid!
+  form_submission_id: uuid!
+  submission_data: jsonb
+}
+
+input UpdateManualCollectionItemsInput {
+  brand_id: uuid!
+  collection_id: uuid!
+  deletions: ManualCollectionItemsInput
+  insertions: ManualCollectionItemsInput
+}
+
+input UpdateMediaGroupInput {
+  brand_id: uuid!
+  items: [UpdateMediaGroupItemsInput!]!
+  media_group_id: uuid!
+}
+
+input UpdateMediaGroupItemsInput {
+  alt: String
+  href: String!
+  id: uuid!
+  position: Int!
+}
+
+input UpdateProductImagesInput {
+  brand_id: uuid!
+  product_id: uuid!
+  product_image_updates: [ProductImageUpdateInput!]!
+}
+
+input UpdateProductInput {
+  brand_id: String!
+  color: String
+  product_id: uuid!
+  product_translations: [UpdateProductTranslationInput!]
+}
+
+input UpdateProductStyleInput {
+  brand_id: String!
+  care: String
+  category: CategoryInfoInput
+  description: String
+  disallow_listing: Boolean
+  fit: String
+  material: String
+  original_price: Int
+  product_ids: [uuid!]!
+  product_name: String
+  product_style: String
+  product_style_id: uuid!
+  product_tags: [String!]
+  product_translations: [UpdateProductStyleTranslationInput!]
+  set_attribute_values: [AttributeValueInput!]
+}
+
+input UpdateProductStyleTranslationInput {
+  care: String
+  description: String
+  fit: String
+  lang: String!
+  material: String
+  name: String
+}
+
+input UpdateProductStyleV2Input {
+  attribute_values: [AttributeValueInput!]
+  brand_id: String!
+  category_id: String
+  disallow_listing: Boolean
+  new_attribute_values: [NewAttributeInput!]
+  price: Int!
+  product_style_id: uuid!
+  translations: [ProductStylesTranslationsInput!]
+}
+
+input UpdateProductStyleVariantInput {
+  price: Int
+  product_style_variant_id: uuid!
+}
+
+input UpdateProductTranslationInput {
+  color: String
+  lang: String!
+}
+
+input UpdateSearchPageCustomPriorityInput {
+  type: String!
+  value: jsonb!
+}
+
+input UpdateSearchPageInput {
+  active: Boolean!
+  brand_id: uuid!
+  definition: jsonb!
+  id: uuid!
+  order_by: UpdateSearchPageOrderByInput!
+  translations: [SearchPageTranslationInput!]!
+}
+
+input UpdateSearchPageOrderByInput {
+  custom_priority: UpdateSearchPageCustomPriorityInput
+  rule_priority: [jsonb!]
+}
+
+input UpdateSkuFieldsInput {
+  original_price: Int
+  size: String
+  sku: String
+}
+
+input UpdateSkuImagesInput {
+  brand_id: uuid!
+  sku_id: uuid!
+  sku_image_updates: [SkuImageUpdateInput!]!
+}
+
+input UpdateSkuInput {
+  sku_id: uuid!
+  sku_update: UpdateSkuFieldsInput!
+}
+
+input UpdateSkusInput {
+  brand_id: String!
+  product_id: uuid
+  skus_translations: [UpdateSkusTranslationsInput!]
+  updates: [UpdateSkuInput!]!
+}
+
+input UpdateSkusTranslationsInput {
+  description: String
+  lang: String!
+  size: String
+  sku_id: uuid!
+}
+
+input UpdateStoreTakebackUserInput {
+  auth_tenant_id: String
+  new_email: String!
+  retail_store_id: uuid
+  takeback_id: uuid!
+}
+
+input UserMetadataInput {
+  key: String!
+  value: jsonb!
+}
+
+input ValidateAddressInput {
+  address_line_1: String!
+  address_line_2: String
+  administrative_area: String
+  country: String
+  locality: String!
+  name: String!
+  postal_code: String!
+}
+
+input ValidateAddressV2FulfillmentInput {
+  method: String!
+}
+
+input ValidateAddressV2Input {
+  address: AddressInput!
+  brand_id: uuid!
+  fulfillment: ValidateAddressV2FulfillmentInput!
+}
+
+input ValidateAuthActionTokenInput {
+  token: String!
+  type: String!
+}
+
+input VariantOptionInput {
+  option_id: uuid!
+  type_id: uuid!
+}
+
+input VariantTypeOptionTranslationInput {
+  display: String!
+  lang: String!
+}
+
+input VerifyEmailInput {
+  token: String!
+}
+
+"Boolean expression to filter rows from the table \"addresses\". All fields are combined with a logical 'AND'."
+input addresses_bool_exp {
+  _and: [addresses_bool_exp!]
+  _not: addresses_bool_exp
+  _or: [addresses_bool_exp!]
+  administrative_area: String_comparison_exp
+  country: String_comparison_exp
+  id: uuid_comparison_exp
+  locality: String_comparison_exp
+  longlat_pub: geography_comparison_exp
+}
+
+"input type for inserting data into table \"addresses\""
+input addresses_insert_input {
+  address_line_1: String
+  address_line_2: String
+  administrative_area: String
+  building_access: building_access_types_enum
+  country: String
+  created_at: timestamptz
+  floors: Int
+  id: uuid
+  locality: String
+  name: String
+  phone_number: String
+  postal_code: String
+  updated_at: timestamptz
+}
+
+"input type for inserting object relation for remote table \"addresses\""
+input addresses_obj_rel_insert_input {
+  data: addresses_insert_input!
+  "upsert condition"
+  on_conflict: addresses_on_conflict
+}
+
+"on_conflict condition type for table \"addresses\""
+input addresses_on_conflict {
+  constraint: addresses_constraint!
+  update_columns: [addresses_update_column!]! = []
+  where: addresses_bool_exp
+}
+
+"Ordering options when selecting data from \"addresses\"."
+input addresses_order_by {
+  administrative_area: order_by
+  country: order_by
+  id: order_by
+  locality: order_by
+  longlat_pub: order_by
+}
+
+"Streaming cursor of the table \"addresses\""
+input addresses_stream_cursor_input {
+  "Stream column input with initial value"
+  initial_value: addresses_stream_cursor_value_input!
+  "cursor ordering"
+  ordering: cursor_ordering
+}
+
+"Initial value of the column from where the streaming should start"
+input addresses_stream_cursor_value_input {
+  administrative_area: String
+  country: String
+  id: uuid
+  locality: String
+  longlat_pub: geography
+}
+
+input annual_sales_totals_aggregate_bool_exp {
+  avg: annual_sales_totals_aggregate_bool_exp_avg
+  corr: annual_sales_totals_aggregate_bool_exp_corr
+  count: annual_sales_totals_aggregate_bool_exp_count
+  covar_samp: annual_sales_totals_aggregate_bool_exp_covar_samp
+  max: annual_sales_totals_aggregate_bool_exp_max
+  min: annual_sales_totals_aggregate_bool_exp_min
+  stddev_samp: annual_sales_totals_aggregate_bool_exp_stddev_samp
+  sum: annual_sales_totals_aggregate_bool_exp_sum
+  var_samp: annual_sales_totals_aggregate_bool_exp_var_samp
+}
+
+input annual_sales_totals_aggregate_bool_exp_avg {
+  arguments: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_avg_arguments_columns!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_corr {
+  arguments: annual_sales_totals_aggregate_bool_exp_corr_arguments!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_corr_arguments {
+  X: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_corr_arguments_columns!
+  Y: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_corr_arguments_columns!
+}
+
+input annual_sales_totals_aggregate_bool_exp_count {
+  arguments: [annual_sales_totals_select_column!]
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: Int_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_covar_samp {
+  arguments: annual_sales_totals_aggregate_bool_exp_covar_samp_arguments!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_covar_samp_arguments {
+  X: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_covar_samp_arguments_columns!
+  Y: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_covar_samp_arguments_columns!
+}
+
+input annual_sales_totals_aggregate_bool_exp_max {
+  arguments: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_max_arguments_columns!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_min {
+  arguments: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_min_arguments_columns!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_stddev_samp {
+  arguments: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_stddev_samp_arguments_columns!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_sum {
+  arguments: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_sum_arguments_columns!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+input annual_sales_totals_aggregate_bool_exp_var_samp {
+  arguments: annual_sales_totals_select_column_annual_sales_totals_aggregate_bool_exp_var_samp_arguments_columns!
+  distinct: Boolean
+  filter: annual_sales_totals_bool_exp
+  predicate: float8_comparison_exp!
+}
+
+"order by aggregate values of table \"annual_sales_totals\""
+input annual_sales_totals_aggregate_order_by {
+  avg: annual_sales_totals_avg_order_by
+  count: order_by
+  max: annual_sales_totals_max_order_by
+  min: annual_sales_totals_min_order_by
+  stddev: annual_sales_totals_stddev_order_by
+  stddev_pop: annual_sales_totals_stddev_pop_order_by
+  stddev_samp: annual_sales_totals_stddev_samp_order_by
+  sum: annual_sales_totals_sum_order_by
+  var_pop: annual_sales_totals_var_pop_order_by
+  var_samp: annual_sales_totals_var_samp_order_by
+  variance: annual_sales_totals_variance_order_by
+}
+
+"order by avg() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_avg_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"Boolean expression to filter rows from the table \"annual_sales_totals\". All fields are combined with a logical 'AND'."
+input annual_sales_totals_bool_exp {
+  _and: [annual_sales_totals_bool_exp!]
+  _not: annual_sales_totals_bool_exp
+  _or: [annual_sales_totals_bool_exp!]
+  country: String_comparison_exp
+  storefront: storefronts_bool_exp
+  storefront_id: uuid_comparison_exp
+  tax_year: float8_comparison_exp
+  total: bigint_comparison_exp
+  total_sales_count: bigint_comparison_exp
+  user: users_bool_exp
+  user_id: String_comparison_exp
+}
+
+"order by max() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_max_order_by {
+  country: order_by
+  storefront_id: order_by
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+  user_id: order_by
+}
+
+"order by min() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_min_order_by {
+  country: order_by
+  storefront_id: order_by
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+  user_id: order_by
+}
+
+"Ordering options when selecting data from \"annual_sales_totals\"."
+input annual_sales_totals_order_by {
+  country: order_by
+  storefront: storefronts_order_by
+  storefront_id: order_by
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+  user: users_order_by
+  user_id: order_by
+}
+
+"order by stddev() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_stddev_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"order by stddev_pop() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_stddev_pop_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"order by stddev_samp() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_stddev_samp_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"Streaming cursor of the table \"annual_sales_totals\""
+input annual_sales_totals_stream_cursor_input {
+  "Stream column input with initial value"
+  initial_value: annual_sales_totals_stream_cursor_value_input!
+  "cursor ordering"
+  ordering: cursor_ordering
+}
+
+"Initial value of the column from where the streaming should start"
+input annual_sales_totals_stream_cursor_value_input {
+  country: String
+  storefront_id: uuid
+  tax_year: float8
+  total: bigint
+  total_sales_count: bigint
+  user_id: String
+}
+
+"order by sum() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_sum_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"order by var_pop() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_var_pop_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"order by var_samp() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_var_samp_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"order by variance() on columns of table \"annual_sales_totals\""
+input annual_sales_totals_variance_order_by {
+  tax_year: order_by
+  total: order_by
+  total_sales_count: order_by
+}
+
+"order by aggregate values of table \"applied_discount_codes\""
+input applied_discount_codes_aggregate_order_by {
+  avg: applied_discount_codes_avg_order_by
+  count: order_by
+  max: applied_discount_codes_max_order_by
+  min: applied_discount_codes_min_order_by
+  stddev: applied_discount_codes_stddev_order_by
+  stddev_pop: applied_discount_codes_stddev_pop_order_by
+  stddev_samp: applied_discount_codes_stddev_samp_order_by
+  sum: applied_discount_codes_sum_order_by
+  var_pop: applied_discount_codes_var_pop_order_by
+  var_samp: applied_discount_codes_var_samp_order_by
+  variance: applied_discount_codes_variance_order_by
+}
+
+"order by avg() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_avg_order_by {
+  discount_amount: order_by
+}
+
+"Boolean expression to filter rows from the table \"applied_discount_codes\". All fields are combined with a logical 'AND'."
+input applied_discount_codes_bool_exp {
+  _and: [applied_discount_codes_bool_exp!]
+  _not: applied_discount_codes_bool_exp
+  _or: [applied_discount_codes_bool_exp!]
+  discount_amount: numeric_comparison_exp
+  id: uuid_comparison_exp
+  order: orders_bool_exp
+  order_id: uuid_comparison_exp
+}
+
+"order by max() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_max_order_by {
+  discount_amount: order_by
+  id: order_by
+  order_id: order_by
+}
+
+"order by min() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_min_order_by {
+  discount_amount: order_by
+  id: order_by
+  order_id: order_by
+}
+
+"Ordering options when selecting data from \"applied_discount_codes\"."
+input applied_discount_codes_order_by {
+  discount_amount: order_by
+  id: order_by
+  order: orders_order_by
+  order_id: order_by
+}
+
+"order by stddev() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_stddev_order_by {
+  discount_amount: order_by
+}
+
+"order by stddev_pop() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_stddev_pop_order_by {
+  discount_amount: order_by
+}
+
+"order by stddev_samp() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_stddev_samp_order_by {
+  discount_amount: order_by
+}
+
+"Streaming cursor of the table \"applied_discount_codes\""
+input applied_discount_codes_stream_cursor_input {
+  "Stream column input with initial value"
+  initial_value: applied_discount_codes_stream_cursor_value_input!
+  "cursor ordering"
+  ordering: cursor_ordering
+}
+
+"Initial value of the column from where the streaming should start"
+input applied_discount_codes_stream_cursor_value_input {
+  discount_amount: numeric
+  id: uuid
+  order_id: uuid
+}
+
+"order by sum() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_sum_order_by {
+  discount_amount: order_by
+}
+
+"order by var_pop() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_var_pop_order_by {
+  discount_amount: order_by
+}
+
+"order by var_samp() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_var_samp_order_by {
+  discount_amount: order_by
+}
+
+"order by variance() on columns of table \"applied_discount_codes\""
+input applied_discount_codes_variance_order_by {
+  discount_amount: order_by
+}
+
+"order by aggregate values of table \"attempted_discount_codes\""
+input attempted_discount_codes_aggregate_order_by {
+  avg: attempted_discount_codes_avg_order_by
+  count: order_by
+  max: attempted_discount_codes_max_order_by
+  min: attempted_discount_codes_min_order_by
+  stddev: attempted_discount_codes_stddev_order_by
+  stddev_pop: attempted_discount_codes_stddev_pop_order_by
+  stddev_samp: attempted_discount_codes_stddev_samp_order_by
+  sum: attempted_discount_codes_sum_order_by
+  var_pop: attempted_discount_codes_var_pop_order_by
+  var_samp: attempted_discount_codes_var_samp_order_by
+  variance: attempted_discount_codes_variance_order_by
+}
+
+"input type for inserting array relation for remote table \"attempted_discount_codes\""
+input attempted_discount_codes_arr_rel_insert_input {
+  data: [attempted_discount_codes_insert_input!]!
+  "upsert condition"
+  on_conflict: attempted_discount_codes_on_conflict
+}
+
+"order by avg() on columns of table \"attempted_discount_codes\""
+input attempted_discount_codes_avg_order_by {
+  discount_amount: order_by
+}
+
+"Boolean expression to filter rows from the table \"attempted_discount_codes\". All fields are combined with a logical 'AND'."
+input attempted_discount_codes_bool_exp {
+  _and: [attempted_discount_codes_bool_exp!]
+  _not: attempted_discount_codes_bool_exp
+  _or: [attempted_discount_codes_bool_exp!]
+  discount_amount: numeric_comparison_exp
+  id: uuid_comparison_exp
+  order_intent: order_intents_bool_exp
+  order_intent_id: uuid_comparison_exp
+}
+
+"input type for inserting data into table \"attempted_discount_codes\""
+input attempted_discount_codes_insert_input {
+  created_at: timestamptz
+  discount_amount: numeric
+  discount_code_id: uuid
+  id: uuid
+  order_intent: order_intents_obj_rel_insert_input
+  order_intent_id: uuid
+  updated_at: timestamptz
+}
+
+"order by max() on columns of table \"attempted_discount_codes\""
+input attempted_discount_codes_max_order_by {
+  discount_amount: order_by
+  id: order_by
+  order_intent_id: order_by
+}
+
+"order by min() on columns of table \"attempted_discount_codes\""
+input attempted_discount_codes_min_order_by {
+  discount_amount: order_by
+  id: order_by
+  order_intent_id: order_by
+}
+
+"on_conflict condition type for table \"attempted_discount_codes\""
+input attempted_discount_codes_on_conflict {
+  constraint: attempted_discount_codes_constraint!
+  update_columns: [attempted_discount_codes_update_column!]! = []
+  where: attempted_discount_codes_bool_exp
+}
+
+"Ordering options when selecting data from \"attempted_discount_codes\"."
+input attempted_discount_codes_order_by {
+  discount_amount: order_by
+  id: order_by
+  order_intent: order_intents_order_by
+  order_intent_id: order_by
+}
+
+"order by stddev() on columns of table \"attempted_discount_codes\""
+input attempted_discount_codes_stddev_order_by {
+  discount_amount: order_by
+}
+
+"order by stddev_pop() on columns of table \"attempted_discount_codes\""
+input attempted_discount_codes_stddev_pop_order_by {
+  discount_amount: order_by
+}
+
+"order by stddev_samp() on columns of table \"attempted_discount_codes\""
+input attempted_discount_codes_stddev_samp_order_by {
+  discount_amount: order_by
+}

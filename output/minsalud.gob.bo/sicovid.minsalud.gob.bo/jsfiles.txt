@@ -1,0 +1,1 @@
+https://sicovid.minsalud.gob.bo/static/login/index.js

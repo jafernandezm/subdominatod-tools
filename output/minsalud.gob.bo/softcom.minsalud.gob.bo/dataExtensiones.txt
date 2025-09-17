@@ -1,0 +1,3 @@
+http://softcom.minsalud.gob.bo:80/robots.txt
+http://softcom.minsalud.gob.bo:80/sicor17/documentos/FORMULARIO.pdf
+http://softcom.minsalud.gob.bo:80/sicor17/documentos/Manual%20de%20Usuario%20SOFTCOM.pdf
